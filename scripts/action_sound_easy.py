@@ -14,8 +14,9 @@ from thesis_qt.srv import EvaluateResponse
 
 class SoundEasyAction:
 
+    # (question_text, sound, correct_answer, description)
     QUESTIONS = {
-        #'q1':  ("QT/sound_easy/ambulance",    "Ascolta questa sirena. Quale mezzo sta passando?",    "un'ambulanza / la polizia / i pompieri"),
+        'q1':  ("QT/sound_easy/ambulance",    "Ascolta questa sirena. Quale mezzo sta passando?",    "un'ambulanza / la polizia / i pompieri"),
         'q2':  ("QT/sound_easy/bike_bell",    "Che cos'è questo suono?",        "una campana"),
         'q3':  ("QT/sound_easy/doorbell", "Indovina, dove mi trovo?",       "nella natura"),
         'q4':  ("QT/sound_easy/laughing", "Ascolta questa persona. Cosa sta facendo?",   "sta ridendo / è felice"),

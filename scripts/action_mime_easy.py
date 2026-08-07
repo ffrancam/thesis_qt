@@ -15,8 +15,6 @@ from thesis_qt.srv import EvaluateResponse
 class MimeEasyAction:
 
     # (question_text, gesture_to_perform, correct_answer, description)
-    # Il campo description viene usato dal servizio evaluate_response
-    # per disambiguare in caso di ambiguità fonetica o semantica.
     QUESTIONS = {
         'q1':  ("Indovina, che cosa sto facendo?", "QT/send_kiss",               "mandare un bacio",  "il robot sta mandando un bacio con la mano"),
         'q2':  ("Indovina, che cosa sto facendo?", "QT/train",                   "allenando",  "il robot sta facendo finta di allenarsi"),

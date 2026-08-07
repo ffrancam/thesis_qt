@@ -14,6 +14,7 @@ from thesis_qt.srv import EvaluateResponse
 
 class SoundHardAction:
 
+    # (question_text, sound, correct_answer, description)
     QUESTIONS = {
         'q1':  ("QT/sound_hard/walking_on_leaves",    "Ascolta questi passi scrocchianti. Su cosa sta camminando questa persona?",        "sulle foglie secche / in autunno"),
         'q2':  ("QT/sound_hard/writing_on_blackboard",    "Ascolta questo rumore graffiante. Su cosa stanno scrivendo?",        "sulla lavagna / sul gesso / con il gesso"),

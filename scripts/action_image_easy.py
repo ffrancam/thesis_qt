@@ -15,6 +15,7 @@ from thesis_qt.srv import EvaluateResponse
 
 class ImageEasyAction:
 
+    # (question_text, sound, correct_answer, description)
     QUESTIONS = {
         'q1':  ("treno",      "Sai dirmi che mezzo di trasporto è questo?",            "un treno", ""),
         'q2':  ("zaino",      "Come si chiama questo oggetto che usi per andare a scuola?",            "uno zaino", ""),

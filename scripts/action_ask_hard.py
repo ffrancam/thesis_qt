@@ -29,7 +29,7 @@ class AskHardAction:
         'q12': "Qual è l'unico mammifero che sa volare?",
         'q13': "Qual è l'animale più veloce del mondo?",
         'q14': "Da quale pianta si ricava l'olio che usiamo per cucinare?",
-        'q15': "Cade sempre ma non si fa mai male. Cos'è?",
+        'q15': "Tutti lo possono aprire, ma nessuno lo sa chiudere. Cos'è?",
         'q16': "Ha i denti, ma non morde mai. Cos'è?",
     }
 

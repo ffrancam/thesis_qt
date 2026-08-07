@@ -14,6 +14,7 @@ from thesis_qt.srv import EvaluateResponse
 
 class SoundMediumAction:
 
+    # (question_text, sound, correct_answer, description)
     QUESTIONS = {
         'q1':  ("QT/sound_medium/clock",    "Ascolta questo suono continuo e regolare. Che oggetto è?",        "l'orologio / le lancette"),
         'q2':  ("QT/sound_medium/fireworks",    "Ascolta questi scoppi in cielo. Cosa sono?",        "fuochi d'artificio / i fuochi"),

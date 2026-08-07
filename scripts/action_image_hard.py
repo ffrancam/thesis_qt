@@ -15,6 +15,7 @@ from thesis_qt.srv import EvaluateResponse
 
 class ImageHardAction:
 
+    # (question_text, sound, correct_answer, description)
     QUESTIONS = {
         'q1':  ("africa",      "Guarda questa mappa. Come si chiama il continente evidenziato?",   "Africa", ""),
         'q2':  ("calamita",      "Questo pezzo di metallo riesce ad attirare altri pezzi di metallo senza toccarli. Che oggetto è?",     "una calamita / un magnete", ""),

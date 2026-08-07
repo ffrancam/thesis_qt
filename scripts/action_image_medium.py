@@ -15,6 +15,7 @@ from thesis_qt.srv import EvaluateResponse
 
 class ImageMediumAction:
 
+    # (question_text, sound, correct_answer, description)
     QUESTIONS = {
         'q1':  ("baobab",      "Sai dirmi che albero è questo?",            "un baobab", ""),
         'q2':  ("bussola",      "A cosa serve questo strumento in foto?",  "A orientarsi/capire la direzione/indicare nord", "l'oggetto mostrato in foto è una bussola"),
