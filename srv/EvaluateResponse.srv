@@ -1,0 +1,13 @@
+# Request
+string question
+string correct_answer
+string description
+string user_res
+bool is_last_attempt
+
+
+---
+
+# Response
+bool is_correct
+string robot_feedback

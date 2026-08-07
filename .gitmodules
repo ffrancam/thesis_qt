@@ -1,0 +1,3 @@
+[submodule "planners/ENHSP-Public"]
+	path = planners/ENHSP-Public
+	url = https://gitlab.com/enricos83/ENHSP-Public.git

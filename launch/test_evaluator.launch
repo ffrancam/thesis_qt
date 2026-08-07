@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Carica i parametri dal file yaml -->
+    <rosparam file="$(find thesis_qt)/config/offline_conversation.yaml" command="load"/>
+    
+    <!-- Avvia solo il servizio di valutazione -->
+    <node pkg="thesis_qt" type="response_evaluator.py" name="response_evaluator_node" output="screen" />
+</launch>

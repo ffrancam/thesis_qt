@@ -1,0 +1,7 @@
+string user_text
+string robot_text
+
+---
+
+bool success
+string emotion_name

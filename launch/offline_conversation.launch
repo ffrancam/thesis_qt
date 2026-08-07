@@ -1,0 +1,12 @@
+<launch>
+  <rosparam file="$(find thesis_qt)/config/offline_conversation.yaml" command="load"/>
+  <env name="NLTK_DATA" value="/home/qtrobot/robot/nltk/data/"/>
+  <env name="MODEL_NAME" value="models--lmsys--vicuna-13b-v1.5"/>
+  <node pkg="thesis_qt" name="conversation_node" type="conversation.py" output="screen"></node>
+
+  <node pkg="thesis_qt" type="service_emotion_selector.py" name="emotion_selector_node" output="screen" />
+  <node pkg="thesis_qt" type="service_gesture_selector.py" name="gesture_selector_node" output="screen" />
+  <node pkg="thesis_qt" type="emotion_converter.py"      name="emotion_converter_srv_node"  output="screen" />
+  <node pkg="thesis_qt" type="sentiment_analyzer.py"   name="sentiment_analyzer_node"    output="screen" />
+
+</launch>

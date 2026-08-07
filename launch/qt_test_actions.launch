@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<launch>
+    <rosparam file="$(find thesis_qt)/config/offline_conversation.yaml" command="load"/>
+    <env name="NLTK_DATA" value="/home/qtrobot/robot/nltk/data/"/>
+    <env name="MODEL_NAME" value="models--lmsys--vicuna-13b-v1.5"/>
+
+    <!-- <include file="$(find qt_vosk_app)/launch/qt_vosk_app.launch" /> -->
+    <node pkg="thesis_qt" type="qt_test.py"                name="qt_test_node"                output="screen" />
+
+    <node pkg="thesis_qt" type="response_evaluator.py" name="response_evaluator_node" output="screen" />
+
+    <node pkg="thesis_qt" type="service_emotion_selector.py" name="emotion_selector_node" output="screen" />
+    <node pkg="thesis_qt" type="service_gesture_selector.py" name="gesture_selector_node" output="screen" />
+    <node pkg="thesis_qt" type="emotion_converter.py"      name="emotion_converter_srv_node"  output="screen" />
+    <node pkg="thesis_qt" type="sentiment_analyzer.py"   name="sentiment_analyzer_node"    output="screen" />
+
+    <node pkg="thesis_qt" type="action_check_emotion.py" name="check_emotion_action" output="screen">
+        <param name="manual_emotion" value="false"/>
+    </node>
+    <node pkg="thesis_qt" type="action_introduce.py"       name="introduce_action"            output="screen" />
+    <node pkg="thesis_qt" type="action_greet_warmly.py"    name="greet_warmly_action_node"    output="screen" />
+
+    <node pkg="thesis_qt" type="action_conversate.py"   name="conversate_action_node"   output="screen" />
+
+    <node pkg="thesis_qt" type="action_ask_easy.py"        name="ask_easy_action_node"        output="screen" />
+    <node pkg="thesis_qt" type="action_ask_medium.py"      name="ask_medium_action_node"      output="screen" />
+    <node pkg="thesis_qt" type="action_ask_hard.py"        name="ask_hard_action_node"        output="screen" />
+
+    <node pkg="thesis_qt" type="action_sound_easy.py"   name="sound_easy_action_node"   output="screen" />
+    <node pkg="thesis_qt" type="action_sound_medium.py" name="sound_medium_action_node" output="screen" />
+    <node pkg="thesis_qt" type="action_sound_hard.py"   name="sound_hard_action_node"   output="screen" />
+
+    <node pkg="thesis_qt" type="action_image_easy.py"   name="image_easy_action_node"   output="screen" />
+    <node pkg="thesis_qt" type="action_image_medium.py" name="image_medium_action_node" output="screen" />
+    <node pkg="thesis_qt" type="action_image_hard.py"   name="image_hard_action_node"   output="screen" />
+
+
+    <node pkg="thesis_qt" type="action_mime_easy.py"       name="mime_easy_action_node"       output="screen" />
+    <node pkg="thesis_qt" type="action_conclude_game.py"   name="conclude_game_action_node"   output="screen" />
+    <node pkg="thesis_qt" type="action_goodbye.py"         name="goodbye_action_node"         output="screen" />
+
+    <node pkg="thesis_qt" type="action_comfort.py"         name="comfort_action_node"         output="screen" />
+    <node pkg="thesis_qt" type="action_tell_a_joke.py"       name="tell_a_joke_action_node"       output="screen" />
+    <node pkg="thesis_qt" type="action_take_a_break.py"     name="take_a_break_action_node"     output="screen" />
+    <node pkg="thesis_qt" type="action_spark_curiosity.py"  name="spark_curiosity_action_node"  output="screen" />
+    <node pkg="thesis_qt" type="action_raise_stakes.py"         name="raise_stakes_action_node"         output="screen" />
+
+    <node pkg="thesis_qt" type="action_calm_down.py"         name="calm_down_action_node"         output="screen" />
+    <node pkg="thesis_qt" type="action_reset_to_neutral.py" name="reset_to_neutral_action_node" output="screen" />
+    <node pkg="thesis_qt" type="action_ask_for_help.py" name="ask_for_help_action_node" output="screen" />
+    <node pkg="thesis_qt" type="action_show_vulnerability.py" name="show_vulnerability_action_node" output="screen" />
+</launch>

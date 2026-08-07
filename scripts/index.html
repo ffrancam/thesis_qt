@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test MorphCast SDK - QTRobot</title>
+    <link rel="icon" href="data:,">
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        #status { font-size: 1.2em; font-weight: bold; color: orange; margin-bottom: 20px; }
+        #webcam { width: 480px; height: 360px; background: #000; border-radius: 8px; margin-bottom: 20px; }
+        #feed { display: none; }
+    </style>
+</head>
+<body>
+    <h2>Test MorphCast SDK (QTRobot Camera)</h2>
+    <div id="status">Inizializzazione...</div>
+    <video id="webcam" autoplay muted playsinline></video>
+
+    <canvas id="feed" width="320" height="240"></canvas>
+
+    <script src="https://ai-sdk.morphcast.com/v1.16/ai-sdk.js"></script>
+    <script>
+        const SERVER_URL = '/process_data';
+
+        const canvas = document.getElementById('feed');
+        const ctx    = canvas.getContext('2d');
+        const canvasStream = canvas.captureStream(15);
+
+        const originalGetUserMedia = navigator.mediaDevices.getUserMedia.bind(navigator.mediaDevices);
+        navigator.mediaDevices.getUserMedia = async function(constraints) {
+            if (constraints && constraints.video) {
+                console.log('getUserMedia intercettato — uso stream ROS');
+                return canvasStream;
+            }
+            return originalGetUserMedia(constraints);
+        };
+
+        // Fetch frame JPEG dal Flask e disegnalo sul canvas
+        let streamReady = false;
+
+        async function fetchFrame() {
+            try {
+                const resp = await fetch('/frame?' + Date.now());
+                if (!resp.ok) throw new Error('HTTP ' + resp.status);
+                const blob = await resp.blob();
+                const url  = URL.createObjectURL(blob);
+                const img  = new Image();
+                img.onload = () => {
+                    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+                    URL.revokeObjectURL(url);
+                    if (!streamReady) {
+                        streamReady = true;
+                        document.getElementById('status').innerText = "Stream ROS attivo, avvio MorphCast...";
+                    }
+                };
+                img.src = url;
+            } catch(e) {
+                console.error('Errore frame:', e);
+            }
+            setTimeout(fetchFrame, 66); // ~15fps
+        }
+
+        fetchFrame();
+
+        // Inizializzazione di MorphCast (la chiave arriva da Flask)
+        CY.loader()
+            .licenseKey("{{ key }}")
+            .addModule(CY.modules().FACE_EMOTION.name,         { smoothness: 0.40 })
+            .addModule(CY.modules().FACE_AROUSAL_VALENCE.name, { smoothness: 0.70 })
+            .addModule(CY.modules().FACE_ATTENTION.name,       { smoothness: 0.83 })
+            .load()
+            .then(({ start }) => {
+                document.getElementById('status').innerText = "MorphCast Attivo! Analisi in corso...";
+                document.getElementById('status').style.color = "green";
+                start();
+            })
+            .catch(err => {
+                console.error("Errore Morphcast:", err);
+                document.getElementById('status').innerText = "Errore: " + err.message;
+                document.getElementById('status').style.color = "red";
+            });
+
+        function sendDataToServer(evt) {
+            fetch(SERVER_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(evt.detail)
+            }).catch(err => console.error("Errore Flask:", err));
+        }
+
+        window.addEventListener(CY.modules().FACE_EMOTION.eventName,         sendDataToServer);
+        window.addEventListener(CY.modules().FACE_AROUSAL_VALENCE.eventName, sendDataToServer);
+        window.addEventListener(CY.modules().FACE_ATTENTION.eventName,       sendDataToServer);
+    </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+# Request
+string user_res
+
+---
+
+# Response
+bool success
+float64[3] epa
