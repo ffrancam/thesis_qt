@@ -130,34 +130,6 @@ class QTRobotROSPlanTest:
 
         # Funzioni robot
         print("\n=== Adding robot functions ===")
-        self.add_function('robot_e',    [], 3.44)
-        self.add_function('robot_p',    [], 2.93)
-        self.add_function('robot_a',    [], 0.92)
-        self.add_function('robot_e_sq', [], 11.8336)
-        self.add_function('robot_p_sq', [], 8.5849)
-        self.add_function('robot_a_sq', [], 0.8464)
-        # self.add_function('robot_e',    [], -2.29)
-        # self.add_function('robot_p',    [], -1.44)
-        # self.add_function('robot_a',    [], -2.04)
-        # self.add_function('robot_e_sq', [], 5.2441)
-        # self.add_function('robot_p_sq', [], 2.0736)
-        # self.add_function('robot_a_sq', [], 4.1616)
-
-        # Funzioni human
-        print("\n=== Adding human functions ===")
-        self.add_function('human_e',    [], 3.44)
-        self.add_function('human_p',    [], 2.93)
-        self.add_function('human_a',    [], 0.92)
-        self.add_function('human_e_sq', [], 11.8336)
-        self.add_function('human_p_sq', [], 8.5849)
-        self.add_function('human_a_sq', [], 0.8464)
-        # self.add_function('human_e',    [], -2.27)
-        # self.add_function('human_p',    [], 0.22)
-        # self.add_function('human_a',    [], 0.43)
-        # self.add_function('human_e_sq', [], 5.1529)
-        # self.add_function('human_p_sq', [], 0.0484)
-        # self.add_function('human_a_sq', [], 0.1849)
-
         # Pesi
         print("\n=== Adding weights ===")
         self.add_function('alpha',      [], 1.0)

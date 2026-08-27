@@ -204,26 +204,7 @@ class ComfortAction:
             KnowledgeUpdateServiceRequest.REMOVE_KNOWLEDGE,
             'answered_wrong', []
         )
-        self._update_predicate(          # ← aggiungi questo
-            KnowledgeUpdateServiceRequest.REMOVE_KNOWLEDGE,
-            'emotion_checked', []
-        )
-        numeric_effects = {
-            'robot_e':    3.44,
-            'robot_e_sq': 11.8336,
-            'robot_p':    2.93,
-            'robot_p_sq': 8.5849,
-            'robot_a':    0.92,
-            'robot_a_sq': 0.8464,
-            'human_e':    3.44,
-            'human_e_sq': 11.8336,
-            'human_p':    2.93,
-            'human_p_sq': 8.5849,
-            'human_a':    0.92,
-            'human_a_sq': 0.8464,
-        }
-        for fluent_name, value in numeric_effects.items():
-            self._update_function(fluent_name, [], value)
+        
 
     # ------------------------------------------------------------------ #
 

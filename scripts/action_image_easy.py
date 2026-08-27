@@ -188,10 +188,7 @@ class ImageEasyAction:
     def apply_effects(self, image, answered_correctly: bool):
         self.shown_images.add(image)
 
-        self._update_predicate(
-            KnowledgeUpdateServiceRequest.REMOVE_KNOWLEDGE,
-            'emotion_checked', []
-        )
+
 
         current_n = self._get_function('n_questions')
         self._update_function('n_questions', [], current_n + 1)
@@ -217,14 +214,7 @@ class ImageEasyAction:
                 'answered_wrong', []
             )
 
-        numeric_effects = {
-            'robot_e':    3.44,  'robot_p':    2.93,  'robot_a':    0.92,
-            'robot_e_sq': 11.8336, 'robot_p_sq': 8.5849, 'robot_a_sq': 0.8464,
-            'human_e':    3.44,  'human_p':    2.93,  'human_a':    0.92,
-            'human_e_sq': 11.8336, 'human_p_sq': 8.5849, 'human_a_sq': 0.8464,
-        }
-        for fluent_name, value in numeric_effects.items():
-            self._update_function(fluent_name, [], value)
+        
 
     # ------------------------------------------------------------------ #
 

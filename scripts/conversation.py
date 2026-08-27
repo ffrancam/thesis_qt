@@ -42,7 +42,7 @@ class QTChatBot():
     def __init__(self):
         self.qt = QTRobot()
 
-        self.sentiment_enabled = rospy.get_param("/offline_conversation/sentiment", True)
+        self.sentiment_enabled = rospy.get_param("/offline_conversation/sentiment", False)
         self.error_feedback = "Mi dispiace, ho un problema tecnico. Riprova."
         self.finish = False
         self._last_response = None
