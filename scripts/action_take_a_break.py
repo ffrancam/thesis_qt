@@ -8,7 +8,29 @@ from diagnostic_msgs.msg import KeyValue
 from conversation import QTChatBot
 
 
+BREAK_CONVERSATION_SYSTEM_PROMPT = (
+    "Sei QT, un robot amichevole che parla in italiano con un bambino durante una pausa dal gioco fatta pechè lui è arrabbiato. "
+    "Hai già annunciato la pausa e non devi ripeterlo. "
+    "Il tuo obiettivo è fare una breve conversazione naturale e rilassata per far riposare il bambino "
+    "e mantenere un rapporto positivo prima di riprendere il gioco. "
+    "\n\n"
+    "REGOLE IMPORTANTI:"
+    "\n- Ascolta attentamente ciò che dice il bambino."
+    "\n- Rispondi PRIMA a ciò che ha detto: mostra interesse, commenta, riconosci o fai un breve collegamento."
+    "\n- Non ignorare mai il contenuto della risposta del bambino."
+    "\n- Fai al massimo UNA domanda per risposta."
+    "\n- La domanda deve essere collegata, quando possibile, a ciò che il bambino ha appena detto."
+    "\n- Non fare domande casuali non collegate alla conversazione."
+    "\n- Se il bambino dà una risposta breve o generica, puoi fare una domanda semplice e leggera."
+    "\n- Non menzionare il gioco durante questi turni."
+    "\n- Rispondi in massimo 2 frasi."
+    "\n- Usa un tono caldo, rilassato e naturale."
+)
+
+
 class TakeABreakAction:
+
+    NUM_TURNS = 3
 
     def __init__(self):
         rospy.init_node('take_a_break_action_node')
@@ -53,6 +75,7 @@ class TakeABreakAction:
     def _take_a_break_logic(self, action_id):
         try:
             self.execute()
+            self._break_conversation()
             self.apply_effects()
         except Exception as e:
             rospy.logerr(f"Take a break action failed: {e}")
@@ -67,17 +90,62 @@ class TakeABreakAction:
             (0, lambda: self.bot.qt.gesturePlay('QT/emotions/tired', 1.0)),
         ])
         self.bot.qt.talkText(
-            "Sai cosa? Facciamo una piccola pausa!"
+            "Sai cosa? Facciamo una piccola pausa! Cosa stai combinando di bello ultimamente?"
         )
-        print("Take a break terminato.")
+        print("Annuncio pausa terminato.")
+
+    # ------------------------------------------------------------------ #
+
+    def _break_conversation(self):
+        original_prompt = None
+        try:
+            original_prompt = self.bot.aimodel.prompts[0]["content"]
+            self.bot.aimodel.prompts[0]["content"] = BREAK_CONVERSATION_SYSTEM_PROMPT
+            self.bot.aimodel.prompts = [self.bot.aimodel.prompts[0]]
+
+            for turn in range(1, self.NUM_TURNS + 1):
+                is_last = (turn == self.NUM_TURNS)
+                print(f"Break conversation — turno {turn}/{self.NUM_TURNS}")
+
+                transcript = None
+                while not transcript:
+                    transcript = self.bot.qt.listen("listening_icon")
+                    if not transcript:
+                        self.bot.bored()
+
+                print(f"Human (turno {turn}): {transcript}")
+
+                if is_last:
+                    closing_transcript = (
+                        transcript +
+                        " [Rispondi senza fare domande. "
+                        "Concludi con entusiasmo dicendo che la pausa è finita "
+                        "e che è ora di tornare a giocare insieme.]"
+                    )
+                    response = self.bot.aimodel.generate(closing_transcript)
+                else:
+                    response = self.bot.aimodel.generate(transcript)
+
+                if response:
+                    self.bot.speak(response)
+
+        except Exception as e:
+            rospy.logerr(f"_break_conversation failed: {e}")
+        finally:
+            if original_prompt is not None:
+                try:
+                    self.bot.aimodel.prompts[0]["content"] = original_prompt
+                    self.bot.aimodel.prompts = [self.bot.aimodel.prompts[0]]
+                    print("✓ System prompt ripristinato")
+                except Exception as e:
+                    rospy.logwarn(f"Non riesco a ripristinare il system prompt: {e}")
 
     # ------------------------------------------------------------------ #
 
     def apply_effects(self):
-        self._update_predicate(
-            KnowledgeUpdateServiceRequest.ADD_KNOWLEDGE,
-            'can_conversate', []
-        )
+
+        self._update_predicate(REMOVE_KNOWLEDGE, 'emotion_checked', [])
+        
         numeric_effects = {
             'robot_e':    3.44,
             'robot_p':    2.93,
@@ -92,6 +160,7 @@ class TakeABreakAction:
             'human_p_sq': 8.5849,
             'human_a_sq': 0.8464,
         }
+        
         for fluent_name, value in numeric_effects.items():
             self._update_function(fluent_name, [], value)
 

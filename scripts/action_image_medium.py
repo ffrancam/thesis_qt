@@ -248,17 +248,23 @@ class ImageMediumAction:
     def _patch_problem_metric(self):
         import rospkg
         rospack = rospkg.RosPack()
-        problem_path = rospack.get_path('thesis_qt') + '/pddl/qt_test_problem.pddl'
+        problem_path = rospack.get_path('thesis_qt') + '/pddl/problem_try.pddl'
         with open(problem_path, 'r') as f:
             content = f.read()
-        if '(:metric' not in content:
-            content = content.rstrip().rstrip(')')
-            content += '\n(:metric minimize (total-cost))\n)\n'
-            with open(problem_path, 'w') as f:
-                f.write(content)
-            print("✓ Metric patched in problem file.")
-        else:
+
+        if '(:metric minimize (total-cost))' in content:
             print("✓ Metric already present.")
+            return
+
+        # Rimuove eventuali (:metric ...) già presenti ma errati
+        import re
+        content = re.sub(r'\(:metric[^)]*\)', '', content)
+
+        content = content.rstrip().rstrip(')')
+        content += '\n(:metric minimize (total-cost))\n)\n'
+        with open(problem_path, 'w') as f:
+            f.write(content)
+        print("✓ Metric patched in problem file.")
 
     def _restore_goals(self, goals):
         current = self.get_goals('').attributes

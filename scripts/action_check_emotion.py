@@ -164,7 +164,7 @@ class CheckEmotionAction:
         #     return
 
         # Caso 2: nessuna emozione disponibile
-        if not emotion_label or emotion_label == "N":
+        if not emotion_label or emotion_label == "N" or emotion_label == "SU" or emotion_label == "H":
             print("[CheckEmotion] No emotion available, applying effects only.")
             #self._update_coefficients_based_on_last()
             self.apply_effects()
@@ -318,18 +318,25 @@ class CheckEmotionAction:
     def _patch_problem_metric(self):
         import rospkg
         rospack = rospkg.RosPack()
-        problem_path = rospack.get_path('thesis_qt') + '/pddl/qt_test_problem.pddl'
+        problem_path = rospack.get_path('thesis_qt') + '/pddl/problem_try.pddl'
         with open(problem_path, 'r') as f:
             content = f.read()
-        if '(:metric' not in content:
-            content = content.rstrip().rstrip(')')
-            content += '\n(:metric minimize (total-cost))\n)\n'
-            with open(problem_path, 'w') as f:
-                f.write(content)
-            print("✓ Metric patched in problem file.")
-        else:
-            print("✓ Metric already present.")
 
+        if '(:metric minimize (total-cost))' in content:
+            print("✓ Metric already present.")
+            return
+
+        # Rimuove eventuali (:metric ...) già presenti ma errati
+        import re
+        content = re.sub(r'\(:metric[^)]*\)', '', content)
+
+        content = content.rstrip().rstrip(')')
+        content += '\n(:metric minimize (total-cost))\n)\n'
+        with open(problem_path, 'w') as f:
+            f.write(content)
+        print("✓ Metric patched in problem file.")
+
+        
     def _restore_goals(self, goals):
         current = self.get_goals('').attributes
         for goal in current:

@@ -128,6 +128,8 @@ class QTRobotROSPlanTest:
         # L'unico fatto che NON deve essere settato è emotion_checked
         # (il dominio parte senza di esso e lo acquisisce con check_emotion).
 
+        self.add_fact('interaction_started', [])
+
         # Funzioni robot
         print("\n=== Adding robot functions ===")
         self.add_function('robot_e',    [], 3.44)

@@ -131,20 +131,20 @@
         )
         :effect (and
             (increase (total-cost)
-                (* 1.0
-                    (+ (* 1.0
+                (* 0.0
+                    (+ (* 0.0
                             (+ (+ (robot_e_sq) (+ (* -6.88 (robot_e)) 11.8336))
                                 (+ (+ (robot_p_sq) (+ (* -5.86 (robot_p)) 8.5849))
                                 (+ (robot_a_sq) (+ (* -1.84 (robot_a)) 0.8464)))))
-                        (+ (* 1.0
+                        (+ (* 0.0
                                 (+ (+ (human_e_sq) (+ (* -6.88 (human_e)) 11.8336))
                                     (+ (+ (human_p_sq) (+ (* -5.86 (human_p)) 8.5849))
                                     (+ (human_a_sq) (+ (* -1.84 (human_a)) 0.8464)))))
-                            (+ (* 1.0
+                            (+ (* 0.0
                                     (+ (+ (robot_e_sq) (+ (* -6.88 (robot_e)) 11.8336))
                                         (+ (+ (robot_p_sq) (+ (* -5.86 (robot_p)) 8.5849))
                                         (+ (robot_a_sq) (+ (* -1.84 (robot_a)) 0.8464)))))
-                                (* 1.0
+                                (* 0.0
                                     (+ (+ (human_e_sq) (+ (* -6.88 (human_e)) 11.8336))
                                         (+ (+ (human_p_sq) (+ (* -5.86 (human_p)) 8.5849))
                                         (+ (human_a_sq) (+ (* -1.84 (human_a)) 0.8464))))))))))
@@ -704,7 +704,8 @@
             (quiz_introduced)
             (emotion_checked)
             (> (robot_e) 0.0)
-            (or (= (human_p) -2.29) (answered_wrong))
+            (not (= (human_e) -1.85))
+            ;(or (= (human_p) -2.29) (answered_wrong))
         )
         :effect (and 
             (increase (total-cost)
@@ -713,10 +714,10 @@
                             (+ (+ (robot_e_sq) (+ (* -6.88 (robot_e)) 11.8336))
                                 (+ (+ (robot_p_sq) (+ (* -5.86 (robot_p)) 8.5849))
                                 (+ (robot_a_sq) (+ (* -1.84 (robot_a)) 0.8464)))))
-                        (+ (* 1.0
-                                (+ (+ (human_e_sq) (+ (* -6.88 (human_e)) 11.8336))
-                                    (+ (+ (human_p_sq) (+ (* -5.86 (human_p)) 8.5849))
-                                    (+ (human_a_sq) (+ (* -1.84 (human_a)) 0.8464)))))
+                        (+ (* 10.0
+                                (+ (+ (human_e_sq) (+ (* 4.58 (human_e)) 5.2441))
+                                    (+ (+ (human_p_sq) (+ (* 2.88 (human_p)) 2.0736))
+                                    (+ (human_a_sq) (+ (* 4.08 (human_a)) 4.1616)))))
                             (+ (* 1.0
                                     (+ (+ (robot_e_sq) (+ (* -6.88 (robot_e)) 11.8336))
                                         (+ (+ (robot_p_sq) (+ (* -5.86 (robot_p)) 8.5849))
@@ -750,7 +751,8 @@
             (quiz_introduced)
             (emotion_checked)
             (> (robot_e) 0.0)
-            (= (human_p) 0.57)
+            (not (= (human_e) -1.85))
+            ;(= (human_p) 0.57)
         )
         :effect (and 
             (increase (total-cost)
@@ -759,7 +761,7 @@
                             (+ (+ (robot_e_sq) (+ (* -6.88 (robot_e)) 11.8336))
                                 (+ (+ (robot_p_sq) (+ (* -5.86 (robot_p)) 8.5849))
                                 (+ (robot_a_sq) (+ (* -1.84 (robot_a)) 0.8464)))))
-                        (+ (* 1.0
+                        (+ (* 10.0
                                 (+ (+ (human_e_sq) (+ (* 3.54 (human_e)) 3.1329))
                                     (+ (+ (human_p_sq) (+ (* -1.14 (human_p)) 0.3249))
                                     (+ (human_a_sq) (+ (* -3.60 (human_a)) 3.24)))))
@@ -784,7 +786,8 @@
             (assign (human_e_sq) 11.8336)
             (assign (human_p_sq) 8.5849)
             (assign (human_a_sq) 0.8464)
-            (can_conversate)
+            (not (emotion_checked))
+            ;(can_conversate)
         )
     )
     
@@ -794,7 +797,8 @@
             (quiz_introduced)
             (emotion_checked)
             (> (robot_e) 0.0)
-            (= (human_e) -1.85)
+            (not (= (human_e) -1.85))
+            ;(= (human_e) -1.85)
         )
         :effect (and 
             (increase (total-cost)
@@ -803,10 +807,10 @@
                             (+ (+ (robot_e_sq) (+ (* -6.88 (robot_e)) 11.8336))
                                 (+ (+ (robot_p_sq) (+ (* -5.86 (robot_p)) 8.5849))
                                 (+ (robot_a_sq) (+ (* -1.84 (robot_a)) 0.8464)))))
-                        (+ (* 1.0
-                                (+ (+ (human_e_sq) (+ (* 3.70 (human_e)) 3.4225))
-                                    (+ (+ (human_p_sq) (+ (* 1.72 (human_p)) 0.7396))
-                                    (+ (human_a_sq) (+ (* 4.02 (human_a)) 4.0401)))))
+                        (+ (* 10.0
+                                (+ (+ (human_e_sq) (+ (* 4.54 (human_e)) 5.1529))
+                                    (+ (+ (human_p_sq) (+ (* -0.44 (human_p)) 0.0484))
+                                    (+ (human_a_sq) (+ (* -0.86 (human_a)) 0.1849)))))
                             (+ (* 1.0
                                     (+ (+ (robot_e_sq) (+ (* -6.88 (robot_e)) 11.8336))
                                         (+ (+ (robot_p_sq) (+ (* -5.86 (robot_p)) 8.5849))
@@ -838,7 +842,8 @@
             (quiz_introduced)
             (emotion_checked)
             (> (robot_e) 0.0)
-            (= (human_p) -1.04)
+            (not (= (human_e) -1.85))
+            ;(= (human_p) -1.04)
         )
         :effect (and 
             (increase (total-cost)
@@ -847,7 +852,7 @@
                             (+ (+ (robot_e_sq) (+ (* -6.88 (robot_e)) 11.8336))
                                 (+ (+ (robot_p_sq) (+ (* -5.86 (robot_p)) 8.5849))
                                 (+ (robot_a_sq) (+ (* -1.84 (robot_a)) 0.8464)))))
-                        (+ (* 1.0
+                        (+ (* 10.0
                                 (+ (+ (human_e_sq) (+ (* 4.74 (human_e)) 5.6169))
                                     (+ (+ (human_p_sq) (+ (* 2.08 (human_p)) 1.0816))
                                     (+ (human_a_sq) (+ (* 1.42 (human_a)) 0.5041)))))
@@ -882,7 +887,7 @@
             (quiz_introduced)
             (emotion_checked)
             (> (robot_e) 0.0)
-            (= (human_p) 0.22)
+            ;(= (human_p) 0.22)
         )
         :effect (and 
             (increase (total-cost)
@@ -891,10 +896,10 @@
                             (+ (+ (robot_e_sq) (+ (* -6.88 (robot_e)) 11.8336))
                                 (+ (+ (robot_p_sq) (+ (* -5.86 (robot_p)) 8.5849))
                                 (+ (robot_a_sq) (+ (* -1.84 (robot_a)) 0.8464)))))
-                        (+ (* 1.0
-                                (+ (+ (human_e_sq) (+ (* 4.54 (human_e)) 5.1529))
-                                    (+ (+ (human_p_sq) (+ (* -0.44 (human_p)) 0.0484))
-                                    (+ (human_a_sq) (+ (* -0.86 (human_a)) 0.1849)))))
+                        (+ (* 10.0
+                                (+ (+ (human_e_sq) (+ (* 3.70 (human_e)) 3.4225))
+                                    (+ (+ (human_p_sq) (+ (* 1.72 (human_p)) 0.7396))
+                                    (+ (human_a_sq) (+ (* 4.02 (human_a)) 4.0401)))))
                             (+ (* 1.0
                                     (+ (+ (robot_e_sq) (+ (* -6.88 (robot_e)) 11.8336))
                                         (+ (+ (robot_p_sq) (+ (* -5.86 (robot_p)) 8.5849))
@@ -930,7 +935,7 @@
         :precondition (and 
             (quiz_introduced)
             (emotion_checked)
-            (= (robot_p) 0.57)
+            ;(= (robot_p) 0.57)
         )
         :effect (and 
             (increase (total-cost)
@@ -958,7 +963,7 @@
         :precondition (and 
             (quiz_introduced)
             (emotion_checked)
-            (<= (robot_e) -2.30)
+            ;(<= (robot_e) -2.30)
         )
         :effect (and 
             (increase (total-cost)
@@ -986,7 +991,7 @@
         :precondition (and 
             (quiz_introduced)
             (emotion_checked)
-            (= (robot_e) -2.29)
+            ;(= (robot_e) -2.29)
         )
         :effect (and 
             (increase (total-cost)
@@ -1009,25 +1014,28 @@
         )
     )
 
-    (:action reset_to_neutral
+    (:action reset_emotion
         :parameters ()
         :precondition (and 
             (quiz_introduced)
             (emotion_checked)
-            (or (= (robot_e) -2.27) (= (robot_e) 0.50))
+            (not (= (robot_e) -2.37))
+            (not (= (robot_e) -1.77))
+            (not (= (robot_e) -2.29))
+            ;(or (= (robot_e) -2.27) (= (robot_e) 0.50))
         )
         :effect (and 
             (increase (total-cost)
                 (* 1.0
-                    (+ (+ (robot_e_sq) (+ (* -1.16 (robot_e)) 0.3364))
-                        (+ (+ (robot_p_sq) (+ (* -1.50 (robot_p)) 0.5625))
-                        (+ (robot_a_sq) (+ (* -1.12 (robot_a)) 0.3136))))))
-            (assign (robot_e) 0.58)
-            (assign (robot_p) 0.75)
-            (assign (robot_a) 0.56)
-            (assign (robot_e_sq) 0.3364)
-            (assign (robot_p_sq) 0.5625)
-            (assign (robot_a_sq) 0.3136)
+                    (+ (+ (robot_e_sq) (+ (* -6.88 (robot_e)) 11.8336))
+                        (+ (+ (robot_p_sq) (+ (* -5.86 (robot_p)) 8.5849))
+                        (+ (robot_a_sq) (+ (* -1.84 (robot_a)) 0.8464))))))
+            (assign (robot_e) 3.44)
+            (assign (robot_p) 2.93)
+            (assign (robot_a) 0.92)
+            (assign (robot_e_sq) 11.8336)
+            (assign (robot_p_sq) 8.5849)
+            (assign (robot_a_sq) 0.8464)
             (not (emotion_checked))
         )
     )

@@ -15,7 +15,7 @@
     <node pkg="thesis_qt" type="sentiment_analyzer.py"   name="sentiment_analyzer_node"    output="screen" />
 
     <node pkg="thesis_qt" type="action_check_emotion.py" name="check_emotion_action" output="screen">
-        <param name="manual_emotion" value="false"/>
+        <param name="manual_emotion" value="true"/>
     </node>
     <node pkg="thesis_qt" type="action_introduce.py"       name="introduce_action"            output="screen" />
     <node pkg="thesis_qt" type="action_greet_warmly.py"    name="greet_warmly_action_node"    output="screen" />
@@ -46,7 +46,7 @@
     <node pkg="thesis_qt" type="action_raise_stakes.py"         name="raise_stakes_action_node"         output="screen" />
 
     <node pkg="thesis_qt" type="action_calm_down.py"         name="calm_down_action_node"         output="screen" />
-    <node pkg="thesis_qt" type="action_reset_to_neutral.py" name="reset_to_neutral_action_node" output="screen" />
+    <node pkg="thesis_qt" type="action_reset_emotion.py" name="reset_emotion_action_node" output="screen" />
     <node pkg="thesis_qt" type="action_ask_for_help.py" name="ask_for_help_action_node" output="screen" />
     <node pkg="thesis_qt" type="action_show_vulnerability.py" name="show_vulnerability_action_node" output="screen" />
 </launch>

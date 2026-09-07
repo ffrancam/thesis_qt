@@ -8,11 +8,11 @@ from diagnostic_msgs.msg import KeyValue
 from qt_api import QTRobot
 
 
-class ResetToNeutralAction:
+class ResetEmotionAction:
 
     def __init__(self):
-        rospy.init_node('reset_to_neutral_action_node')
-        print("Reset To Neutral Action Node started!")
+        rospy.init_node('reset_emotion_action_node')
+        print("Reset Emotion Action Node started!")
 
         rospy.Subscriber('/rosplan_plan_dispatcher/action_dispatch',
                          ActionDispatch, self.action_callback)
@@ -30,13 +30,13 @@ class ResetToNeutralAction:
 
         self.qt = QTRobot()
 
-        print("Reset To Neutral Action Interface ready!")
+        print("Reset Emotion Action Interface ready!")
         rospy.spin()
 
     # ------------------------------------------------------------------ #
 
     def action_callback(self, msg):
-        if msg.name != 'reset_to_neutral':
+        if msg.name != 'reset_emotion':
             return
 
         print(f"\n=== Executing Action {msg.action_id} ({msg.name}) ===")
@@ -153,6 +153,6 @@ class ResetToNeutralAction:
 
 if __name__ == '__main__':
     try:
-        ResetToNeutralAction()
+        ResetEmotionAction()
     except rospy.ROSInterruptException:
         pass
