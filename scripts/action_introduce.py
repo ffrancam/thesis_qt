@@ -104,13 +104,13 @@ class IntroduceAction:
                 (0, lambda: self.bot.qt.talkText("Ti va di giocare a un gioco insieme?"))
             ])
 
-            answer = 1
-            # for _ in range(2):
-            #     transcript = self.bot.qt.listen("listening_icon")
-            #     answer = self.bot.qt.check_yes_no(transcript)
-            #     if answer is not None:
-            #         break
-            #     self.bot.qt.talkText("Non ho capito, puoi rispondere sì o no?")
+            answer = None
+            for _ in range(2):
+                transcript = self.bot.qt.listen("listening_icon")
+                answer = self.bot.qt.check_yes_no(transcript)
+                if answer is not None:
+                    break
+                self.bot.qt.talkText("Non ho capito, puoi rispondere sì o no?")
 
             if answer == 1:
                 self.bot.qt.ts.sync([

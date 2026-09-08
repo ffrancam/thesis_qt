@@ -1,0 +1,3 @@
+=== Session: prova  started at 2026-09-08 17:30:32.596753 ===
+[17:31:09] DISPATCH  id=  0  greet_warmly()
+[17:31:14] DISPATCH  id=  1  introduce_game()

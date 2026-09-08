@@ -139,7 +139,7 @@ class AskEasyAction:
                 rospy.logerr(f"Unknown question instance: {question}")
                 return False
 
-            q_text = self.QUESTIONS[question]
+            q_text = self.QUESTIONS[question]["question"]
             correct_answer = self.QUESTIONS[question]["correct_answer"]
 
             # self.qt.ts.sync([
