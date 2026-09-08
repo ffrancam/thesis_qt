@@ -182,10 +182,6 @@ class MimeEasyAction:
     def apply_effects(self, gesture, answered_correctly: bool):
         self.shown_gestures.add(gesture)
 
-        self._update_predicate(
-            KnowledgeUpdateServiceRequest.REMOVE_KNOWLEDGE,
-            'emotion_checked', []
-        )
 
         current_n = self._get_function('n_questions')
         self._update_function('n_questions', [], current_n + 1)
@@ -202,6 +198,10 @@ class MimeEasyAction:
             self._update_predicate(
                 KnowledgeUpdateServiceRequest.REMOVE_KNOWLEDGE,
                 'answered_wrong', []
+            )
+            self._update_predicate(
+                KnowledgeUpdateServiceRequest.REMOVE_KNOWLEDGE,
+                'emotion_checked', []
             )
         else:
             current_wrong = self._get_function('wrong_answers')

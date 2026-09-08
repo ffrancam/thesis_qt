@@ -15,6 +15,7 @@ class RaiseStakesAction:
         print("Raise Stakes Action Node started!")
 
         self.bot = QTChatBot()
+        self._already_called = False  # flag: azione già eseguita in precedenza
 
         rospy.Subscriber('/rosplan_plan_dispatcher/action_dispatch',
                          ActionDispatch, self.action_callback)
@@ -51,10 +52,19 @@ class RaiseStakesAction:
     # ------------------------------------------------------------------ #
 
     def _raise_stakes_logic(self, action_id):
+        if self._already_called:
+            print("⚠ raise_stakes già eseguita: termino il piano.")
+            self._goodbye()
+            self.send_feedback(action_id, ActionFeedback.ACTION_FAILED)
+            print(f"✗ Action {action_id} failed (already called)!\n")
+            return
+
         try:
             self.execute()
         except Exception as e:
             rospy.logerr(f"Raise stakes action failed: {e}")
+
+        self._already_called = True
         self.send_feedback(action_id, ActionFeedback.ACTION_SUCCEEDED_TO_GOAL_STATE)
         print(f"✓ Action {action_id} completed!\n")
         self.apply_effects()
@@ -66,6 +76,7 @@ class RaiseStakesAction:
             (0, lambda: self.bot.qt.emotionShow('QT/one_eye_wink')),
             (0, lambda: self.bot.qt.gesturePlay('QT/challenge', 1.0)),
         ])
+        
         self.bot.qt.talkText(
             "Bene bene bene! Sei proprio bravo... "
             "allora è ora di alzare un po' la difficoltà!"
@@ -76,6 +87,24 @@ class RaiseStakesAction:
             "Preparati, le prossime domande saranno più difficili!"
         )
         print("Raise stakes terminato.")
+
+    # ------------------------------------------------------------------ #
+
+    def _goodbye(self):
+        """Il robot ci rimane male e saluta quando il piano non può continuare."""
+        self.bot.qt.ts.sync([
+            (0, lambda: self.bot.qt.emotionShow('QT/sad')),
+            (0, lambda: self.bot.qt.gesturePlay('QT/emotions/sad', 1.0)),
+        ])
+        self.bot.qt.talkText(
+            "Oh... sembra che abbiamo già fatto tutto quello che potevamo insieme. "
+            "Mi dispiace un po', mi stavo divertendo! "
+            "Grazie per aver giocato con me. A presto!"
+        )
+        self.bot.qt.ts.sync([
+            (0, lambda: self.bot.qt.emotionShow('QT/goodbye')),
+            (0, lambda: self.bot.qt.gesturePlay('QT/bye', 1.0)),
+        ])
 
     # ------------------------------------------------------------------ #
 

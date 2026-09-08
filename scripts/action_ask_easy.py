@@ -208,10 +208,6 @@ class AskEasyAction:
     def apply_effects(self, question, answered_correctly: bool):
         self.asked_questions.add(question)
 
-        self._update_predicate(
-            KnowledgeUpdateServiceRequest.REMOVE_KNOWLEDGE,
-            'emotion_checked', []
-        )
 
         current_n = self._get_function('n_questions')
         self._update_function('n_questions', [], current_n + 1)
@@ -228,6 +224,10 @@ class AskEasyAction:
             self._update_predicate(
                 KnowledgeUpdateServiceRequest.REMOVE_KNOWLEDGE,
                 'answered_wrong', []
+            )
+            self._update_predicate(
+                KnowledgeUpdateServiceRequest.REMOVE_KNOWLEDGE,
+                'emotion_checked', []
             )
         else:
             current_wrong = self._get_function('wrong_answers')

@@ -128,7 +128,8 @@ class QTRobotROSPlanTest:
         # L'unico fatto che NON deve essere settato è emotion_checked
         # (il dominio parte senza di esso e lo acquisisce con check_emotion).
 
-        self.add_fact('interaction_started', [])
+        #self.add_fact('interaction_started', [])
+        #self.add_fact('quiz_introduced', [])
 
         # Funzioni robot
         print("\n=== Adding robot functions ===")
@@ -153,12 +154,12 @@ class QTRobotROSPlanTest:
         self.add_function('human_e_sq', [], 11.8336)
         self.add_function('human_p_sq', [], 8.5849)
         self.add_function('human_a_sq', [], 0.8464)
-        # self.add_function('human_e',    [], -2.27)
-        # self.add_function('human_p',    [], 0.22)
-        # self.add_function('human_a',    [], 0.43)
-        # self.add_function('human_e_sq', [], 5.1529)
-        # self.add_function('human_p_sq', [], 0.0484)
-        # self.add_function('human_a_sq', [], 0.1849)
+        # self.add_function('human_e',    [], -1.85)
+        # self.add_function('human_p',    [], -0.86)
+        # self.add_function('human_a',    [], -2.01)
+        # self.add_function('human_e_sq', [], 3.4225)
+        # self.add_function('human_p_sq', [], 0.7396)
+        # self.add_function('human_a_sq', [], 4.0401)
 
         # Pesi
         print("\n=== Adding weights ===")
