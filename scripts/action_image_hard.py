@@ -28,6 +28,7 @@ class ImageHardAction:
         'q9':  ("pizza",      "Guarda questa pizza tagliata. Quante fette mancano per fare una pizaa intera?",    "due", "l'immagine mostra una pizza con 4 fette su 6"),
         'q10': ("owl",      "Guarda questo uccello. Quale 'superpotere' incredibile ha il suo collo?",    "può girare la testa quasi del tutto / può guardare dietro di sé con il collo", "viene mostrato un gufo"),
         'q11': ("torre_pisa",      "Questa torre è famosissima in tutto il mondo perchè è storta! Sai dirmi in quale città italiana si trova?",    "Pisa", "l'immagine mostra la Torre di Pisa"),
+        'q12': ("baobab",      "Sai dirmi che albero è questo?",            "un baobab", "")
     }
 
     MAX_ATTEMPTS = 2

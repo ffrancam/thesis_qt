@@ -18,7 +18,7 @@ class SoundEasyAction:
     QUESTIONS = {
         'q1':  ("QT/sound_easy/ambulance",    "Ascolta questa sirena. Quale mezzo sta passando?",    "un'ambulanza / la polizia / i pompieri"),
         'q2':  ("QT/sound_easy/bike_bell",    "Che cos'è questo suono?",        "una campana"),
-        'q3':  ("QT/sound_easy/doorbell", "Indovina, dove mi trovo?",       "nella natura"),
+        'q3':  ("QT/sound_easy/doorbell", "Cosa é successo?",       "hanno suonato alla porta"),
         'q4':  ("QT/sound_easy/laughing", "Ascolta questa persona. Cosa sta facendo?",   "sta ridendo / è felice"),
         'q5':  ("QT/sound_easy/rain",   "Ascolta questo rumore continuo. Cosa sta scendendo dal cielo?",   "la pioggia / sta piovendo"),
         'q6':  ("QT/sound_easy/sneeze",     "Ascolta questo rumore improvviso. Cosa ha fatto questa persona?", "ha starnutito / uno starnuto"),

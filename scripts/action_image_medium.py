@@ -17,7 +17,7 @@ class ImageMediumAction:
 
     # (question_text, sound, correct_answer, description)
     QUESTIONS = {
-        'q1':  ("baobab",      "Sai dirmi che albero è questo?",            "un baobab", ""),
+        'q1':  ("basso",      "Guarda questo strumento ingrandito. Sai dirmi il suo nome?",    "un basso", "l'immagine mostra un basso zoomato"),
         'q2':  ("bussola",      "A cosa serve questo strumento in foto?",  "A orientarsi/capire la direzione/indicare nord", "l'oggetto mostrato in foto è una bussola"),
         'q3':  ("diga",    "Guarda questa diga fatta di rami in mezzo al fiume. Quale animale l'ha costruita?",    "un castoro", "l'immagine mostra una diga di rami costruita da un castoro"),
         'q4':  ("eiffel",   "Di quale monumento è questa ombra?",  "torre eiffel", ""),

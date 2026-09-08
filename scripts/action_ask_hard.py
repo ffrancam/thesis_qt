@@ -15,22 +15,22 @@ from thesis_qt.srv import EvaluateResponse
 class AskHardAction:
 
     QUESTIONS = {
-        'q1':  "Qual è il fiume più lungo del mondo?",
-        'q2':  "Quanti pianeti ci sono nel sistema solare?",
-        'q3':  "Qual è il continente più grande della Terra?",
-        'q4':  "In quale città si trova la Torre Eiffel?",
-        'q5':  "In quale continente di trova il Giappone?",
-        'q6':  "Qual è il monte più alto del mondo?",
-        'q7':  "Chi ha scritto Pinocchio?",
-        'q8':  "Chi ha dipinto la Gioconda?",
-        'q9':  "Cosa usano i pesci per respirare sott'acqua?",
-        'q10': "Qual è il colore che si ottiene mescolando tutti i colori?",
-        'q11': "Quanti giorni formano un anno?",
-        'q12': "Qual è l'unico mammifero che sa volare?",
-        'q13': "Qual è l'animale più veloce del mondo?",
-        'q14': "Da quale pianta si ricava l'olio che usiamo per cucinare?",
-        'q15': "Tutti lo possono aprire, ma nessuno lo sa chiudere. Cos'è?",
-        'q16': "Ha i denti, ma non morde mai. Cos'è?",
+        'q1':  {"question": "Qual è il fiume più lungo del mondo?",                          "correct_answer": ""},
+        'q2':  {"question": "Quanti pianeti ci sono nel sistema solare?",                    "correct_answer": ""},
+        'q3':  {"question": "Qual è il continente più grande della Terra?",                  "correct_answer": ""},
+        'q4':  {"question": "In quale città si trova la Torre Eiffel?",                      "correct_answer": ""},
+        'q5':  {"question": "In quale continente si trova il Giappone?",                     "correct_answer": ""},
+        'q6':  {"question": "Qual è il monte più alto del mondo?",                           "correct_answer": ""},
+        'q7':  {"question": "Chi ha scritto Pinocchio?",                                     "correct_answer": ""},
+        'q8':  {"question": "Chi ha dipinto la Gioconda?",                                   "correct_answer": ""},
+        'q9':  {"question": "Cosa usano i pesci per respirare sott'acqua?",                  "correct_answer": ""},
+        'q10': {"question": "Qual è il colore che si ottiene mescolando tutti i colori?",    "correct_answer": ""},
+        'q11': {"question": "Quanti giorni formano un anno?",                                "correct_answer": ""},
+        'q12': {"question": "Qual è l'unico mammifero che sa volare?",                       "correct_answer": ""},
+        'q13': {"question": "Qual è l'animale più veloce del mondo?",                        "correct_answer": ""},
+        'q14': {"question": "Da quale pianta si ricava l'olio che usiamo per cucinare?",     "correct_answer": ""},
+        'q15': {"question": "Tutti lo possono aprire, ma nessuno lo sa chiudere. Cos'è?",   "correct_answer": ""},
+        'q16': {"question": "Ha i denti, ma non morde mai. Cos'è?",                          "correct_answer": ""},
     }
 
     MAX_ATTEMPTS = 2
@@ -132,6 +132,7 @@ class AskHardAction:
                 return False
 
             q_text = self.QUESTIONS[question]
+            correct_answer = self.QUESTIONS[question]["correct_answer"]
 
             self.qt.ts.sync([
                 (0, lambda: self.qt.emotionShow('QT/happy')),
@@ -163,7 +164,7 @@ class AskHardAction:
 
                 result = self.evaluate_response(
                     question=q_text,
-                    correct_answer='',
+                    correct_answer=correct_answer,
                     description='',
                     user_res=transcript,
                     is_last_attempt=is_last
