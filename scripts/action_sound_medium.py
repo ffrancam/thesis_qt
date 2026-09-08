@@ -129,6 +129,7 @@ class SoundMediumAction:
             filename, q_text, answer = self.QUESTIONS[sound]
 
             self.qt.talkText(q_text)
+            print(f"QT talking: '{q_text}'")
 
             attempt = 0
             while attempt < self.MAX_ATTEMPTS:

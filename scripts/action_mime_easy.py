@@ -128,6 +128,7 @@ class MimeEasyAction:
 
             # Il robot fa la domanda ed esegue il gesto
             self.qt.talkText(q_text)
+            print(f"QT talking: '{q_text}'")
             self.qt.gesturePlay(gesture_name, 0)
 
             attempt = 0

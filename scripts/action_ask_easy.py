@@ -142,10 +142,12 @@ class AskEasyAction:
             q_text = self.QUESTIONS[question]
             correct_answer = self.QUESTIONS[question]["correct_answer"]
 
-            self.qt.ts.sync([
-                (0, lambda: self.qt.emotionShow('QT/happy')),
-                (0, lambda: self.qt.talkText(q_text))
-            ])
+            # self.qt.ts.sync([
+            #     (0, lambda: self.qt.emotionShow('QT/happy')),
+            #     (0, lambda: self.qt.talkText(q_text))
+            # ])
+            self.qt.talkText(q_text)
+            print(f"QT talking: '{q_text}'")
 
             attempt = 0
             no_audio_count = 0
