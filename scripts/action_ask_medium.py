@@ -15,23 +15,23 @@ from thesis_qt.srv import EvaluateResponse
 class AskMediumAction:
 
     QUESTIONS = {
-        'q1':  "Quanti lati ha un triangolo?",
-        'q2':  "Quanti secondi ci sono in un minuto?",
-        'q3':  "Quante ore ha un giorno?",
-        'q4':  "Qual è l'animale più grande del mondo?",
-        'q5':  "Qual è il mese più corto dell'anno?",
-        'q6':  "Qual è la lingua più parlata al mondo?",
-        'q7':  "Che colore si ottiene mescolando il rosso e il blu?",
-        'q8':  "Quanto fa 5 per 5?",
-        'q9':  "Come si chiama il pianeta su cui viviamo?",
-        'q10': "Quante vocali ci sono nell'alfabeto?",
-        'q11': "Quanto fa 10 meno 4?",
-        'q12': "Quale senso usiamo per ascoltare la musica?",
-        'q13': "Come si chiama il cucciolo della mucca?",
-        'q14': "Come si chiama la figura geometrica rotonda come una palla?",
-        'q15': "Quale insetto colorato nasce da un bruco?",
-        'q16': "Qual è l'animale che porta la sua casa sulla schiena?",
-        'q17': "Dove si trova la Torre di Pisa?",
+        'q1':  {"question": "Quanti lati ha un triangolo?",                                  "correct_answer": ""},
+        'q2':  {"question": "Quanti secondi ci sono in un minuto?",                          "correct_answer": ""},
+        'q3':  {"question": "Quante ore ha un giorno?",                                      "correct_answer": ""},
+        'q4':  {"question": "Qual è l'animale più grande del mondo?",                        "correct_answer": ""},
+        'q5':  {"question": "Qual è il mese più corto dell'anno?",                           "correct_answer": ""},
+        'q6':  {"question": "Qual è la lingua più parlata al mondo?",                        "correct_answer": ""},
+        'q7':  {"question": "Che colore si ottiene mescolando il rosso e il blu?",           "correct_answer": ""},
+        'q8':  {"question": "Quanto fa 5 per 5?",                                            "correct_answer": ""},
+        'q9':  {"question": "Come si chiama il pianeta su cui viviamo?",                     "correct_answer": ""},
+        'q10': {"question": "Quante vocali ci sono nell'alfabeto?",                          "correct_answer": ""},
+        'q11': {"question": "Quanto fa 10 meno 4?",                                          "correct_answer": ""},
+        'q12': {"question": "Quale senso usiamo per ascoltare la musica?",                   "correct_answer": ""},
+        'q13': {"question": "Come si chiama il cucciolo della mucca?",                       "correct_answer": ""},
+        'q14': {"question": "Come si chiama la figura geometrica rotonda come una palla?",   "correct_answer": ""},
+        'q15': {"question": "Quale insetto colorato nasce da un bruco?",                     "correct_answer": ""},
+        'q16': {"question": "Qual è l'animale che porta la sua casa sulla schiena?",         "correct_answer": "la tartaruga / la chiocciola / il granchio / la lumaca"},  # ← senza risposta
+        'q17': {"question": "Dove si trova il Colosseo?",                               "correct_answer": ""},
     }
 
     MAX_ATTEMPTS = 2
@@ -132,12 +132,16 @@ class AskMediumAction:
                 rospy.logerr(f"Unknown question instance: {question}")
                 return False
 
-            q_text = self.QUESTIONS[question]
+            q_text = self.QUESTIONS[question]["question"]
+            correct_answer = self.QUESTIONS[question]["correct_answer"]
 
-            self.qt.ts.sync([
-                (0, lambda: self.qt.emotionShow('QT/happy')),
-                (0, lambda: self.qt.talkText(q_text))
-            ])
+
+            # self.qt.ts.sync([
+            #     (0, lambda: self.qt.emotionShow('QT/happy')),
+            #     (0, lambda: self.qt.talkText(q_text))
+            # ])
+            self.qt.talkText(q_text)
+            print(f"QT talking: '{q_text}'")
 
             attempt = 0
             while attempt < self.MAX_ATTEMPTS:
@@ -164,7 +168,7 @@ class AskMediumAction:
 
                 result = self.evaluate_response(
                     question=q_text,
-                    correct_answer='',
+                    correct_answer=correct_answer,
                     description='',
                     user_res=transcript,
                     is_last_attempt=is_last

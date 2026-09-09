@@ -15,27 +15,28 @@ from thesis_qt.srv import EvaluateResponse
 class AskEasyAction:
 
     QUESTIONS = {
-        'q1':  "Qual è l'animale con il collo più lungo?",
-        'q2':  "Quante dita ha una mano?",
-        'q3':  "Quanto è lunga una settimana?",
-        'q4':  "In quale stagione cadono le foglie dagli alberi?",
-        'q5':  "Di che colore è il cielo?",
-        'q6':  "Qual è il numero che viene dopo il 10?",
-        'q7':  "Qual è la capitale dell'Italia?",
-        'q8':  "Qual è l'animale che abbaia?",
-        'q9':  "Quanti sono i colori dell'arcobaleno?",
-        'q10': "Quali sono i colori primari?",
-        'q11': "Cosa produce un'ape?",
-        'q12': "Di che colore è il cielo al tramonto?",
-        'q13': "Qual è il mezzo di trasporto che vola nel cielo?",
-        'q14': "Qual è l'animale che dorme appeso a testa in giù?",
-        'q15': "Dove vivono i pesci?",
-        'q16': "Cosa succede all'acqua quando fa molto freddo?",
-        'q17': "Cosa brilla nel cielo di notte?",
-        'q18': "Qual è l'animale che cambia colore per mimetizzarsi?",
-        'q19': "Qual è la stagione più fredda dell'anno?",
-        'q20': "Dove crescono le mele?"
+        'q1':  {"question": "Qual è l'animale con il collo più lungo?",         "correct_answer": ""},
+        'q2':  {"question": "Quante dita ha una mano?",                         "correct_answer": ""},
+        'q3':  {"question": "Quanto è lunga una settimana?",                    "correct_answer": ""},
+        'q4':  {"question": "In quale stagione cadono le foglie dagli alberi?",  "correct_answer": ""},
+        'q5':  {"question": "Di che colore è il cielo?",                        "correct_answer": ""},
+        'q6':  {"question": "Qual è il numero che viene dopo il 10?",           "correct_answer": ""},
+        'q7':  {"question": "Qual è la capitale dell'Italia?",                  "correct_answer": ""},
+        'q8':  {"question": "Qual è l'animale che abbaia?",                     "correct_answer": ""},
+        'q9':  {"question": "Quanti sono i colori dell'arcobaleno?",            "correct_answer": ""},
+        'q10': {"question": "Quali sono i colori primari?",                     "correct_answer": ""}, 
+        'q11': {"question": "Cosa produce un'ape?",                             "correct_answer": ""},
+        'q12': {"question": "Di che colore è il cielo al tramonto?",            "correct_answer": "arancione / rosso / rosa"},
+        'q13': {"question": "Qual è il mezzo di trasporto che vola nel cielo?", "correct_answer": ""}, 
+        'q14': {"question": "Qual è l'animale che dorme appeso a testa in giù?","correct_answer": ""},
+        'q15': {"question": "Dove vivono i pesci?",                             "correct_answer": "in acqua / nel mare / nei fiumi / negli stagni / nell'acquario"},   # ← senza risposta
+        'q16': {"question": "Cosa succede all'acqua quando fa molto freddo?",   "correct_answer": "si ghiaccia / diventa ghiaccio / si solidifica"},  # ← senza risposta
+        'q17': {"question": "Cosa brilla nel cielo di notte?",                  "correct_answer": "le stelle / la luna / i pianeti"},  
+        'q18': {"question": "Qual è l'animale che cambia colore per mimetizzarsi?", "correct_answer": ""},
+        'q19': {"question": "Qual è la stagione più fredda dell'anno?",         "correct_answer": ""},
+        'q20': {"question": "Dove crescono le mele?",                           "correct_answer": ""},
     }
+
 
     MAX_ATTEMPTS = 2
     MAX_NO_AUDIO = 2
@@ -139,12 +140,16 @@ class AskEasyAction:
                 rospy.logerr(f"Unknown question instance: {question}")
                 return False
 
-            q_text = self.QUESTIONS[question]
+            q_text = self.QUESTIONS[question]["question"]
+            correct_answer = self.QUESTIONS[question]["correct_answer"]
 
-            self.qt.ts.sync([
-                (0, lambda: self.qt.emotionShow('QT/happy')),
-                (0, lambda: self.qt.talkText(q_text))
-            ])
+
+            # self.qt.ts.sync([
+            #     (0, lambda: self.qt.emotionShow('QT/happy')),
+            #     (0, lambda: self.qt.talkText(q_text))
+            # ])
+            self.qt.talkText(q_text)
+            print(f"QT talking: '{q_text}'")
 
             attempt = 0
             no_audio_count = 0
@@ -179,7 +184,7 @@ class AskEasyAction:
 
                 result = self.evaluate_response(
                     question=q_text,
-                    correct_answer='',
+                    correct_answer=correct_answer,
                     description='',
                     user_res=transcript,
                     is_last_attempt=is_last

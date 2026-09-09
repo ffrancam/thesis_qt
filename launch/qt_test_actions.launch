@@ -1,11 +1,17 @@
 <?xml version="1.0"?>
 <launch>
+    <arg name="session_name" default="" />
+
     <rosparam file="$(find thesis_qt)/config/offline_conversation.yaml" command="load"/>
     <env name="NLTK_DATA" value="/home/qtrobot/robot/nltk/data/"/>
     <env name="MODEL_NAME" value="models--lmsys--vicuna-13b-v1.5"/>
 
     <!-- <include file="$(find qt_vosk_app)/launch/qt_vosk_app.launch" /> -->
     <node pkg="thesis_qt" type="qt_test.py"                name="qt_test_node"                output="screen" />
+
+    <node pkg="thesis_qt" type="session_logger.py" name="session_logger_node" output="screen">
+        <param name="session_name" value="$(arg session_name)" />
+    </node>
 
     <node pkg="thesis_qt" type="response_evaluator.py" name="response_evaluator_node" output="screen" />
 

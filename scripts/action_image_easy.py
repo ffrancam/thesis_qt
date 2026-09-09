@@ -25,9 +25,9 @@ class ImageEasyAction:
         'q7':  ("gatto",      "Questo animale abbaia o miagola?",    "miagola", "l'immagine mostra un gatto"),
         'q8':  ("autunno",      "In che stagione ci troviamo?",    "autunno", "l'immagine mostra un paesaggio autunnale"),
         'q9':  ("semaforo",      "Cosa deve fare una macchina quando vede questa luce?",    "fermarsi", "l'immagine mostra un semaforo con luce rossa"),
-        'q10': ("tucano",      "Sai dirmi che animale è questo?",    "un tucano", ""),
-        'q11': ("basso",      "Guarda questo strumento ingrandito. Sai dirmi il suo nome?",    "un basso", "l'immagine mostra un basso zoomato"),
+        'q10': ("tucano",      "Sai dirmi che animale è questo?",    "un tucano", "")
     }
+
 
     MAX_ATTEMPTS = 2
 
@@ -150,7 +150,7 @@ class ImageEasyAction:
 
                 if self.qt.check_repeat_request(transcript):
                     self.qt.talkText(q_text)
-                    self.qt.show_image(filename)
+                    self.qt.show_image(filename + "_icon")
                     continue
 
                 attempt += 1

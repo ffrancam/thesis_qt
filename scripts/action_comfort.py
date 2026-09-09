@@ -154,17 +154,6 @@ class ComfortAction:
 
                 print(f"Human (Turno {turn}): {transcript}")
 
-                is_happy = False
-                if self.bot.sentiment_enabled:
-                    sentiment = self.bot.get_sentiment(transcript)
-                    self.bot.show_sentiment(sentiment)
-                    is_happy = (sentiment['emotion'] == 'happy')
-
-                if is_happy:
-                    print("→ Bambino felice, chiudo anticipatamente.")
-                    self.bot.qt.emotionShow('QT/happy')
-                    self.bot.speak("Bravissimo! Adesso possiamo ritornare a giocare insieme.")
-                    break
 
                 if is_last:
                     print("→ Turno finale, chiudo la consolazione.")

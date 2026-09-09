@@ -1,0 +1,15 @@
+[10:33:03] [INFO ] In ascolto (tentativo 1/2)...
+[10:33:03] [INFO ] Mostro immagine: listening_icon
+[10:33:09] [INFO ] Riconosciuto: Puoi ripetere?
+[10:33:13] [INFO ] In ascolto (tentativo 1/2)...
+[10:33:13] [INFO ] Mostro immagine: listening_icon
+[10:33:15] [INFO ] Riconosciuto: 10.
+[10:33:25] [INFO ] In ascolto (tentativo 2/2)...
+[10:33:25] [INFO ] Mostro immagine: listening_icon
+[10:33:28] [INFO ] Riconosciuto: Io ti dico che sono 10.
+[10:33:38] [INFO ] KB: Set function 'n_questions' = 2.0
+[10:33:38] [INFO ] KB: Set function 'n_easy' = 2.0
+[10:33:38] [INFO ] KB: Set function 'ask_uses' = 1.0
+[10:33:38] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[10:33:38] [INFO ] KB: Added predicate 'answered_wrong'
+[10:34:15] [ERROR] ✗ Replanning failed: transport error completing service call: unable to receive data from sender, check sender's logs for details
