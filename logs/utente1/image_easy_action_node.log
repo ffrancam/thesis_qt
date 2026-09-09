@@ -1,0 +1,24 @@
+[17:32:01] [INFO ] Mostro immagine: autunno_icon
+[17:32:01] [INFO ] In ascolto (tentativo 1/2)...
+[17:32:09] [INFO ] Riconosciuto: Siamo in estate.
+[17:32:21] [INFO ] Mostro immagine: autunno_icon
+[17:32:21] [INFO ] In ascolto (tentativo 2/2)...
+[17:32:26] [INFO ] Riconosciuto: Ah, in autunno. In autunno?
+[17:32:37] [INFO ] KB: Set function 'n_questions' = 1.0
+[17:32:37] [INFO ] KB: Set function 'n_easy' = 1.0
+[17:32:37] [INFO ] KB: Set function 'image_uses' = 1.0
+[17:32:37] [INFO ] KB: Set function 'right_answers' = 1.0
+[17:32:37] [INFO ] KB: Removed predicate 'answered_wrong'
+[17:32:37] [INFO ] KB: Removed predicate 'emotion_checked'
+[17:32:37] [INFO ] KB: Set function 'robot_e' = 3.44
+[17:32:37] [INFO ] KB: Set function 'robot_p' = 2.93
+[17:32:37] [INFO ] KB: Set function 'robot_a' = 0.92
+[17:32:37] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[17:32:37] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[17:32:37] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[17:32:37] [INFO ] KB: Set function 'human_e' = 3.44
+[17:32:37] [INFO ] KB: Set function 'human_p' = 2.93
+[17:32:37] [INFO ] KB: Set function 'human_a' = 0.92
+[17:32:37] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[17:32:37] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[17:32:37] [INFO ] KB: Set function 'human_a_sq' = 0.8464

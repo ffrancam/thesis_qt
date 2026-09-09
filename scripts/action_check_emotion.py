@@ -39,8 +39,8 @@ from thesis_qt.srv import SentimentAnalyzer
 # ---------------------------------------------------------------------------
 # Costanti emoACT
 # ---------------------------------------------------------------------------
-EMOACT_EMOTION_GEN_URL = "http://10.186.13.41:3000"
-EMOACT_IMPRESSION_URL  = "http://10.186.13.41:4000"   # Impression_EstimatorACT
+EMOACT_EMOTION_GEN_URL = "http://192.168.1.4:3000"
+EMOACT_IMPRESSION_URL  = "http://192.168.1.4:4000"   # Impression_EstimatorACT
 EMOACT_TIMEOUT         = 2.0   # secondi per ogni chiamata REST
 EMOACT_POLL_ATTEMPTS   = 6     # tentativi polling emozione robot
 EMOACT_POLL_DELAY      = 0.8   # secondi tra un tentativo e l'altro

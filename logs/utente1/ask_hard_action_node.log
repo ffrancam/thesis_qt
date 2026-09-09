@@ -1,0 +1,24 @@
+[17:35:49] [INFO ] QT talking: 'Chi ha dipinto la Gioconda?'
+[17:35:49] [INFO ] In ascolto (tentativo 1/2)...
+[17:35:49] [INFO ] Mostro immagine: listening_icon
+[17:35:52] [INFO ] Riconosciuto: Sì, lo sapevo.
+[17:36:04] [INFO ] In ascolto (tentativo 2/2)...
+[17:36:04] [INFO ] Mostro immagine: listening_icon
+[17:36:07] [INFO ] Riconosciuto: Ah, Dante Alighieri.
+[17:36:17] [INFO ] KB: Set function 'n_questions' = 5.0
+[17:36:17] [INFO ] KB: Set function 'n_hard' = 1.0
+[17:36:17] [INFO ] KB: Set function 'ask_uses' = 2.0
+[17:36:17] [INFO ] KB: Set function 'wrong_answers' = 2.0
+[17:36:17] [INFO ] KB: Added predicate 'answered_wrong'
+[17:36:17] [INFO ] KB: Set function 'robot_e' = 3.44
+[17:36:17] [INFO ] KB: Set function 'robot_p' = 2.93
+[17:36:17] [INFO ] KB: Set function 'robot_a' = 0.92
+[17:36:17] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[17:36:17] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[17:36:17] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[17:36:17] [INFO ] KB: Set function 'human_e' = 3.44
+[17:36:17] [INFO ] KB: Set function 'human_p' = 2.93
+[17:36:17] [INFO ] KB: Set function 'human_a' = 0.92
+[17:36:17] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[17:36:17] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[17:36:17] [INFO ] KB: Set function 'human_a_sq' = 0.8464

@@ -1,0 +1,4 @@
+[17:31:44] [INFO ] Mostro immagine: listening_icon
+[17:31:49] [INFO ] Riconosciuto: Sì, ho voglia di giocare con te.
+[17:31:55] [INFO ] KB: Added predicate 'quiz_introduced'
+[17:31:55] [INFO ] KB: Removed predicate 'emotion_checked'
