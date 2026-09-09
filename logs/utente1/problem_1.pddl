@@ -28,11 +28,11 @@
 
     (= (n_hard) 0)
 
-    (= (ask_uses) 2)
+    (= (ask_uses) 1)
 
     (= (image_uses) 0)
 
-    (= (sound_uses) 0)
+    (= (sound_uses) 1)
 
     (= (mime_uses) 1)
 
@@ -40,13 +40,13 @@
 
     (= (category_limit_bonus) 2)
 
-    (= (ask_coeff) 40)
+    (= (ask_coeff) 60)
 
     (= (mime_coeff) 1)
 
-    (= (sound_coeff) 20)
+    (= (sound_coeff) 40)
 
-    (= (image_coeff) 60)
+    (= (image_coeff) 20)
 
     (= (sound_easy_coeff) 1)
 

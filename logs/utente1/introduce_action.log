@@ -1,0 +1,16 @@
+[17:40:16] [INFO ] Mostro immagine: listening_icon
+[17:40:21] [INFO ] Riconosciuto: No.
+[17:40:29] [INFO ] Mostro immagine: listening_icon
+[17:40:35] [INFO ] Riconosciuto: Mi sto annoiando a questo centro estivo, non c'è niente da fare.
+[17:40:38] [INFO ] Publishing emotion: QT/neutral_state_blinking
+[17:40:39] [INFO ] Playing gesture: QT/hand-front-hold
+[17:40:56] [INFO ] Mostro immagine: listening_icon
+[17:41:00] [INFO ] Riconosciuto: Dai, ho cambiato idea, giochiamo, dai mi hai convinto.
+[17:41:03] [INFO ] Publishing emotion: QT/happy_blinking
+[17:41:04] [INFO ] Playing gesture: QT/monkey
+[17:41:23] [INFO ] Mostro immagine: listening_icon
+[17:41:30] [INFO ] Riconosciuto: Scegli tu non so che giochi puoi fare, dai fammene uno divertente.
+[17:41:32] [INFO ] Publishing emotion: QT/showing_smile
+[17:41:34] [INFO ] Playing gesture: QT/challenge
+[17:41:55] [INFO ] KB: Added predicate 'quiz_introduced'
+[17:41:55] [INFO ] KB: Removed predicate 'emotion_checked'

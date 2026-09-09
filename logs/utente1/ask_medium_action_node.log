@@ -1,0 +1,12 @@
+[17:43:26] [INFO ] QT talking: 'Come si chiama il cucciolo della mucca?'
+[17:43:26] [INFO ] In ascolto (tentativo 1/2)...
+[17:43:26] [INFO ] Mostro immagine: listening_icon
+[17:43:30] [INFO ] Riconosciuto: Filippo.
+[17:43:42] [INFO ] In ascolto (tentativo 2/2)...
+[17:43:42] [INFO ] Mostro immagine: listening_icon
+[17:43:45] [INFO ] Riconosciuto: Giovanni.
+[17:43:55] [INFO ] KB: Set function 'n_questions' = 3.0
+[17:43:55] [INFO ] KB: Set function 'n_medium' = 1.0
+[17:43:55] [INFO ] KB: Set function 'ask_uses' = 1.0
+[17:43:55] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[17:43:55] [INFO ] KB: Added predicate 'answered_wrong'

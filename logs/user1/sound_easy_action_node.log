@@ -1,0 +1,9 @@
+[17:56:17] [INFO ] Riproduzione suono: QT/sound_easy/drum
+[17:56:20] [INFO ] In ascolto (tentativo 1/2)...
+[17:56:20] [INFO ] Mostro immagine: listening_icon
+[17:56:24] [INFO ] Riconosciuto: La batteria, batteria.
+[17:56:32] [INFO ] KB: Set function 'n_questions' = 5.0
+[17:56:32] [INFO ] KB: Set function 'n_easy' = 2.0
+[17:56:32] [INFO ] KB: Set function 'sound_uses' = 1.0
+[17:56:32] [INFO ] KB: Set function 'right_answers' = 4.0
+[17:56:32] [INFO ] KB: Removed predicate 'answered_wrong'

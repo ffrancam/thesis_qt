@@ -1,0 +1,9 @@
+[17:46:14] [INFO ] QT talking: 'Chi ha dipinto la Gioconda?'
+[17:46:14] [INFO ] In ascolto (tentativo 1/2)...
+[17:46:14] [INFO ] Mostro immagine: listening_icon
+[17:46:20] [INFO ] Riconosciuto: Sempre Leonardo da Vinci.
+[17:46:32] [INFO ] KB: Set function 'n_questions' = 5.0
+[17:46:32] [INFO ] KB: Set function 'n_hard' = 1.0
+[17:46:32] [INFO ] KB: Set function 'ask_uses' = 2.0
+[17:46:32] [INFO ] KB: Set function 'right_answers' = 4.0
+[17:46:32] [INFO ] KB: Removed predicate 'answered_wrong'

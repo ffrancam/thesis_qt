@@ -193,6 +193,12 @@ class ComfortAction:
             KnowledgeUpdateServiceRequest.REMOVE_KNOWLEDGE,
             'answered_wrong', []
         )
+        numeric_effects = {
+            'n_easy':     0.0,
+            'n_medium':     0.0,
+        }
+        for fluent_name, value in numeric_effects.items():
+            self._update_function(fluent_name, [], value)
         
 
     # ------------------------------------------------------------------ #

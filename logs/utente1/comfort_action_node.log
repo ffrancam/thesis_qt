@@ -1,0 +1,15 @@
+[17:44:06] [INFO ] Publishing emotion: QT/showing_smile
+[17:44:07] [INFO ] Playing gesture: QT/emotions/calm
+[17:44:24] [INFO ] Mostro immagine: listening_icon
+[17:44:30] [INFO ] Riconosciuto: Bene dai, come prima, non è che è cambiato tanto?
+[17:44:32] [INFO ] Publishing emotion: QT/showing_smile
+[17:44:33] [INFO ] Playing gesture: QT/Show-face
+[17:44:50] [INFO ] Mostro immagine: listening_icon
+[17:44:54] [INFO ] Riconosciuto: Non so tu cosa proponi, proponimi qualcosa.
+[17:44:56] [INFO ] Publishing emotion: QT/showing_smile
+[17:44:57] [INFO ] Playing gesture: QT/show_QT
+[17:45:15] [INFO ] Mostro immagine: listening_icon
+[17:45:19] [INFO ] Riconosciuto: Posso disegnare un vitello?
+[17:45:26] [INFO ] Publishing emotion: QT/happy_blinking
+[17:45:27] [INFO ] Playing gesture: QT/emotions/happy
+[17:45:49] [INFO ] KB: Removed predicate 'answered_wrong'

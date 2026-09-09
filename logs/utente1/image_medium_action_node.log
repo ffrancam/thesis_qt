@@ -1,0 +1,8 @@
+[17:45:52] [INFO ] Mostro immagine: eiffel_icon
+[17:45:52] [INFO ] In ascolto (tentativo 1/2)...
+[17:45:57] [INFO ] Riconosciuto: Questa la so, la Torre Eiffel.
+[17:46:12] [INFO ] KB: Set function 'n_questions' = 4.0
+[17:46:12] [INFO ] KB: Set function 'n_medium' = 2.0
+[17:46:12] [INFO ] KB: Set function 'image_uses' = 1.0
+[17:46:12] [INFO ] KB: Set function 'right_answers' = 3.0
+[17:46:12] [INFO ] KB: Removed predicate 'answered_wrong'

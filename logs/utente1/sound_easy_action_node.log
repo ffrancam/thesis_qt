@@ -1,0 +1,9 @@
+[17:42:01] [INFO ] Riproduzione suono: QT/sound_easy/monkey
+[17:42:05] [INFO ] In ascolto (tentativo 1/2)...
+[17:42:05] [INFO ] Mostro immagine: listening_icon
+[17:42:08] [INFO ] Riconosciuto: Un pappagallo.
+[17:42:17] [INFO ] KB: Set function 'n_questions' = 1.0
+[17:42:17] [INFO ] KB: Set function 'n_easy' = 1.0
+[17:42:17] [INFO ] KB: Set function 'sound_uses' = 1.0
+[17:42:17] [INFO ] KB: Set function 'right_answers' = 1.0
+[17:42:17] [INFO ] KB: Removed predicate 'answered_wrong'
