@@ -226,6 +226,8 @@ class ComfortAction:
             'human_p_sq': 8.5849,
             'human_a':    0.92,
             'human_a_sq': 0.8464,
+            'n_easy': 0.0,
+            'n_medium': 0.0
         }
         for fluent_name, value in numeric_effects.items():
             self._update_function(fluent_name, [], value)

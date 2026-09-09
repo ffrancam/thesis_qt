@@ -1,6 +1,19 @@
-[16:45:28] TIMER START — greet_warmly
-[16:48:52] REPLAN #1 START — triggered by 'check_emotion' FAILED
-[16:48:54] REPLAN #1 DONE
-  Tempo ripianificazione: 2.92s
-[16:50:35] TIMER STOP  — conclude_game
-  Durata sessione: 0:05:07
+[17:58:48] TIMER START — greet_warmly
+[18:01:18] REPLAN #1 START — triggered by 'sound_medium' FAILED
+[18:01:20] REPLAN #1 DONE
+  Tempo ripianificazione: 2.67s
+[18:02:12] REPLAN #2 START — triggered by 'check_emotion' FAILED
+[18:02:14] REPLAN #2 DONE
+  Tempo ripianificazione: 2.84s
+[18:03:12] REPLAN #3 START — triggered by 'check_emotion' FAILED
+[18:03:14] REPLAN #3 DONE
+  Tempo ripianificazione: 2.89s
+[18:04:33] REPLAN #4 START — triggered by 'ask_hard' FAILED
+[18:04:36] REPLAN #4 DONE
+  Tempo ripianificazione: 2.65s
+[18:06:03] REPLAN #5 START — triggered by 'check_emotion' FAILED
+[18:06:06] REPLAN #5 DONE
+  Tempo ripianificazione: 2.80s
+[18:06:38] TIMER STOP  — goodbye done
+  Durata sessione: 0:07:50
+[18:06:38] REPLAN #6 START — triggered by 'raise_stakes' FAILED

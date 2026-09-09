@@ -1,4 +1,4 @@
-[16:45:40] [INFO ] Mostro immagine: listening_icon
-[16:45:42] [INFO ] Riconosciuto: Va bene?
-[16:45:49] [INFO ] KB: Added predicate 'quiz_introduced'
-[16:45:49] [INFO ] KB: Removed predicate 'emotion_checked'
+[17:58:59] [INFO ] Mostro immagine: listening_icon
+[17:59:06] [INFO ] Riconosciuto: Sì.
+[17:59:13] [INFO ] KB: Added predicate 'quiz_introduced'
+[17:59:13] [INFO ] KB: Removed predicate 'emotion_checked'
