@@ -37,13 +37,13 @@
 
     (= (category_limit_bonus) 2)
 
-    (= (ask_coeff) 60)
+    (= (ask_coeff) 1)
 
-    (= (mime_coeff) 20)
+    (= (mime_coeff) 40)
 
-    (= (sound_coeff) 40)
+    (= (sound_coeff) 60)
 
-    (= (image_coeff) 1)
+    (= (image_coeff) 20)
 
     (= (sound_easy_coeff) 1)
 

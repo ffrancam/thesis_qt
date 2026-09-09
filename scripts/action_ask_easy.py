@@ -149,7 +149,8 @@ class AskEasyAction:
             #     (0, lambda: self.qt.talkText(q_text))
             # ])
             self.qt.talkText(q_text)
-            print(f"QT talking: '{q_text}'")
+            #print(f"QT talking: '{q_text}'")
+            rospy.loginfo(f"QT talking: '{q_text}'")
 
             attempt = 0
             no_audio_count = 0

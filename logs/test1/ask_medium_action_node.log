@@ -1,0 +1,8 @@
+[12:57:25] [INFO ] In ascolto (tentativo 1/2)...
+[12:57:25] [INFO ] Mostro immagine: listening_icon
+[12:57:31] [INFO ] Riconosciuto: Il pianeta terra.
+[12:57:43] [INFO ] KB: Set function 'n_questions' = 4.0
+[12:57:43] [INFO ] KB: Set function 'n_medium' = 2.0
+[12:57:43] [INFO ] KB: Set function 'ask_uses' = 2.0
+[12:57:43] [INFO ] KB: Set function 'right_answers' = 4.0
+[12:57:43] [INFO ] KB: Removed predicate 'answered_wrong'
