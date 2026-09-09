@@ -30,7 +30,7 @@ class AskMediumAction:
         'q13': {"question": "Come si chiama il cucciolo della mucca?",                       "correct_answer": ""},
         'q14': {"question": "Come si chiama la figura geometrica rotonda come una palla?",   "correct_answer": ""},
         'q15': {"question": "Quale insetto colorato nasce da un bruco?",                     "correct_answer": ""},
-        'q16': {"question": "Qual è l'animale che porta la sua casa sulla schiena?",         "correct_answer": "la tartaruga / la chiocciola / il granchio / la lumaca"},  # ← senza risposta
+        'q16': {"question": "Qual è l'animale che porta la sua casa sulla schiena?",         "correct_answer": "la tartaruga / la chiocciola / il granchio / la lumaca / il paguro"},  # ← senza risposta
         'q17': {"question": "Dove si trova il Colosseo?",                               "correct_answer": ""},
     }
 

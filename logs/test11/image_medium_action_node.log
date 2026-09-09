@@ -1,0 +1,11 @@
+[16:17:02] [INFO ] Mostro immagine: elicottero_icon
+[16:17:02] [INFO ] In ascolto (tentativo 1/2)...
+[16:17:07] [INFO ] Riconosciuto: Un aereo?
+[16:17:16] [INFO ] Mostro immagine: elicottero_icon
+[16:17:16] [INFO ] In ascolto (tentativo 2/2)...
+[16:17:19] [INFO ] Riconosciuto: In elicottero.
+[16:17:27] [INFO ] KB: Set function 'n_questions' = 4.0
+[16:17:27] [INFO ] KB: Set function 'n_medium' = 2.0
+[16:17:27] [INFO ] KB: Set function 'image_uses' = 1.0
+[16:17:27] [INFO ] KB: Set function 'right_answers' = 3.0
+[16:17:27] [INFO ] KB: Removed predicate 'answered_wrong'

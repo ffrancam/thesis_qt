@@ -1,0 +1,8 @@
+[15:38:52] [INFO ] In ascolto (tentativo 1/2)...
+[15:38:52] [INFO ] Mostro immagine: listening_icon
+[15:38:56] [INFO ] Riconosciuto: Va bene, stavi sbadigliando.
+[15:39:04] [INFO ] KB: Set function 'n_questions' = 1.0
+[15:39:04] [INFO ] KB: Set function 'n_easy' = 1.0
+[15:39:04] [INFO ] KB: Set function 'mime_uses' = 1.0
+[15:39:04] [INFO ] KB: Set function 'right_answers' = 1.0
+[15:39:04] [INFO ] KB: Removed predicate 'answered_wrong'

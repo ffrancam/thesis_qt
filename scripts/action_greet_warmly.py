@@ -122,7 +122,7 @@ class GreetWarmlyAction:
         try:
             results = self.qt.ts.sync([
                 (0, lambda: self.qt.emotionShow('QT/happy')),
-                #(0, lambda: self.qt.gesturePlay('QT/hi', 0)),
+                (0, lambda: self.qt.gesturePlay('QT/hi', 0)),
                 (0, lambda: self.qt.talkText("Ciao, sono QT! Felice di conoscerti!"))
             ])
             return True

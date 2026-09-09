@@ -23,8 +23,8 @@ class SoundHardAction:
         'q6':  ("QT/sound_hard/fans_in_the_stadium",     "Ascolta questo enorme boato di persone. In quale grande luogo ci troviamo?", "allo stadio / a una partita"),
         'q7':  ("QT/sound_hard/siren_doppler",    "Ascolta questa sirena della polizia. Il suono cambia tono: la macchina si sta avvicinando o allontanando?",  "si sta allontanando / sta andando via"),
         'q8':  ("QT/sound_hard/pouring_water_in_glass",   "Ascolta l'acqua che viene versata. Il suono diventa sempre più acuto. Cosa succede al bicchiere?", "si sta riempiendo / è pieno fino all'orlo"),
-        'q9':  ("QT/sound_hard/metronome",    "Ascolta questi rintocchi giganti. Quale edificio religioso sta suonando?",        "una chiesa / il campanile della chiesa"),
-        'q10': ("QT/sound_hard/church_bells",  "Ascolta questo ticchettio perfetto. Quale strumento aiuta i musicisti ad andare a tempo?",      "il metronomo"),
+        'q9':  ("QT/sound_hard/church_bells",    "Ascolta questi rintocchi giganti. Cos'è?",        "una campana / il campanile della chiesa / una camapana della chiesa"),
+        'q10': ("QT/sound_hard/metronome ",  "Ascolta questo ticchettio perfetto. Quale strumento aiuta i musicisti ad andare a tempo?",      "il metronomo"),
     }
 
     MAX_ATTEMPTS = 2
@@ -145,7 +145,7 @@ class SoundHardAction:
 
                 if self.qt.check_repeat_request(transcript):
                     self.qt.talkText(q_text)
-                    self.qt.play_sound(filename)
+                    #self.qt.play_sound(filename)
                     continue
 
                 attempt += 1

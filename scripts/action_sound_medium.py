@@ -145,7 +145,7 @@ class SoundMediumAction:
 
                 if self.qt.check_repeat_request(transcript):
                     self.qt.talkText(q_text)
-                    self.qt.play_sound(filename)
+                    #self.qt.play_sound(filename)
                     continue
 
                 attempt += 1

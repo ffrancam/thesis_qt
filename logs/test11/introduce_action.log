@@ -1,0 +1,16 @@
+[16:12:15] [INFO ] Mostro immagine: listening_icon
+[16:12:18] [INFO ] Riconosciuto: No, non mi va.
+[16:12:26] [INFO ] Mostro immagine: listening_icon
+[16:12:30] [INFO ] Riconosciuto: Puoi raccontarmi tu una storia?
+[16:12:33] [INFO ] Publishing emotion: QT/showing_smile
+[16:12:34] [INFO ] Playing gesture: QT/Show-face
+[16:12:50] [INFO ] Mostro immagine: listening_icon
+[16:12:54] [INFO ] Riconosciuto: Mistero, raccontami una storia del mistero.
+[16:12:56] [INFO ] Publishing emotion: QT/talking
+[16:12:58] [INFO ] Playing gesture: QT/show_QT
+[16:13:30] [INFO ] Mostro immagine: listening_icon
+[16:13:42] [INFO ] Riconosciuto: Sì, mi piacciono.
+[16:13:44] [INFO ] Publishing emotion: QT/showing_smile
+[16:13:45] [INFO ] Playing gesture: QT/hi
+[16:14:09] [INFO ] KB: Added predicate 'quiz_introduced'
+[16:14:09] [INFO ] KB: Removed predicate 'emotion_checked'

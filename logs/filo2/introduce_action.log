@@ -1,0 +1,16 @@
+[15:37:18] [INFO ] Mostro immagine: listening_icon
+[15:37:21] [INFO ] Riconosciuto: Boh, non ho molta voglia adesso.
+[15:37:29] [INFO ] Mostro immagine: listening_icon
+[15:37:34] [INFO ] Riconosciuto: Sono in laboratorio.
+[15:37:37] [INFO ] Publishing emotion: QT/showing_smile
+[15:37:39] [INFO ] Playing gesture: QT/Show-face
+[15:37:51] [INFO ] Mostro immagine: listening_icon
+[15:37:56] [INFO ] Riconosciuto: Parlo con te, ti devo testare.
+[15:37:58] [INFO ] Publishing emotion: QT/neutral_state_blinking
+[15:37:59] [INFO ] Playing gesture: QT/neutral
+[15:38:10] [INFO ] Mostro immagine: listening_icon
+[15:38:15] [INFO ] Riconosciuto: Che le cose funzionano.
+[15:38:17] [INFO ] Publishing emotion: QT/happy_blinking
+[15:38:18] [INFO ] Playing gesture: QT/monkey
+[15:38:44] [INFO ] KB: Added predicate 'quiz_introduced'
+[15:38:44] [INFO ] KB: Removed predicate 'emotion_checked'

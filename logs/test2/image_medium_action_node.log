@@ -1,0 +1,8 @@
+[15:44:40] [INFO ] Mostro immagine: diga_icon
+[15:44:40] [INFO ] In ascolto (tentativo 1/2)...
+[15:44:43] [INFO ] Riconosciuto: Il castoro.
+[15:44:54] [INFO ] KB: Set function 'n_questions' = 3.0
+[15:44:54] [INFO ] KB: Set function 'n_medium' = 1.0
+[15:44:54] [INFO ] KB: Set function 'image_uses' = 1.0
+[15:44:54] [INFO ] KB: Set function 'right_answers' = 3.0
+[15:44:54] [INFO ] KB: Removed predicate 'answered_wrong'

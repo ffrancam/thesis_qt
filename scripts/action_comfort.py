@@ -43,7 +43,7 @@ COMFORT_SAD_OPENING = (
 
 class ComfortAction:
 
-    NUM_TURNS = 2
+    NUM_TURNS = 3
 
     def __init__(self):
         rospy.init_node('comfort_action_node')

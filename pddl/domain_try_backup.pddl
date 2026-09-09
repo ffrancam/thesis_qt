@@ -81,7 +81,7 @@
         :precondition (and
             (interaction_started)
             (quiz_introduced)
-            (= (n_questions) 4)
+            (= (n_questions) 5)
         )
         :effect (and
             (not (quiz_introduced))

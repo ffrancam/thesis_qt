@@ -1,0 +1,8 @@
+[16:25:39] [INFO ] Mostro immagine: bussola_icon
+[16:25:39] [INFO ] In ascolto (tentativo 1/2)...
+[16:25:43] [INFO ] Riconosciuto: A orientarsi.
+[16:25:54] [INFO ] KB: Set function 'n_questions' = 4.0
+[16:25:54] [INFO ] KB: Set function 'n_medium' = 2.0
+[16:25:54] [INFO ] KB: Set function 'image_uses' = 1.0
+[16:25:54] [INFO ] KB: Set function 'right_answers' = 4.0
+[16:25:54] [INFO ] KB: Removed predicate 'answered_wrong'

@@ -1,0 +1,20 @@
+=== Session: test12  started at 2026-09-09 16:19:40.440932 ===
+[16:19:51] DISPATCH  id=  0  greet_warmly()
+[16:19:51] FEEDBACK  id=  0  ENABLED
+[16:19:51] FEEDBACK  id=  0  ENABLED
+[16:20:00] FEEDBACK  id=  0  SUCCEEDED ✓
+[16:20:00] DISPATCH  id=  1  introduce_game()
+[16:20:00] FEEDBACK  id=  1  ENABLED
+[16:20:00] FEEDBACK  id=  1  ENABLED
+[16:20:12] FEEDBACK  id=  1  SUCCEEDED ✓
+[16:20:13] DISPATCH  id=  2  ask_easy()
+[16:20:13] FEEDBACK  id=  2  ENABLED
+[16:20:13] FEEDBACK  id=  2  ENABLED
+[16:20:31] FEEDBACK  id=  2  SUCCEEDED ✓
+[16:20:32] FEEDBACK  id=  3  ENABLED
+[16:20:32] DISPATCH  id=  3  mime_easy()
+[16:20:32] FEEDBACK  id=  3  ENABLED
+[16:20:56] FEEDBACK  id=  3  SUCCEEDED ✓
+[16:20:56] DISPATCH  id=  4  sound_medium()
+[16:20:56] FEEDBACK  id=  4  ENABLED
+[16:20:56] FEEDBACK  id=  4  ENABLED

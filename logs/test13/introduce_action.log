@@ -1,0 +1,4 @@
+[16:24:29] [INFO ] Mostro immagine: listening_icon
+[16:24:31] [INFO ] Riconosciuto: Sì, giochiamo.
+[16:24:38] [INFO ] KB: Added predicate 'quiz_introduced'
+[16:24:38] [INFO ] KB: Removed predicate 'emotion_checked'

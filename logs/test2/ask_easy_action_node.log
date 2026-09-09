@@ -1,0 +1,24 @@
+[15:43:39] [INFO ] QT talking: 'Quali sono i colori primari?'
+[15:43:39] [INFO ] In ascolto (tentativo 1/2)...
+[15:43:39] [INFO ] Mostro immagine: listening_icon
+[15:43:44] [INFO ] Riconosciuto: Rosso, blu e giallo.
+[15:43:56] [INFO ] KB: Set function 'n_questions' = 1.0
+[15:43:56] [INFO ] KB: Set function 'n_easy' = 1.0
+[15:43:56] [INFO ] KB: Set function 'ask_uses' = 1.0
+[15:43:56] [INFO ] KB: Set function 'right_answers' = 1.0
+[15:43:56] [INFO ] KB: Removed predicate 'answered_wrong'
+[15:43:59] [INFO ] QT talking: 'Qual è il numero che viene dopo il 10?'
+[15:43:59] [INFO ] In ascolto (tentativo 1/2)...
+[15:43:59] [INFO ] Mostro immagine: listening_icon
+[15:44:03] [INFO ] Riconosciuto: Unici.
+[15:44:13] [INFO ] In ascolto (tentativo 2/2)...
+[15:44:13] [INFO ] Mostro immagine: listening_icon
+[15:44:16] [INFO ] Riconosciuto: Puoi ripetere?
+[15:44:19] [INFO ] In ascolto (tentativo 2/2)...
+[15:44:19] [INFO ] Mostro immagine: listening_icon
+[15:44:22] [INFO ] Riconosciuto: 11.
+[15:44:33] [INFO ] KB: Set function 'n_questions' = 2.0
+[15:44:33] [INFO ] KB: Set function 'n_easy' = 2.0
+[15:44:33] [INFO ] KB: Set function 'ask_uses' = 2.0
+[15:44:33] [INFO ] KB: Set function 'right_answers' = 2.0
+[15:44:33] [INFO ] KB: Removed predicate 'answered_wrong'
