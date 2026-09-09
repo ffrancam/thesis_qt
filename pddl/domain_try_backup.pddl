@@ -109,7 +109,7 @@
         :precondition (and 
             (interaction_started)
             (quiz_introduced)
-            (= (n_questions) 4)
+            (= (n_questions) 5)
             ;(= (human_e) 3.44)
         )
         :effect (and 

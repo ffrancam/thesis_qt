@@ -1,0 +1,21 @@
+[16:46:05] [INFO ] Mostro immagine: tennis_icon
+[16:46:05] [INFO ] In ascolto (tentativo 1/2)...
+[16:46:09] [INFO ] Riconosciuto: Tennis.
+[16:46:21] [INFO ] KB: Set function 'n_questions' = 1.0
+[16:46:21] [INFO ] KB: Set function 'n_easy' = 1.0
+[16:46:21] [INFO ] KB: Set function 'image_uses' = 1.0
+[16:46:21] [INFO ] KB: Set function 'right_answers' = 1.0
+[16:46:21] [INFO ] KB: Removed predicate 'answered_wrong'
+[16:46:21] [INFO ] KB: Removed predicate 'emotion_checked'
+[16:46:21] [INFO ] KB: Set function 'robot_e' = 3.44
+[16:46:21] [INFO ] KB: Set function 'robot_p' = 2.93
+[16:46:21] [INFO ] KB: Set function 'robot_a' = 0.92
+[16:46:21] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[16:46:21] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[16:46:21] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[16:46:21] [INFO ] KB: Set function 'human_e' = 3.44
+[16:46:21] [INFO ] KB: Set function 'human_p' = 2.93
+[16:46:21] [INFO ] KB: Set function 'human_a' = 0.92
+[16:46:21] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[16:46:21] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[16:46:21] [INFO ] KB: Set function 'human_a_sq' = 0.8464
