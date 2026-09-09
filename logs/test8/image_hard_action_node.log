@@ -1,0 +1,21 @@
+[15:10:34] [INFO ] Mostro immagine: owl_icon
+[15:10:34] [INFO ] In ascolto (tentativo 1/2)...
+[15:10:43] [INFO ] Riconosciuto: Magari si gira quasi.
+[15:10:53] [INFO ] KB: Set function 'n_questions' = 2.0
+[15:10:53] [INFO ] KB: Set function 'n_hard' = 4.0
+[15:10:53] [INFO ] KB: Set function 'image_uses' = 1.0
+[15:10:53] [INFO ] KB: Set function 'right_answers' = 2.0
+[15:10:53] [INFO ] KB: Removed predicate 'answered_wrong'
+[15:10:53] [INFO ] KB: Removed predicate 'emotion_checked'
+[15:10:53] [INFO ] KB: Set function 'robot_e' = 3.44
+[15:10:53] [INFO ] KB: Set function 'robot_p' = 2.93
+[15:10:53] [INFO ] KB: Set function 'robot_a' = 0.92
+[15:10:53] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[15:10:53] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[15:10:53] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[15:10:53] [INFO ] KB: Set function 'human_e' = 3.44
+[15:10:53] [INFO ] KB: Set function 'human_p' = 2.93
+[15:10:53] [INFO ] KB: Set function 'human_a' = 0.92
+[15:10:53] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[15:10:53] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[15:10:53] [INFO ] KB: Set function 'human_a_sq' = 0.8464

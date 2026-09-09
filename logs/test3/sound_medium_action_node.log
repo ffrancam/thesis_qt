@@ -1,0 +1,22 @@
+[14:41:16] [INFO ] Riproduzione suono: QT/sound_medium/harp
+[14:41:18] [INFO ] In ascolto (tentativo 1/2)...
+[14:41:18] [INFO ] Mostro immagine: listening_icon
+[14:41:22] [INFO ] Riconosciuto: È un'arpa.
+[14:41:29] [INFO ] KB: Set function 'n_questions' = 4.0
+[14:41:29] [INFO ] KB: Set function 'n_medium' = 2.0
+[14:41:29] [INFO ] KB: Set function 'sound_uses' = 1.0
+[14:41:29] [INFO ] KB: Set function 'right_answers' = 2.0
+[14:41:29] [INFO ] KB: Removed predicate 'answered_wrong'
+[14:41:29] [INFO ] KB: Removed predicate 'emotion_checked'
+[14:41:29] [INFO ] KB: Set function 'robot_e' = 3.44
+[14:41:29] [INFO ] KB: Set function 'robot_p' = 2.93
+[14:41:29] [INFO ] KB: Set function 'robot_a' = 0.92
+[14:41:29] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[14:41:29] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[14:41:29] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[14:41:30] [INFO ] KB: Set function 'human_e' = 3.44
+[14:41:30] [INFO ] KB: Set function 'human_p' = 2.93
+[14:41:30] [INFO ] KB: Set function 'human_a' = 0.92
+[14:41:30] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[14:41:30] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[14:41:30] [INFO ] KB: Set function 'human_a_sq' = 0.8464

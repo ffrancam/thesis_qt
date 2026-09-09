@@ -51,9 +51,6 @@ class ComfortAction:
 
         self.bot = QTChatBot()
 
-        rospy.Subscriber('/rosplan_plan_dispatcher/action_dispatch',
-                         ActionDispatch, self.action_callback)
-
         self.feedback_pub = rospy.Publisher('/rosplan_plan_dispatcher/action_feedback',
                                             ActionFeedback, queue_size=10)
 
@@ -70,6 +67,14 @@ class ComfortAction:
             '/rosplan_knowledge_base/state/propositions',
             GetAttributeService
         )
+
+        # ← self.sub, non solo rospy.Subscriber(...)
+        self.sub = rospy.Subscriber('/rosplan_plan_dispatcher/action_dispatch',
+                                    ActionDispatch, self.action_callback)
+
+        timeout = rospy.Time.now() + rospy.Duration(5.0)
+        while self.sub.get_num_connections() == 0 and rospy.Time.now() < timeout:
+            rospy.sleep(0.1)
 
         print("Comfort Action Interface ready!")
         rospy.spin()

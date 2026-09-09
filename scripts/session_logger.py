@@ -77,6 +77,8 @@ class SessionLogger:
                          ActionFeedback, self._on_feedback)
         rospy.Subscriber('/rosout_agg', Log, self._on_rosout)
 
+        rospy.Subscriber('/session/goodbye_done', String, self._on_goodbye_done)
+
         # ── Snapshot iniziale KB ──────────────────────────────────────────────
         rospy.Timer(rospy.Duration(3.0), self._initial_snapshot, oneshot=True)
 
@@ -137,6 +139,19 @@ class SessionLogger:
                 f"[{self._timer_start.strftime('%H:%M:%S')}] TIMER START — greet_warmly\n"
             )
 
+    
+    def _on_goodbye_done(self, msg):
+        if self._timer_start:
+            end   = datetime.now()
+            delta = end - self._timer_start
+            total = str(delta).split('.')[0]
+            self._write_timer(
+                f"[{end.strftime('%H:%M:%S')}] TIMER STOP  — goodbye done\n"
+                f"  Durata sessione: {total}\n"
+            )
+            self._timer_start = None
+
+
     def _on_feedback(self, msg: ActionFeedback):
         status_map = {
             ActionFeedback.ACTION_ENABLED:                 'ENABLED',
@@ -148,19 +163,15 @@ class SessionLogger:
         self._write_dispatch(line)
 
         action_name = self._id_to_name.get(msg.action_id, '')
-        is_terminal = msg.status in (
-            ActionFeedback.ACTION_SUCCEEDED_TO_GOAL_STATE,
-            ActionFeedback.ACTION_FAILED,
-        )
 
-        # Stoppa timer sessione su conclude_game o raise_stakes
-        if action_name in ('conclude_game', 'raise_stakes') and is_terminal:
+        # Stoppa timer sessione solo su conclude_game SUCCEEDED
+        if action_name == 'conclude_game' and msg.status == ActionFeedback.ACTION_SUCCEEDED_TO_GOAL_STATE:
             if self._timer_start:
                 end   = datetime.now()
                 delta = end - self._timer_start
                 total = str(delta).split('.')[0]
                 self._write_timer(
-                    f"[{end.strftime('%H:%M:%S')}] TIMER STOP  — {action_name}\n"
+                    f"[{end.strftime('%H:%M:%S')}] TIMER STOP  — conclude_game\n"
                     f"  Durata sessione: {total}\n"
                 )
                 self._timer_start = None
@@ -169,11 +180,12 @@ class SessionLogger:
         if msg.status == ActionFeedback.ACTION_FAILED:
             self._replan_start = datetime.now()
             with self._lock:
-                replan_idx = self._plan_count  # il prossimo piano che arriverà
+                replan_idx = self._plan_count
             self._write_timer(
                 f"[{self._replan_start.strftime('%H:%M:%S')}] REPLAN #{replan_idx} START"
                 f" — triggered by '{action_name}' FAILED\n"
             )
+
 
     def _on_rosout(self, msg: Log):
         is_action    = 'action' in msg.name

@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import rospy
 import threading
+from std_msgs.msg import String
 from rosplan_dispatch_msgs.msg import ActionDispatch, ActionFeedback
 from rosplan_knowledge_msgs.srv import KnowledgeUpdateService, KnowledgeUpdateServiceRequest, GetAttributeService
 from rosplan_knowledge_msgs.msg import KnowledgeItem
@@ -30,6 +31,9 @@ class RaiseStakesAction:
         rospy.wait_for_service('/rosplan_knowledge_base/state/functions')
         self.get_functions = rospy.ServiceProxy('/rosplan_knowledge_base/state/functions',
                                                 GetAttributeService)
+
+        self.goodbye_pub = rospy.Publisher('/session/goodbye_done', 
+                                       String, queue_size=1)
 
         print("Raise Stakes Action Interface ready!")
         rospy.spin()
@@ -105,6 +109,7 @@ class RaiseStakesAction:
             (0, lambda: self.bot.qt.emotionShow('QT/goodbye')),
             (0, lambda: self.bot.qt.gesturePlay('QT/bye', 1.0)),
         ])
+        self.goodbye_pub.publish(String(data='done'))
 
     # ------------------------------------------------------------------ #
 

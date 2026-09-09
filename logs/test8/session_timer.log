@@ -1,0 +1,10 @@
+[15:09:04] TIMER START — greet_warmly
+[15:09:41] REPLAN #1 START — triggered by 'check_emotion' FAILED
+[15:09:44] REPLAN #1 DONE
+  Tempo ripianificazione: 2.83s
+[15:10:56] REPLAN #2 START — triggered by 'check_emotion' FAILED
+[15:10:59] REPLAN #2 DONE
+  Tempo ripianificazione: 2.89s
+[15:11:31] TIMER STOP  — goodbye done
+  Durata sessione: 0:02:26
+[15:11:31] REPLAN #3 START — triggered by 'raise_stakes' FAILED

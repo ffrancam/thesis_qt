@@ -180,8 +180,8 @@ class TellAJokeAction:
             elif line.upper().startswith("PUNCHLINE:"):
                 punchline = line.split(":", 1)[1].strip()
 
-        print(f"[DEBUG] Setup: {setup}")
-        print(f"[DEBUG] Punchline: {punchline}")
+        rospy.loginfo(f"Setup: {setup}")
+        rospy.loginfo(f"Punchline: {punchline}")
         return setup, punchline
 
     # ------------------------------------------------------------------ #
@@ -200,7 +200,7 @@ class TellAJokeAction:
                     f"Rispondi SOLO con SI o NO."
                 )
                 raw = self.bot.aimodel.generate(prompt)
-                print(f"[DEBUG] Guess check: {repr(raw)}")
+                rospy.loginfo(f"Guess check: {repr(raw)}")
                 result["guessed"] = raw and "SI" in raw.upper()
             finally:
                 loop.close()
