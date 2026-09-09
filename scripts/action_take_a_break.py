@@ -144,7 +144,7 @@ class TakeABreakAction:
 
     def apply_effects(self):
 
-        self._update_predicate(REMOVE_KNOWLEDGE, 'emotion_checked', [])
+        self._update_predicate(KnowledgeUpdateServiceRequest.REMOVE_KNOWLEDGE, 'emotion_checked', [])
         
         numeric_effects = {
             'robot_e':    3.44,

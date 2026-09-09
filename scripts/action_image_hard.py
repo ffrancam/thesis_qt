@@ -150,7 +150,7 @@ class ImageHardAction:
 
                 if self.qt.check_repeat_request(transcript):
                     self.qt.talkText(q_text)
-                    self.qt.show_image(filename)
+                    self.qt.show_image(filename + "_icon")
                     continue
 
                 attempt += 1

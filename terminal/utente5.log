@@ -1,0 +1,312 @@
+Script started on 2026-09-09 10:14:35+02:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="43" LINES="15"]
+]0;qtrobot@QTPC: ~[01;32mqtrobot@QTPC[00m:[01;34m~[00m$ exitroslaunch thesis_qt qt_test_actions.launch session_name:=utente4[K5
+... logging to /home/qtrobot/.ros/log/9d871b7a-aba6-11f1-876c-19147f89d1d9/roslaunch-QTPC-20456.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/qtrobot/catkin_ws/src/thesis_qt/launch/qt_test_actions.launch
+[1mstarted roslaunch server http://192.168.100.2:33747/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /azure/key: BKVtbDT7matA6cc5Y...
+ * /azure/region: italynorth
+ * /check_emotion_action/manual_emotion: True
+ * /morphcast/license_key: sk47883e278895186...
+ * /offline_conversation/asr: vosk
+ * /offline_conversation/engine: openai
+ * /offline_conversation/groq/api_key: gsk_l6DWfd1Ay28Me...
+ * /offline_conversation/groq/max_sentence: 2
+ * /offline_conversation/groq/max_token_length: 4096
+ * /offline_conversation/groq/memory_size: 10
+ * /offline_conversation/groq/model: llama-3.3-70b-ver...
+ * /offline_conversation/groq/prompt: Rispondi sempre i...
+ * /offline_conversation/groq/temperature: 0.7
+ * /offline_conversation/ollama/api_base: http://localhost:...
+ * /offline_conversation/ollama/frequency_penalty: 0.6
+ * /offline_conversation/ollama/max_sentence: 2
+ * /offline_conversation/ollama/max_token_length: 4096
+ * /offline_conversation/ollama/memory_size: 0
+ * /offline_conversation/ollama/model: phi3
+ * /offline_conversation/ollama/presence_penalty: 0.6
+ * /offline_conversation/ollama/prompt: Rispondi sempre i...
+ * /offline_conversation/ollama/temperature: 0.8
+ * /offline_conversation/openai/api_base: https://api.opena...
+ * /offline_conversation/openai/api_key: sk-proj-zKdkMayFQ...
+ * /offline_conversation/openai/frequency_penalty: 0.6
+ * /offline_conversation/openai/max_sentence: 2
+ * /offline_conversation/openai/max_token_length: 300
+ * /offline_conversation/openai/memory_size: 3
+ * /offline_conversation/openai/model: gpt-4o-mini
+ * /offline_conversation/openai/presence_penalty: 0.6
+ * /offline_conversation/openai/prompt: Sei QT, un piccol...
+ * /offline_conversation/openai/temperature: 0.5
+ * /offline_conversation/sentiment: True
+ * /offline_conversation/show_sentiment: False
+ * /offline_conversation/tts_voice: it_IT
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+ * /session_logger_node/session_name: utente5
+
+NODES
+  /
+    ask_easy_action_node (thesis_qt/action_ask_easy.py)
+    ask_for_help_action_node (thesis_qt/action_ask_for_help.py)
+    ask_hard_action_node (thesis_qt/action_ask_hard.py)
+    ask_medium_action_node (thesis_qt/action_ask_medium.py)
+    calm_down_action_node (thesis_qt/action_calm_down.py)
+    check_emotion_action (thesis_qt/action_check_emotion.py)
+    comfort_action_node (thesis_qt/action_comfort.py)
+    conclude_game_action_node (thesis_qt/action_conclude_game.py)
+    conversate_action_node (thesis_qt/action_conversate.py)
+    emotion_converter_srv_node (thesis_qt/emotion_converter.py)
+    emotion_selector_node (thesis_qt/service_emotion_selector.py)
+    gesture_selector_node (thesis_qt/service_gesture_selector.py)
+    goodbye_action_node (thesis_qt/action_goodbye.py)
+    greet_warmly_action_node (thesis_qt/action_greet_warmly.py)
+    image_easy_action_node (thesis_qt/action_image_easy.py)
+    image_hard_action_node (thesis_qt/action_image_hard.py)
+    image_medium_action_node (thesis_qt/action_image_medium.py)
+    introduce_action (thesis_qt/action_introduce.py)
+    mime_easy_action_node (thesis_qt/action_mime_easy.py)
+    qt_test_node (thesis_qt/qt_test.py)
+    raise_stakes_action_node (thesis_qt/action_raise_stakes.py)
+    reset_emotion_action_node (thesis_qt/action_reset_emotion.py)
+    response_evaluator_node (thesis_qt/response_evaluator.py)
+    sentiment_analyzer_node (thesis_qt/sentiment_analyzer.py)
+    session_logger_node (thesis_qt/session_logger.py)
+    show_vulnerability_action_node (thesis_qt/action_show_vulnerability.py)
+    sound_easy_action_node (thesis_qt/action_sound_easy.py)
+    sound_hard_action_node (thesis_qt/action_sound_hard.py)
+    sound_medium_action_node (thesis_qt/action_sound_medium.py)
+    spark_curiosity_action_node (thesis_qt/action_spark_curiosity.py)
+    take_a_break_action_node (thesis_qt/action_take_a_break.py)
+    tell_a_joke_action_node (thesis_qt/action_tell_a_joke.py)
+
+[1mROS_MASTER_URI=http://192.168.100.1:11311[0m
+]2;/home/qtrobot/catkin_ws/src/thesis_qt/launch/qt_test_actions.launch http://192.168.100.1:11311
+[1mprocess[qt_test_node-1]: started with pid [20479][0m
+[1mprocess[session_logger_node-2]: started with pid [20480][0m
+[1mprocess[response_evaluator_node-3]: started with pid [20481][0m
+[1mprocess[emotion_selector_node-4]: started with pid [20482][0m
+[1mprocess[gesture_selector_node-5]: started with pid [20483][0m
+[1mprocess[emotion_converter_srv_node-6]: started with pid [20491][0m
+[1mprocess[sentiment_analyzer_node-7]: started with pid [20508][0m
+[1mprocess[check_emotion_action-8]: started with pid [20517][0m
+[1mprocess[introduce_action-9]: started with pid [20533][0m
+[1mprocess[greet_warmly_action_node-10]: started with pid [20550][0m
+[1mprocess[conversate_action_node-11]: started with pid [20551][0m
+[1mprocess[ask_easy_action_node-12]: started with pid [20559][0m
+[1mprocess[ask_medium_action_node-13]: started with pid [20561][0m
+[1mprocess[ask_hard_action_node-14]: started with pid [20576][0m
+[1mprocess[sound_easy_action_node-15]: started with pid [20578][0m
+[1mprocess[sound_medium_action_node-16]: started with pid [20591][0m
+[1mprocess[sound_hard_action_node-17]: started with pid [20611][0m
+[1mprocess[image_easy_action_node-18]: started with pid [20612][0m
+[1mprocess[image_medium_action_node-19]: started with pid [20615][0m
+[1mprocess[image_hard_action_node-20]: started with pid [20635][0m
+[1mprocess[mime_easy_action_node-21]: started with pid [20643][0m
+[INFO] [1788941679.604929]: [SessionLogger] Session directory: /home/qtrobot/catkin_ws/src/thesis_qt/logs/utente5
+[1mprocess[conclude_game_action_node-22]: started with pid [20653][0m
+[1mprocess[goodbye_action_node-23]: started with pid [20670][0m
+[1mprocess[comfort_action_node-24]: started with pid [20681][0m
+INFO: cannot create a symlink to latest log directory: [Errno 17] File exists: '/home/qtrobot/.ros/log/9d871b7a-aba6-11f1-876c-19147f89d1d9' -> '/home/qtrobot/.ros/log/latest'
+[1mprocess[tell_a_joke_action_node-25]: started with pid [20686][0m
+✓ Domain backup saved to: /home/qtrobot/catkin_ws/src/thesis_qt/pddl/domain_try_backup.pddl
+Waiting for ROSPlan services...
+[1mprocess[take_a_break_action_node-26]: started with pid [20713][0m
+ROSPlan services ready!
+
+=== Clearing Knowledge Base ===
+
+✗ Error: service [/rosplan_knowledge_base/clear] responded with an error: b''
+Traceback (most recent call last):
+  File "/home/qtrobot/catkin_ws/src/thesis_qt/scripts/qt_test.py", line 245, in main
+    test.setup_problem()
+  File "/home/qtrobot/catkin_ws/src/thesis_qt/scripts/qt_test.py", line 123, in setup_problem
+    self.clear_kb()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_service.py", line 442, in __call__
+    return self.call(*args, **kwds)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_service.py", line 523, in call
+    responses = transport.receive_once()
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_base.py", line 742, in receive_once
+    p.read_messages(b, msg_queue, sock)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_service.py", line 360, in read_messages
+    self._read_ok_byte(b, sock)
+  File "/opt/ros/noetic/lib/python3/dist-packages/rospy/impl/tcpros_service.py", line 343, in _read_ok_byte
+    raise ServiceException("service [%s] responded with an error: %s"%(self.resolved_name, str))
+rospy.service.ServiceException: service [/rosplan_knowledge_base/clear] responded with an error: b''
+[1mprocess[spark_curiosity_action_node-27]: started with pid [20722][0m
+✓ Response Evaluator Service ready!
+[1mprocess[raise_stakes_action_node-28]: started with pid [20725][0m
+[INFO] [1788941679.947206]: Emotion converter service initialized succesfully.
+[INFO] [1788941679.969193]: ✓ /gesture_selector service ready.
+[1mprocess[calm_down_action_node-29]: started with pid [20745][0m
+[1mprocess[reset_emotion_action_node-30]: started with pid [20747][0m
+[1mprocess[ask_for_help_action_node-31]: started with pid [20771][0m
+[1mprocess[show_vulnerability_action_node-32]: started with pid [20786][0m
+[INFO] [1788941680.319606]: ✓ /emotion_selector service ready.
+✓ Sentiment Analyzer Service ready!
+Greet Warmly Action Node started!
+Ask Easy Action Node started!
+Sound Hard Action Node started!
+Ask Medium Action Node started!
+Image Hard Action Node started!
+Ask Hard Action Node started!
+Sound Easy Action Node started!
+Greet Warmly Action Interface ready!
+Sound Medium Action Node started!
+[33m[WARN] [1788941680.867776]: [CheckEmotion] Manual emotion mode ENABLED.
+[0m[1m[qt_test_node-1] process has finished cleanly
+log file: /home/qtrobot/.ros/log/9d871b7a-aba6-11f1-876c-19147f89d1d9/qt_test_node-1*.log[0m
+Ask Easy Action Interface ready!
+Mime Easy Action Node started!
+Conclude Game Action Node started!
+Goodbye Action Node started!
+Image Easy Action Node started!
+Calm Down Action Node started!
+Reset Emotion Action Node started!
+Image Medium Action Node started!
+Image Hard Action Interface ready!
+Sound Hard Action Interface ready!
+Ask Medium Action Interface ready!
+Ask Hard Action Interface ready!
+Waiting for ROSPlan services...
+Introduce Action Node started!
+Sound Medium Action Interface ready!
+Calm Down Action Interface ready!
+Goodbye Action Interface ready!
+Spark Curiosity Action Node started!
+Conversate Action Node started!
+Conclude Game Action Interface ready!
+Sound Easy Action Interface ready!
+Mime Easy Action Interface ready!
+Reset Emotion Action Interface ready!
+✓ Check Emotion Action Interface ready!
+Ask For Help Action Node started!
+Raise Stakes Action Node started!
+Tell A Joke Action Node started!
+Take A Break Action Node started!
+Image Medium Action Interface ready!
+Comfort Action Node started!
+Image Easy Action Interface ready!
+[INFO] [1788941682.472139]: Waiting for /sentiment_analyzer service...
+[INFO] [1788941682.508237]: Waiting for /sentiment_analyzer service...
+Show Vulnerability Action Node started!
+[INFO] [1788941682.595939]: Waiting for /sentiment_analyzer service...
+[INFO] [1788941682.639324]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1788941682.647482]: Waiting for /emotion_selector service...
+[INFO] [1788941682.673674]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1788941682.677279]: Waiting for /emotion_selector service...
+[INFO] [1788941682.701844]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1788941682.708626]: Waiting for /emotion_selector service...
+[INFO] [1788941682.719596]: ✓ Connected to /emotion_selector service.
+[INFO] [1788941682.722975]: Waiting for /gesture_selector service...
+[INFO] [1788941682.729003]: ✓ Connected to /emotion_selector service.
+[INFO] [1788941682.733006]: Waiting for /gesture_selector service...
+[INFO] [1788941682.753949]: ✓ Connected to /emotion_selector service.
+[INFO] [1788941682.755945]: ✓ Connected to /gesture_selector service.
+[INFO] [1788941682.761066]: ✓ Connected to /gesture_selector service.
+[INFO] [1788941682.764565]: Waiting for /gesture_selector service...
+[INFO] [1788941682.804938]: ✓ Connected to /gesture_selector service.
+Introduce Action Interface ready!
+Spark Curiosity Action Interface ready!
+Conversate Action Interface ready!
+[INFO] [1788941682.848038]: Waiting for /sentiment_analyzer service...
+[INFO] [1788941682.866127]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1788941682.867065]: Waiting for /sentiment_analyzer service...
+[INFO] [1788941682.873120]: Waiting for /emotion_selector service...
+[INFO] [1788941682.892711]: ✓ Connected to /emotion_selector service.
+[INFO] [1788941682.894471]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1788941682.916768]: Waiting for /emotion_selector service...
+[INFO] [1788941682.931001]: Waiting for /gesture_selector service...
+[INFO] [1788941682.945620]: Waiting for /sentiment_analyzer service...
+[INFO] [1788941682.948957]: ✓ Connected to /emotion_selector service.
+[INFO] [1788941682.966154]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1788941682.966921]: Waiting for /gesture_selector service...
+[INFO] [1788941682.970965]: Waiting for /emotion_selector service...
+[INFO] [1788941682.973832]: ✓ Connected to /gesture_selector service.
+[INFO] [1788941682.981283]: ✓ Connected to /gesture_selector service.
+[INFO] [1788941682.996042]: ✓ Connected to /emotion_selector service.
+[INFO] [1788941682.999469]: Waiting for /gesture_selector service...
+[INFO] [1788941683.007974]: Waiting for /sentiment_analyzer service...
+[INFO] [1788941683.015306]: ✓ Connected to /gesture_selector service.
+[INFO] [1788941683.026141]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1788941683.040248]: Waiting for /emotion_selector service...
+Ask For Help Action Interface ready!
+[INFO] [1788941683.055730]: Waiting for /sentiment_analyzer service...
+[INFO] [1788941683.061092]: Waiting for /sentiment_analyzer service...
+Raise Stakes Action Interface ready!
+[INFO] [1788941683.072319]: ✓ Connected to /emotion_selector service.
+Tell A Joke Action Interface ready!
+[INFO] [1788941683.080009]: Waiting for /gesture_selector service...
+[INFO] [1788941683.081805]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1788941683.083020]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1788941683.089953]: Waiting for /emotion_selector service...
+[INFO] [1788941683.091517]: ✓ Connected to /gesture_selector service.
+[INFO] [1788941683.096056]: Waiting for /emotion_selector service...
+[INFO] [1788941683.103198]: ✓ Connected to /emotion_selector service.
+[INFO] [1788941683.107834]: ✓ Connected to /emotion_selector service.
+[INFO] [1788941683.109718]: Waiting for /gesture_selector service...
+[INFO] [1788941683.111068]: Waiting for /gesture_selector service...
+Comfort Action Interface ready!
+[INFO] [1788941683.120679]: ✓ Connected to /gesture_selector service.
+[INFO] [1788941683.122576]: ✓ Connected to /gesture_selector service.
+Show Vulnerability Action Interface ready!
+Take A Break Action Interface ready!
+[33m[WARN] [1788941684.881932]: [SessionLogger] KB not ready yet, will retry at first snapshot.
+[0m[INFO] [1788941684.917874]: [SessionLogger] Ready.
+^C[show_vulnerability_action_node-32] killing on exit
+[ask_for_help_action_node-31] killing on exit
+[reset_emotion_action_node-30] killing on exit
+[raise_stakes_action_node-28] killing on exit
+[calm_down_action_node-29] killing on exit
+[spark_curiosity_action_node-27] killing on exit
+[take_a_break_action_node-26] killing on exit
+[tell_a_joke_action_node-25] killing on exit
+[comfort_action_node-24] killing on exit
+[goodbye_action_node-23] killing on exit
+[conclude_game_action_node-22] killing on exit
+[mime_easy_action_node-21] killing on exit
+[image_hard_action_node-20] killing on exit
+[image_medium_action_node-19] killing on exit
+[image_easy_action_node-18] killing on exit
+[sound_hard_action_node-17] killing on exit
+[sound_medium_action_node-16] killing on exit
+[sound_easy_action_node-15] killing on exit
+[ask_hard_action_node-14] killing on exit
+[ask_medium_action_node-13] killing on exit
+[ask_easy_action_node-12] killing on exit
+[conversate_action_node-11] killing on exit
+[greet_warmly_action_node-10] killing on exit
+[introduce_action-9] killing on exit
+[check_emotion_action-8] killing on exit
+[sentiment_analyzer_node-7] killing on exit
+[emotion_converter_srv_node-6] killing on exit
+[gesture_selector_node-5] killing on exit
+[emotion_selector_node-4] killing on exit
+[response_evaluator_node-3] killing on exit
+[session_logger_node-2] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+]0;qtrobot@QTPC: ~[01;32mqtrobot@QTPC[00m:[01;34m~[00m$ eit
+
+Command 'eit' not found, did you mean:
+
+  command 'edit' from deb mime-support (3.64ubuntu1)
+  command 'eid' from deb id-utils (4.6+git20120811-4ubuntu2)
+  command 'vit' from deb vit (2.0.0-1)
+  command 'ent' from deb ent (1.2debian-2)
+  command 'eet' from deb libeet-bin (1.23.3-8)
+  command 'wit' from deb wit (3.01a-2)
+  command 'git' from deb git (1:2.25.1-1ubuntu3.14)
+
+Try: sudo apt install <deb name>
+
+]0;qtrobot@QTPC: ~[01;32mqtrobot@QTPC[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2026-09-09 10:15:02+02:00 [COMMAND_EXIT_CODE="127"]

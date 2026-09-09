@@ -1,0 +1,4 @@
+[10:20:43] [INFO ] KB: Removed predicate 'not_busy'
+[10:20:45] [INFO ] KB: Added predicate 'quiz_finished'
+[10:20:45] [INFO ] KB: Removed predicate 'quiz_introduced'
+[10:20:46] [INFO ] KB: Added predicate 'not_busy'
