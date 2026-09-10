@@ -1,0 +1,49 @@
+[15:25:03] [INFO ] QT talking: 'Quante ore ha un giorno?'
+[15:25:03] [INFO ] In ascolto (tentativo 1/2)...
+[15:25:03] [INFO ] Mostro immagine: listening_icon
+[15:25:15] [INFO ] Riconosciuto: Non ho capito.
+[15:25:18] [INFO ] In ascolto (tentativo 1/2)...
+[15:25:18] [INFO ] Mostro immagine: listening_icon
+[15:25:23] [INFO ] Riconosciuto: 24 ore.
+[15:25:32] [INFO ] KB: Set function 'n_questions' = 4.0
+[15:25:32] [INFO ] KB: Set function 'n_medium' = 1.0
+[15:25:32] [INFO ] KB: Set function 'ask_uses' = 1.0
+[15:25:32] [INFO ] KB: Set function 'right_answers' = 1.0
+[15:25:32] [INFO ] KB: Removed predicate 'answered_wrong'
+[15:25:32] [INFO ] KB: Removed predicate 'emotion_checked'
+[15:25:32] [INFO ] KB: Set function 'robot_e' = 3.44
+[15:25:32] [INFO ] KB: Set function 'robot_p' = 2.93
+[15:25:32] [INFO ] KB: Set function 'robot_a' = 0.92
+[15:25:32] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[15:25:32] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[15:25:32] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[15:25:32] [INFO ] KB: Set function 'human_e' = 3.44
+[15:25:32] [INFO ] KB: Set function 'human_p' = 2.93
+[15:25:32] [INFO ] KB: Set function 'human_a' = 0.92
+[15:25:32] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[15:25:32] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[15:25:32] [INFO ] KB: Set function 'human_a_sq' = 0.8464
+[15:25:42] [INFO ] QT talking: 'Quale insetto colorato nasce da un bruco?'
+[15:25:42] [INFO ] In ascolto (tentativo 1/2)...
+[15:25:42] [INFO ] Mostro immagine: listening_icon
+[15:26:00] [INFO ] In ascolto (tentativo 1/2)...
+[15:26:00] [INFO ] Mostro immagine: listening_icon
+[15:26:03] [INFO ] Riconosciuto: Farfalla.
+[15:26:13] [INFO ] KB: Set function 'n_questions' = 5.0
+[15:26:13] [INFO ] KB: Set function 'n_medium' = 2.0
+[15:26:13] [INFO ] KB: Set function 'ask_uses' = 2.0
+[15:26:13] [INFO ] KB: Set function 'right_answers' = 2.0
+[15:26:13] [INFO ] KB: Removed predicate 'answered_wrong'
+[15:26:13] [INFO ] KB: Removed predicate 'emotion_checked'
+[15:26:13] [INFO ] KB: Set function 'robot_e' = 3.44
+[15:26:13] [INFO ] KB: Set function 'robot_p' = 2.93
+[15:26:13] [INFO ] KB: Set function 'robot_a' = 0.92
+[15:26:13] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[15:26:13] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[15:26:13] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[15:26:13] [INFO ] KB: Set function 'human_e' = 3.44
+[15:26:13] [INFO ] KB: Set function 'human_p' = 2.93
+[15:26:13] [INFO ] KB: Set function 'human_a' = 0.92
+[15:26:13] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[15:26:13] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[15:26:13] [INFO ] KB: Set function 'human_a_sq' = 0.8464
