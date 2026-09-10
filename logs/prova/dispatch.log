@@ -1,0 +1,8 @@
+=== Session: prova  started at 2026-09-10 09:41:39.656492 ===
+[09:41:58] FEEDBACK  id=  0  ENABLED
+[09:41:58] DISPATCH  id=  0  greet_warmly()
+[09:41:58] FEEDBACK  id=  0  ENABLED
+[09:42:07] FEEDBACK  id=  0  SUCCEEDED ✓
+[09:42:07] DISPATCH  id=  1  introduce_game()
+[09:42:07] FEEDBACK  id=  1  ENABLED
+[09:42:07] FEEDBACK  id=  1  ENABLED

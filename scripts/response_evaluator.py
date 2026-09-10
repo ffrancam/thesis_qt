@@ -48,7 +48,7 @@ class ResponseEvaluatorService:
                 f"Risposta dell'utente: '{user_res}'. "
                 f"Rispondi ESCLUSIVAMENTE con un JSON valido, nessun testo prima o dopo. "
                 f"Formato: {{\"correct\": \"SI\" o \"NO\", \"answer\": \"<risposta corretta breve>\"}}. "
-                f"Considera corretta se semanticamente equivalente o foneticamente simile per errori ASR."
+                f"Considera corretta se semanticamente equivalente o simile per errori ASR."
             )
             result = []
             self.aimodel.generate(prompt, lambda txt: result.append(txt))

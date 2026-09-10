@@ -1,8 +1,0 @@
-# Plan #2  –  2026-09-09 18:02:14.946722
-0.000: (tell_a_joke)  [0.001]
-1.000: (check_emotion)  [0.001]
-2.000: (ask_easy)  [0.001]
-3.000: (check_emotion)  [0.001]
-4.000: (image_easy)  [0.001]
-5.000: (conclude_game)  [0.001]
-6.000: (say_goodbye)  [0.001]

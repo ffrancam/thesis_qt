@@ -1,0 +1,23 @@
+[10:52:29] [INFO ] KB: 'human_e' = -1.85
+[10:52:29] [INFO ] KB: 'human_p' = -0.86
+[10:52:29] [INFO ] KB: 'human_a' = -2.01
+[10:52:29] [INFO ] KB: 'human_e_sq' = 3.4225000000000003
+[10:52:29] [INFO ] KB: 'human_p_sq' = 0.7395999999999999
+[10:52:29] [INFO ] KB: 'human_a_sq' = 4.040099999999999
+[10:52:31] [INFO ] KB: 'ask_easy_coeff' = 1.0
+[10:52:31] [INFO ] KB: 'ask_medium_coeff' = 1.1
+[10:52:31] [INFO ] KB: 'ask_hard_coeff' = 1.2
+[10:52:31] [INFO ] KB: 'mime_easy_coeff' = 1.0
+[10:52:31] [INFO ] KB: 'mime_medium_coeff' = 1.1
+[10:52:31] [INFO ] KB: 'mime_hard_coeff' = 1.2
+[10:52:31] [INFO ] KB: 'sound_easy_coeff' = 1.0
+[10:52:31] [INFO ] KB: 'sound_medium_coeff' = 1.1
+[10:52:31] [INFO ] KB: 'sound_hard_coeff' = 1.2
+[10:52:31] [INFO ] KB: 'image_easy_coeff' = 1.0
+[10:52:31] [INFO ] KB: 'image_medium_coeff' = 1.1
+[10:52:31] [INFO ] KB: 'image_hard_coeff' = 1.2
+[10:52:31] [INFO ] KB: 'n_easy' = 2.0
+[10:52:31] [INFO ] KB: 'n_medium' = 0.0
+[10:52:31] [INFO ] KB: 'n_hard' = 0.0
+[10:52:31] [INFO ] KB: 'n_questions' = 2.0
+[10:52:52] [ERROR] ✗ Replanning failed: transport error completing service call: unable to receive data from sender, check sender's logs for details

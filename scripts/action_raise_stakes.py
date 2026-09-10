@@ -132,7 +132,7 @@ class RaiseStakesAction:
             'human_p_sq': 8.5849,
             'human_a_sq': 0.8464,
             'n_easy':     3.0,
-            'n_hard':     3.0,
+            'n_medium':     3.0,
         }
         for fluent_name, value in numeric_effects.items():
             self._update_function(fluent_name, [], value)

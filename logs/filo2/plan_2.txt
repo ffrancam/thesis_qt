@@ -1,6 +1,0 @@
-# Plan #2  –  2026-09-09 15:31:24.238113
-0.000: (raise_stakes)  [0.001]
-1.000: (check_emotion)  [0.001]
-2.000: (sound_hard)  [0.001]
-3.000: (conclude_game)  [0.001]
-4.000: (say_goodbye)  [0.001]
