@@ -1,0 +1,40 @@
+[15:43:23] [INFO ] Publishing emotion: QT/showing_smile
+[15:43:24] [INFO ] Playing gesture: QT/emotions/calm
+[15:43:40] [INFO ] Mostro immagine: listening_icon
+[15:43:43] [INFO ] Riconosciuto: Bene.
+[15:43:50] [INFO ] Publishing emotion: QT/happy
+[15:43:52] [INFO ] Playing gesture: QT/emotions/hoora
+[15:44:04] [INFO ] KB: Removed predicate 'answered_wrong'
+[15:44:04] [INFO ] KB: Removed predicate 'emotion_checked'
+[15:44:04] [INFO ] KB: Set function 'robot_e' = 3.44
+[15:44:04] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[15:44:04] [INFO ] KB: Set function 'robot_p' = 2.93
+[15:44:04] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[15:44:04] [INFO ] KB: Set function 'robot_a' = 0.92
+[15:44:04] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[15:44:04] [INFO ] KB: Set function 'human_e' = 3.44
+[15:44:04] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[15:44:04] [INFO ] KB: Set function 'human_p' = 2.93
+[15:44:04] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[15:44:04] [INFO ] KB: Set function 'human_a' = 0.92
+[15:44:04] [INFO ] KB: Set function 'human_a_sq' = 0.8464
+[15:44:53] [INFO ] Publishing emotion: QT/showing_smile
+[15:44:54] [INFO ] Playing gesture: QT/emotions/calm
+[15:45:11] [INFO ] Mostro immagine: listening_icon
+[15:45:15] [INFO ] Riconosciuto: Bene.
+[15:45:22] [INFO ] Publishing emotion: QT/happy
+[15:45:23] [INFO ] Playing gesture: QT/emotions/hoora
+[15:45:35] [INFO ] KB: Removed predicate 'answered_wrong'
+[15:45:35] [INFO ] KB: Removed predicate 'emotion_checked'
+[15:45:35] [INFO ] KB: Set function 'robot_e' = 3.44
+[15:45:35] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[15:45:35] [INFO ] KB: Set function 'robot_p' = 2.93
+[15:45:35] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[15:45:35] [INFO ] KB: Set function 'robot_a' = 0.92
+[15:45:35] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[15:45:35] [INFO ] KB: Set function 'human_e' = 3.44
+[15:45:35] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[15:45:35] [INFO ] KB: Set function 'human_p' = 2.93
+[15:45:35] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[15:45:35] [INFO ] KB: Set function 'human_a' = 0.92
+[15:45:35] [INFO ] KB: Set function 'human_a_sq' = 0.8464
