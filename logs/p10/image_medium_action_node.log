@@ -1,0 +1,15 @@
+[14:36:54] [INFO ] Mostro immagine: life_jacket_icon
+[14:36:54] [INFO ] In ascolto (tentativo 1/2)...
+[14:36:58] [INFO ] Riconosciuto: Perché ci puoi cadere?
+[14:37:08] [INFO ] Mostro immagine: life_jacket_icon
+[14:37:08] [INFO ] In ascolto (tentativo 2/2)...
+[14:37:15] [INFO ] Riconosciuto: Puoi ripetere?
+[14:37:21] [INFO ] Mostro immagine: life_jacket_icon
+[14:37:21] [INFO ] Mostro immagine: life_jacket_icon
+[14:37:21] [INFO ] In ascolto (tentativo 2/2)...
+[14:37:30] [INFO ] Riconosciuto: Perché così non affoghi?
+[14:37:46] [INFO ] KB: Set function 'n_questions' = 3.0
+[14:37:46] [INFO ] KB: Set function 'n_medium' = 1.0
+[14:37:46] [INFO ] KB: Set function 'image_uses' = 1.0
+[14:37:46] [INFO ] KB: Set function 'right_answers' = 2.0
+[14:37:46] [INFO ] KB: Removed predicate 'answered_wrong'

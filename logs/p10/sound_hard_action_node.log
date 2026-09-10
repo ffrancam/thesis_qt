@@ -1,0 +1,13 @@
+[14:38:08] [INFO ] Riproduzione suono: QT/sound_hard/fans_in_the_stadium
+[14:38:13] [INFO ] In ascolto (tentativo 1/2)...
+[14:38:13] [INFO ] Mostro immagine: listening_icon
+[14:38:17] [INFO ] Riconosciuto: Non lo so.
+[14:38:29] [INFO ] Riproduzione suono: QT/sound_hard/fans_in_the_stadium
+[14:38:34] [INFO ] In ascolto (tentativo 2/2)...
+[14:38:34] [INFO ] Mostro immagine: listening_icon
+[14:38:37] [INFO ] Riconosciuto: Non lo so.
+[14:38:48] [INFO ] KB: Set function 'n_questions' = 5.0
+[14:38:48] [INFO ] KB: Set function 'n_hard' = 1.0
+[14:38:48] [INFO ] KB: Set function 'sound_uses' = 1.0
+[14:38:48] [INFO ] KB: Set function 'wrong_answers' = 2.0
+[14:38:48] [INFO ] KB: Added predicate 'answered_wrong'

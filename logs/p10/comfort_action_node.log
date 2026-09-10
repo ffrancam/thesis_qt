@@ -1,0 +1,15 @@
+[14:35:17] [INFO ] Publishing emotion: QT/showing_smile
+[14:35:18] [INFO ] Playing gesture: QT/Show-face
+[14:35:32] [INFO ] Mostro immagine: listening_icon
+[14:35:35] [INFO ] Riconosciuto: Bene.
+[14:35:38] [INFO ] Publishing emotion: QT/happy_blinking
+[14:35:39] [INFO ] Playing gesture: QT/emotions/happy
+[14:35:53] [INFO ] Mostro immagine: listening_icon
+[14:35:55] [INFO ] Riconosciuto: Giocare a palla?
+[14:35:57] [INFO ] Publishing emotion: QT/showing_smile
+[14:35:58] [INFO ] Playing gesture: QT/monkey
+[14:36:17] [INFO ] Mostro immagine: listening_icon
+[14:36:20] [INFO ] Riconosciuto: Ho gli amici.
+[14:36:28] [INFO ] Publishing emotion: QT/happy_blinking
+[14:36:29] [INFO ] Playing gesture: QT/emotions/hoora
+[14:36:48] [INFO ] KB: Removed predicate 'answered_wrong'

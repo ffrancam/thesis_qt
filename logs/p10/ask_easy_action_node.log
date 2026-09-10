@@ -1,0 +1,9 @@
+[14:33:42] [INFO ] QT talking: 'Cosa brilla nel cielo di notte?'
+[14:33:42] [INFO ] In ascolto (tentativo 1/2)...
+[14:33:42] [INFO ] Mostro immagine: listening_icon
+[14:33:45] [INFO ] Riconosciuto: Le stelle?
+[14:33:54] [INFO ] KB: Set function 'n_questions' = 1.0
+[14:33:54] [INFO ] KB: Set function 'n_easy' = 1.0
+[14:33:54] [INFO ] KB: Set function 'ask_uses' = 1.0
+[14:33:54] [INFO ] KB: Set function 'right_answers' = 1.0
+[14:33:54] [INFO ] KB: Removed predicate 'answered_wrong'

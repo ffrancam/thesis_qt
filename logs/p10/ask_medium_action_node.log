@@ -1,0 +1,9 @@
+[14:37:49] [INFO ] QT talking: 'Quale senso usiamo per ascoltare la musica?'
+[14:37:49] [INFO ] In ascolto (tentativo 1/2)...
+[14:37:49] [INFO ] Mostro immagine: listening_icon
+[14:37:53] [INFO ] Riconosciuto: Le orecchie?
+[14:38:01] [INFO ] KB: Set function 'n_questions' = 4.0
+[14:38:01] [INFO ] KB: Set function 'n_medium' = 2.0
+[14:38:01] [INFO ] KB: Set function 'ask_uses' = 2.0
+[14:38:01] [INFO ] KB: Set function 'right_answers' = 3.0
+[14:38:01] [INFO ] KB: Removed predicate 'answered_wrong'
