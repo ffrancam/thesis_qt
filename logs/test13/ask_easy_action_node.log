@@ -1,9 +1,0 @@
-[16:25:08] [INFO ] QT talking: 'Qual è il mezzo di trasporto che vola nel cielo?'
-[16:25:08] [INFO ] In ascolto (tentativo 1/2)...
-[16:25:08] [INFO ] Mostro immagine: listening_icon
-[16:25:12] [INFO ] Riconosciuto: L'aereo.
-[16:25:20] [INFO ] KB: Set function 'n_questions' = 2.0
-[16:25:21] [INFO ] KB: Set function 'n_easy' = 2.0
-[16:25:21] [INFO ] KB: Set function 'ask_uses' = 1.0
-[16:25:21] [INFO ] KB: Set function 'right_answers' = 2.0
-[16:25:21] [INFO ] KB: Removed predicate 'answered_wrong'

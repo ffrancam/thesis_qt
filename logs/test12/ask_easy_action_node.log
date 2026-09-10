@@ -1,9 +1,0 @@
-[16:20:15] [INFO ] QT talking: 'Qual è l'animale che abbaia?'
-[16:20:15] [INFO ] In ascolto (tentativo 1/2)...
-[16:20:15] [INFO ] Mostro immagine: listening_icon
-[16:20:22] [INFO ] Riconosciuto: Il cane?
-[16:20:31] [INFO ] KB: Set function 'n_questions' = 1.0
-[16:20:31] [INFO ] KB: Set function 'n_easy' = 1.0
-[16:20:31] [INFO ] KB: Set function 'ask_uses' = 1.0
-[16:20:31] [INFO ] KB: Set function 'right_answers' = 1.0
-[16:20:31] [INFO ] KB: Removed predicate 'answered_wrong'

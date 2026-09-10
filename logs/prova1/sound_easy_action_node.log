@@ -1,9 +1,0 @@
-[10:32:43] [INFO ] Riproduzione suono: QT/sound_easy/laughing
-[10:32:46] [INFO ] In ascolto (tentativo 1/2)...
-[10:32:46] [INFO ] Mostro immagine: listening_icon
-[10:32:51] [INFO ] Riconosciuto: Qualcuno sta ridendo.
-[10:32:59] [INFO ] KB: Set function 'n_questions' = 1.0
-[10:32:59] [INFO ] KB: Set function 'n_easy' = 1.0
-[10:32:59] [INFO ] KB: Set function 'sound_uses' = 1.0
-[10:32:59] [INFO ] KB: Set function 'right_answers' = 1.0
-[10:33:00] [INFO ] KB: Removed predicate 'answered_wrong'

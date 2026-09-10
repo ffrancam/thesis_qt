@@ -1,9 +1,0 @@
-[16:06:22] [INFO ] QT talking: 'Qual è l'animale che porta la sua casa sulla schiena?'
-[16:06:22] [INFO ] In ascolto (tentativo 1/2)...
-[16:06:22] [INFO ] Mostro immagine: listening_icon
-[16:06:26] [INFO ] Riconosciuto: La lumaca.
-[16:06:33] [INFO ] KB: Set function 'n_questions' = 4.0
-[16:06:33] [INFO ] KB: Set function 'n_medium' = 2.0
-[16:06:33] [INFO ] KB: Set function 'ask_uses' = 2.0
-[16:06:33] [INFO ] KB: Set function 'right_answers' = 4.0
-[16:06:33] [INFO ] KB: Removed predicate 'answered_wrong'

@@ -1,8 +1,0 @@
-[12:55:50] [INFO ] In ascolto (tentativo 1/2)...
-[12:55:50] [INFO ] Mostro immagine: listening_icon
-[12:55:55] [INFO ] Riconosciuto: Il camaleonte.
-[12:56:06] [INFO ] KB: Set function 'n_questions' = 1.0
-[12:56:06] [INFO ] KB: Set function 'n_easy' = 1.0
-[12:56:06] [INFO ] KB: Set function 'ask_uses' = 1.0
-[12:56:06] [INFO ] KB: Set function 'right_answers' = 1.0
-[12:56:06] [INFO ] KB: Removed predicate 'answered_wrong'

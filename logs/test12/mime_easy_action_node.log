@@ -1,8 +1,0 @@
-[16:20:45] [INFO ] In ascolto (tentativo 1/2)...
-[16:20:45] [INFO ] Mostro immagine: listening_icon
-[16:20:49] [INFO ] Riconosciuto: Ti stai allenando?
-[16:20:56] [INFO ] KB: Set function 'n_questions' = 2.0
-[16:20:56] [INFO ] KB: Set function 'n_easy' = 2.0
-[16:20:56] [INFO ] KB: Set function 'mime_uses' = 1.0
-[16:20:56] [INFO ] KB: Set function 'right_answers' = 2.0
-[16:20:56] [INFO ] KB: Removed predicate 'answered_wrong'

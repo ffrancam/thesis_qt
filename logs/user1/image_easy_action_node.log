@@ -1,8 +1,0 @@
-[17:55:59] [INFO ] Mostro immagine: luna_icon
-[17:55:59] [INFO ] In ascolto (tentativo 1/2)...
-[17:56:05] [INFO ] Riconosciuto: La luna.
-[17:56:14] [INFO ] KB: Set function 'n_questions' = 4.0
-[17:56:14] [INFO ] KB: Set function 'n_easy' = 1.0
-[17:56:14] [INFO ] KB: Set function 'image_uses' = 1.0
-[17:56:14] [INFO ] KB: Set function 'right_answers' = 3.0
-[17:56:14] [INFO ] KB: Removed predicate 'answered_wrong'

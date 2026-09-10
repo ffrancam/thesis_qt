@@ -1,9 +1,0 @@
-[15:45:00] [INFO ] Riproduzione suono: QT/sound_medium/flipping_book_page
-[15:45:01] [INFO ] In ascolto (tentativo 1/2)...
-[15:45:01] [INFO ] Mostro immagine: listening_icon
-[15:45:05] [INFO ] Riconosciuto: Ho girato la pagina.
-[15:45:17] [INFO ] KB: Set function 'n_questions' = 4.0
-[15:45:17] [INFO ] KB: Set function 'n_medium' = 2.0
-[15:45:17] [INFO ] KB: Set function 'sound_uses' = 1.0
-[15:45:17] [INFO ] KB: Set function 'right_answers' = 4.0
-[15:45:17] [INFO ] KB: Removed predicate 'answered_wrong'

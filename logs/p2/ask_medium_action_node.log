@@ -1,0 +1,15 @@
+[11:18:02] [INFO ] QT talking: 'Come si chiama la figura geometrica rotonda come una palla?'
+[11:18:02] [INFO ] In ascolto (tentativo 1/2)...
+[11:18:02] [INFO ] Mostro immagine: listening_icon
+[11:18:08] [INFO ] Riconosciuto: Puoi ripetere?
+[11:18:13] [INFO ] In ascolto (tentativo 1/2)...
+[11:18:13] [INFO ] Mostro immagine: listening_icon
+[11:18:17] [INFO ] Riconosciuto: Mappamondo.
+[11:18:26] [INFO ] In ascolto (tentativo 2/2)...
+[11:18:26] [INFO ] Mostro immagine: listening_icon
+[11:18:34] [INFO ] Riconosciuto: La sfera.
+[11:18:41] [INFO ] KB: Set function 'n_questions' = 4.0
+[11:18:41] [INFO ] KB: Set function 'n_medium' = 2.0
+[11:18:41] [INFO ] KB: Set function 'ask_uses' = 2.0
+[11:18:41] [INFO ] KB: Set function 'right_answers' = 3.0
+[11:18:41] [INFO ] KB: Removed predicate 'answered_wrong'

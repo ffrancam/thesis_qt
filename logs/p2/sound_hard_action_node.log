@@ -1,0 +1,16 @@
+[11:18:48] [INFO ] Riproduzione suono: QT/sound_hard/fans_in_the_stadium
+[11:18:53] [INFO ] In ascolto (tentativo 1/2)...
+[11:18:53] [INFO ] Mostro immagine: listening_icon
+[11:18:59] [INFO ] Riconosciuto: A un concerto.
+[11:19:10] [INFO ] Riproduzione suono: QT/sound_hard/fans_in_the_stadium
+[11:19:15] [INFO ] In ascolto (tentativo 2/2)...
+[11:19:15] [INFO ] Mostro immagine: listening_icon
+[11:19:33] [INFO ] Riproduzione suono: QT/sound_hard/fans_in_the_stadium
+[11:19:38] [INFO ] In ascolto (tentativo 2/2)...
+[11:19:38] [INFO ] Mostro immagine: listening_icon
+[11:19:43] [INFO ] Riconosciuto: Una gara?
+[11:19:50] [INFO ] KB: Set function 'n_questions' = 5.0
+[11:19:50] [INFO ] KB: Set function 'n_hard' = 1.0
+[11:19:50] [INFO ] KB: Set function 'sound_uses' = 1.0
+[11:19:50] [INFO ] KB: Set function 'right_answers' = 4.0
+[11:19:50] [INFO ] KB: Removed predicate 'answered_wrong'

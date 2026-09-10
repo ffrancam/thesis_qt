@@ -1,8 +1,0 @@
-[16:06:07] [INFO ] Mostro immagine: eiffel_icon
-[16:06:07] [INFO ] In ascolto (tentativo 1/2)...
-[16:06:11] [INFO ] Riconosciuto: La Torre Eiffel.
-[16:06:18] [INFO ] KB: Set function 'n_questions' = 3.0
-[16:06:18] [INFO ] KB: Set function 'n_medium' = 1.0
-[16:06:18] [INFO ] KB: Set function 'image_uses' = 1.0
-[16:06:18] [INFO ] KB: Set function 'right_answers' = 3.0
-[16:06:18] [INFO ] KB: Removed predicate 'answered_wrong'

@@ -1,0 +1,10 @@
+[11:17:26] [INFO ] Mostro immagine: bussola_icon
+[11:17:26] [INFO ] In ascolto (tentativo 1/2)...
+[11:17:45] [INFO ] Mostro immagine: bussola_icon
+[11:17:45] [INFO ] In ascolto (tentativo 1/2)...
+[11:17:48] [INFO ] Riconosciuto: A dove, a dove andare?
+[11:17:58] [INFO ] KB: Set function 'n_questions' = 3.0
+[11:17:58] [INFO ] KB: Set function 'n_medium' = 1.0
+[11:17:58] [INFO ] KB: Set function 'image_uses' = 1.0
+[11:17:58] [INFO ] KB: Set function 'right_answers' = 2.0
+[11:17:58] [INFO ] KB: Removed predicate 'answered_wrong'

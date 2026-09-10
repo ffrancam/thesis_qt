@@ -1,9 +1,0 @@
-[17:52:32] [INFO ] QT talking: 'Di che colore è il cielo al tramonto?'
-[17:52:32] [INFO ] In ascolto (tentativo 1/2)...
-[17:52:32] [INFO ] Mostro immagine: listening_icon
-[17:52:35] [INFO ] Riconosciuto: Rosso.
-[17:52:45] [INFO ] KB: Set function 'n_questions' = 1.0
-[17:52:45] [INFO ] KB: Set function 'n_easy' = 1.0
-[17:52:45] [INFO ] KB: Set function 'ask_uses' = 1.0
-[17:52:45] [INFO ] KB: Set function 'right_answers' = 1.0
-[17:52:45] [INFO ] KB: Removed predicate 'answered_wrong'
