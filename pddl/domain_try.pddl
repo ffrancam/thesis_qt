@@ -304,8 +304,8 @@
         )
         :effect (and
             (not (answered_wrong))
-            (assign (n_easy) 0)
-            (assign (n_medium) 0)
+            ;(assign (n_easy) 0)
+            ;(assign (n_medium) 0)
         )
     )
 
