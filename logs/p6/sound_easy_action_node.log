@@ -1,0 +1,9 @@
+[12:13:17] [INFO ] Riproduzione suono: QT/sound_easy/rain
+[12:13:27] [INFO ] In ascolto (tentativo 1/2)...
+[12:13:27] [INFO ] Mostro immagine: listening_icon
+[12:13:30] [INFO ] Riconosciuto: La pioggia?
+[12:13:38] [INFO ] KB: Set function 'n_questions' = 2.0
+[12:13:38] [INFO ] KB: Set function 'n_easy' = 2.0
+[12:13:38] [INFO ] KB: Set function 'sound_uses' = 1.0
+[12:13:38] [INFO ] KB: Set function 'right_answers' = 1.0
+[12:13:38] [INFO ] KB: Removed predicate 'answered_wrong'

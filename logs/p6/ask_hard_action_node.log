@@ -1,0 +1,12 @@
+[12:19:03] [INFO ] QT talking: 'Qual è l'animale più veloce del mondo?'
+[12:19:03] [INFO ] In ascolto (tentativo 1/2)...
+[12:19:03] [INFO ] Mostro immagine: listening_icon
+[12:19:08] [INFO ] Riconosciuto: È uguale.
+[12:19:21] [INFO ] In ascolto (tentativo 2/2)...
+[12:19:21] [INFO ] Mostro immagine: listening_icon
+[12:19:24] [INFO ] Riconosciuto: Leone.
+[12:19:34] [INFO ] KB: Set function 'n_questions' = 5.0
+[12:19:34] [INFO ] KB: Set function 'n_hard' = 1.0
+[12:19:34] [INFO ] KB: Set function 'ask_uses' = 2.0
+[12:19:34] [INFO ] KB: Set function 'wrong_answers' = 4.0
+[12:19:34] [INFO ] KB: Added predicate 'answered_wrong'

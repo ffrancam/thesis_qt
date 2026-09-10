@@ -18,19 +18,19 @@
 
     (= (right_answers) 1)
 
-    (= (wrong_answers) 4)
+    (= (wrong_answers) 2)
 
-    (= (n_questions) 5)
+    (= (n_questions) 3)
 
     (= (n_easy) 2)
 
-    (= (n_medium) 2)
+    (= (n_medium) 1)
 
-    (= (n_hard) 1)
+    (= (n_hard) 0)
 
-    (= (ask_uses) 2)
+    (= (ask_uses) 1)
 
-    (= (image_uses) 1)
+    (= (image_uses) 0)
 
     (= (sound_uses) 1)
 

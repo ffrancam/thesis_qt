@@ -1,0 +1,46 @@
+[12:11:29] [INFO ] Publishing emotion: QT/showing_smile
+[12:11:30] [INFO ] Playing gesture: QT/Show-face
+[12:11:44] [INFO ] Mostro immagine: listening_icon
+[12:11:47] [INFO ] Riconosciuto: Bene.
+[12:11:49] [INFO ] Publishing emotion: QT/happy_blinking
+[12:11:51] [INFO ] Playing gesture: QT/emotions/happy
+[12:12:06] [INFO ] Mostro immagine: listening_icon
+[12:12:16] [INFO ] Riconosciuto: No.
+[12:12:18] [INFO ] Publishing emotion: QT/showing_smile
+[12:12:19] [INFO ] Playing gesture: QT/Show-face
+[12:12:37] [INFO ] Mostro immagine: listening_icon
+[12:12:43] [INFO ] Riconosciuto: Aspetta, il mio ho capito.
+[12:12:50] [INFO ] Publishing emotion: QT/happy_blinking
+[12:12:51] [INFO ] Playing gesture: QT/emotions/happy
+[12:13:11] [INFO ] KB: Removed predicate 'answered_wrong'
+[12:14:20] [INFO ] Publishing emotion: QT/showing_smile
+[12:14:22] [INFO ] Playing gesture: QT/Show-face
+[12:14:36] [INFO ] Mostro immagine: listening_icon
+[12:14:39] [INFO ] Riconosciuto: Bene.
+[12:14:41] [INFO ] Publishing emotion: QT/happy_blinking
+[12:14:43] [INFO ] Playing gesture: QT/emotions/happy
+[12:14:57] [INFO ] Mostro immagine: listening_icon
+[12:15:00] [INFO ] Riconosciuto: No.
+[12:15:02] [INFO ] Publishing emotion: QT/showing_smile
+[12:15:03] [INFO ] Playing gesture: QT/hand-front-hold
+[12:15:20] [INFO ] Mostro immagine: listening_icon
+[12:15:25] [INFO ] Riconosciuto: Non lo so.
+[12:15:32] [INFO ] Publishing emotion: QT/showing_smile
+[12:15:33] [INFO ] Playing gesture: QT/monkey
+[12:16:00] [INFO ] KB: Removed predicate 'answered_wrong'
+[12:16:50] [INFO ] Publishing emotion: QT/showing_smile
+[12:16:51] [INFO ] Playing gesture: QT/emotions/calm
+[12:17:11] [INFO ] Mostro immagine: listening_icon
+[12:17:14] [INFO ] Riconosciuto: Bene.
+[12:17:16] [INFO ] Publishing emotion: QT/happy_blinking
+[12:17:17] [INFO ] Playing gesture: QT/emotions/happy
+[12:17:35] [INFO ] Mostro immagine: listening_icon
+[12:17:40] [INFO ] Riconosciuto: No.
+[12:17:42] [INFO ] Publishing emotion: QT/showing_smile
+[12:17:43] [INFO ] Playing gesture: QT/hand-front-hold
+[12:18:04] [INFO ] Mostro immagine: listening_icon
+[12:18:27] [INFO ] Mostro immagine: listening_icon
+[12:18:30] [INFO ] Riconosciuto: Senti.
+[12:18:37] [INFO ] Publishing emotion: QT/showing_smile
+[12:18:39] [INFO ] Playing gesture: QT/Show-face
+[12:19:00] [INFO ] KB: Removed predicate 'answered_wrong'

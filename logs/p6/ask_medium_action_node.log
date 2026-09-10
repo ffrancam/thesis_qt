@@ -1,0 +1,12 @@
+[12:13:41] [INFO ] QT talking: 'Come si chiama il pianeta su cui viviamo?'
+[12:13:41] [INFO ] In ascolto (tentativo 1/2)...
+[12:13:41] [INFO ] Mostro immagine: listening_icon
+[12:13:45] [INFO ] Riconosciuto: Ella.
+[12:13:56] [INFO ] In ascolto (tentativo 2/2)...
+[12:13:56] [INFO ] Mostro immagine: listening_icon
+[12:14:01] [INFO ] Riconosciuto: Erra.
+[12:14:10] [INFO ] KB: Set function 'n_questions' = 3.0
+[12:14:10] [INFO ] KB: Set function 'n_medium' = 1.0
+[12:14:10] [INFO ] KB: Set function 'ask_uses' = 1.0
+[12:14:10] [INFO ] KB: Set function 'wrong_answers' = 2.0
+[12:14:10] [INFO ] KB: Added predicate 'answered_wrong'

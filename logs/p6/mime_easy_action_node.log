@@ -1,0 +1,11 @@
+[12:10:51] [INFO ] In ascolto (tentativo 1/2)...
+[12:10:51] [INFO ] Mostro immagine: listening_icon
+[12:10:55] [INFO ] Riconosciuto: Non l'ho capita.
+[12:11:05] [INFO ] In ascolto (tentativo 2/2)...
+[12:11:05] [INFO ] Mostro immagine: listening_icon
+[12:11:08] [INFO ] Riconosciuto: Salutare.
+[12:11:18] [INFO ] KB: Set function 'n_questions' = 1.0
+[12:11:18] [INFO ] KB: Set function 'n_easy' = 1.0
+[12:11:18] [INFO ] KB: Set function 'mime_uses' = 1.0
+[12:11:18] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[12:11:18] [INFO ] KB: Added predicate 'answered_wrong'

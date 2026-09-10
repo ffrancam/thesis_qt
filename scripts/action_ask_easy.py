@@ -32,7 +32,7 @@ class AskEasyAction:
         'q15': {"question": "Dove vivono i pesci?",                             "correct_answer": "in acqua / nel mare / nei fiumi / negli stagni / nell'acquario"},   # ← senza risposta
         'q16': {"question": "Cosa succede all'acqua quando fa molto freddo?",   "correct_answer": "si ghiaccia / diventa ghiaccio / si solidifica"},  # ← senza risposta
         'q17': {"question": "Cosa brilla nel cielo di notte?",                  "correct_answer": "le stelle / la luna / i pianeti"},  
-        'q18': {"question": "Qual è l'animale che cambia colore per mimetizzarsi?", "correct_answer": ""},
+        'q18': {"question": "Qual è l'animale che cambia colore per mimetizzarsi?", "correct_answer": "camaleonte"},
         'q19': {"question": "Qual è la stagione più fredda dell'anno?",         "correct_answer": ""},
         'q20': {"question": "Dove crescono le mele?",                           "correct_answer": ""},
     }
