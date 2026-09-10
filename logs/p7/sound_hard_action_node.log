@@ -1,0 +1,22 @@
+[12:29:42] [INFO ] Riproduzione suono: QT/sound_hard/fans_in_the_stadium
+[12:29:47] [INFO ] In ascolto (tentativo 1/2)...
+[12:29:47] [INFO ] Mostro immagine: listening_icon
+[12:29:50] [INFO ] Riconosciuto: In uno stadio?
+[12:30:04] [INFO ] KB: Set function 'n_questions' = 5.0
+[12:30:04] [INFO ] KB: Set function 'n_hard' = 1.0
+[12:30:04] [INFO ] KB: Set function 'sound_uses' = 1.0
+[12:30:04] [INFO ] KB: Set function 'right_answers' = 4.0
+[12:30:04] [INFO ] KB: Removed predicate 'answered_wrong'
+[12:30:04] [INFO ] KB: Removed predicate 'emotion_checked'
+[12:30:04] [INFO ] KB: Set function 'robot_e' = 3.44
+[12:30:04] [INFO ] KB: Set function 'robot_p' = 2.93
+[12:30:04] [INFO ] KB: Set function 'robot_a' = 0.92
+[12:30:04] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[12:30:04] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[12:30:04] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[12:30:04] [INFO ] KB: Set function 'human_e' = 3.44
+[12:30:04] [INFO ] KB: Set function 'human_p' = 2.93
+[12:30:04] [INFO ] KB: Set function 'human_a' = 0.92
+[12:30:04] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[12:30:04] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[12:30:04] [INFO ] KB: Set function 'human_a_sq' = 0.8464
