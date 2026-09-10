@@ -1,0 +1,6 @@
+[11:04:06] [INFO ] Mostro immagine: listening_icon
+[11:04:11] [INFO ] Riconosciuto: Parla un po' più forte.
+[11:04:14] [INFO ] Mostro immagine: listening_icon
+[11:04:18] [INFO ] Riconosciuto: Sì.
+[11:04:24] [INFO ] KB: Added predicate 'quiz_introduced'
+[11:04:24] [INFO ] KB: Removed predicate 'emotion_checked'

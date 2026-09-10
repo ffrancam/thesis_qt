@@ -1,0 +1,22 @@
+[11:05:40] [INFO ] QT talking: 'Quanto fa 5 per 5?'
+[11:05:40] [INFO ] In ascolto (tentativo 1/2)...
+[11:05:40] [INFO ] Mostro immagine: listening_icon
+[11:05:48] [INFO ] Riconosciuto: 25.
+[11:05:58] [INFO ] KB: Set function 'n_questions' = 3.0
+[11:05:58] [INFO ] KB: Set function 'n_medium' = 1.0
+[11:05:58] [INFO ] KB: Set function 'ask_uses' = 2.0
+[11:05:58] [INFO ] KB: Set function 'right_answers' = 3.0
+[11:05:58] [INFO ] KB: Removed predicate 'answered_wrong'
+[11:05:58] [INFO ] KB: Removed predicate 'emotion_checked'
+[11:05:58] [INFO ] KB: Set function 'robot_e' = 3.44
+[11:05:58] [INFO ] KB: Set function 'robot_p' = 2.93
+[11:05:59] [INFO ] KB: Set function 'robot_a' = 0.92
+[11:05:59] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[11:05:59] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[11:05:59] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[11:05:59] [INFO ] KB: Set function 'human_e' = 3.44
+[11:05:59] [INFO ] KB: Set function 'human_p' = 2.93
+[11:05:59] [INFO ] KB: Set function 'human_a' = 0.92
+[11:05:59] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[11:05:59] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[11:05:59] [INFO ] KB: Set function 'human_a_sq' = 0.8464

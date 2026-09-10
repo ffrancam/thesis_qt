@@ -1,3 +1,0 @@
-[09:42:11] [INFO ] Mostro immagine: listening_icon
-[09:42:25] [ERROR] Errore nel riconoscimento vocale: service [/qt_robot/speech/recognize] responded with an error: b"error processing request: type object 'CancellationDetails' has no attribute 'from_result'"
-[09:42:28] [INFO ] Mostro immagine: listening_icon
