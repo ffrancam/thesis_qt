@@ -1,0 +1,17 @@
+[11:49:56] [INFO ] Riproduzione suono: QT/sound_easy/donkey
+[11:50:01] [INFO ] In ascolto (tentativo 1/2)...
+[11:50:01] [INFO ] Mostro immagine: listening_icon
+[11:50:15] [INFO ] Riconosciuto: Ripetimelo.
+[11:50:19] [INFO ] Riproduzione suono: QT/sound_easy/donkey
+[11:50:24] [INFO ] In ascolto (tentativo 1/2)...
+[11:50:24] [INFO ] Mostro immagine: listening_icon
+[11:50:31] [INFO ] Riconosciuto: Uccello.
+[11:50:41] [INFO ] Riproduzione suono: QT/sound_easy/donkey
+[11:50:46] [INFO ] In ascolto (tentativo 2/2)...
+[11:50:46] [INFO ] Mostro immagine: listening_icon
+[11:50:52] [INFO ] Riconosciuto: L'asino.
+[11:51:02] [INFO ] KB: Set function 'n_questions' = 2.0
+[11:51:02] [INFO ] KB: Set function 'n_easy' = 2.0
+[11:51:02] [INFO ] KB: Set function 'sound_uses' = 1.0
+[11:51:02] [INFO ] KB: Set function 'right_answers' = 1.0
+[11:51:02] [INFO ] KB: Removed predicate 'answered_wrong'

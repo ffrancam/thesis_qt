@@ -1,0 +1,6 @@
+[11:46:25] [INFO ] Mostro immagine: listening_icon
+[11:46:27] [INFO ] Riconosciuto: Male l'orecchio.
+[11:46:30] [INFO ] Mostro immagine: listening_icon
+[11:46:42] [INFO ] Riconosciuto: Sì, voglio giocare.
+[11:46:48] [INFO ] KB: Added predicate 'quiz_introduced'
+[11:46:48] [INFO ] KB: Removed predicate 'emotion_checked'
