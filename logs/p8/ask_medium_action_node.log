@@ -1,0 +1,27 @@
+[12:40:36] [INFO ] QT talking: 'Quale insetto colorato nasce da un bruco?'
+[12:40:36] [INFO ] In ascolto (tentativo 1/2)...
+[12:40:36] [INFO ] Mostro immagine: listening_icon
+[12:40:42] [INFO ] Riconosciuto: Puoi ripetere?
+[12:40:46] [INFO ] In ascolto (tentativo 1/2)...
+[12:40:46] [INFO ] Mostro immagine: listening_icon
+[12:40:55] [INFO ] Riconosciuto: Non lo so.
+[12:41:06] [INFO ] In ascolto (tentativo 2/2)...
+[12:41:06] [INFO ] Mostro immagine: listening_icon
+[12:41:12] [INFO ] Riconosciuto: La farfalla.
+[12:41:20] [INFO ] KB: Set function 'n_questions' = 3.0
+[12:41:20] [INFO ] KB: Set function 'n_medium' = 1.0
+[12:41:20] [INFO ] KB: Set function 'ask_uses' = 1.0
+[12:41:20] [INFO ] KB: Set function 'right_answers' = 2.0
+[12:41:20] [INFO ] KB: Removed predicate 'answered_wrong'
+[12:41:25] [INFO ] QT talking: 'Come si chiama la figura geometrica rotonda come una palla?'
+[12:41:25] [INFO ] In ascolto (tentativo 1/2)...
+[12:41:25] [INFO ] Mostro immagine: listening_icon
+[12:41:32] [INFO ] Riconosciuto: Non so se qual è la sua oggi.
+[12:41:42] [INFO ] In ascolto (tentativo 2/2)...
+[12:41:42] [INFO ] Mostro immagine: listening_icon
+[12:41:47] [INFO ] Riconosciuto: La sfera.
+[12:42:01] [INFO ] KB: Set function 'n_questions' = 4.0
+[12:42:01] [INFO ] KB: Set function 'n_medium' = 2.0
+[12:42:01] [INFO ] KB: Set function 'ask_uses' = 2.0
+[12:42:01] [INFO ] KB: Set function 'right_answers' = 3.0
+[12:42:01] [INFO ] KB: Removed predicate 'answered_wrong'

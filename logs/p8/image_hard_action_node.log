@@ -1,0 +1,8 @@
+[12:42:08] [INFO ] Mostro immagine: pizza_icon
+[12:42:08] [INFO ] In ascolto (tentativo 1/2)...
+[12:42:13] [INFO ] Riconosciuto: Mancano 2 7.
+[12:42:27] [INFO ] KB: Set function 'n_questions' = 5.0
+[12:42:27] [INFO ] KB: Set function 'n_hard' = 1.0
+[12:42:27] [INFO ] KB: Set function 'image_uses' = 1.0
+[12:42:27] [INFO ] KB: Set function 'right_answers' = 4.0
+[12:42:27] [INFO ] KB: Removed predicate 'answered_wrong'

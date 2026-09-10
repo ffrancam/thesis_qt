@@ -1,0 +1,15 @@
+[12:38:15] [INFO ] Publishing emotion: QT/showing_smile
+[12:38:17] [INFO ] Playing gesture: QT/Show-face
+[12:38:31] [INFO ] Mostro immagine: listening_icon
+[12:38:38] [INFO ] Riconosciuto: Puoi ripetere?
+[12:38:41] [INFO ] Publishing emotion: QT/showing_smile
+[12:38:42] [INFO ] Playing gesture: QT/hand-front-hold
+[12:38:57] [INFO ] Mostro immagine: listening_icon
+[12:39:01] [INFO ] Riconosciuto: Mi sento bene.
+[12:39:03] [INFO ] Publishing emotion: QT/showing_smile
+[12:39:04] [INFO ] Playing gesture: QT/Show-face
+[12:39:17] [INFO ] Mostro immagine: listening_icon
+[12:39:30] [INFO ] Riconosciuto: Vederti.
+[12:39:37] [INFO ] Publishing emotion: QT/happy
+[12:39:38] [INFO ] Playing gesture: QT/emotions/hoora
+[12:39:55] [INFO ] KB: Removed predicate 'answered_wrong'

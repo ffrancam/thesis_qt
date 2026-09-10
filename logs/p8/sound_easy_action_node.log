@@ -1,0 +1,13 @@
+[12:40:01] [INFO ] Riproduzione suono: QT/sound_easy/sneeze
+[12:40:02] [INFO ] In ascolto (tentativo 1/2)...
+[12:40:02] [INFO ] Mostro immagine: listening_icon
+[12:40:11] [INFO ] Riconosciuto: Puoi ripetere?
+[12:40:16] [INFO ] Riproduzione suono: QT/sound_easy/sneeze
+[12:40:17] [INFO ] In ascolto (tentativo 1/2)...
+[12:40:17] [INFO ] Mostro immagine: listening_icon
+[12:40:23] [INFO ] Riconosciuto: Questa persona ha starnutito.
+[12:40:33] [INFO ] KB: Set function 'n_questions' = 2.0
+[12:40:33] [INFO ] KB: Set function 'n_easy' = 2.0
+[12:40:33] [INFO ] KB: Set function 'sound_uses' = 1.0
+[12:40:33] [INFO ] KB: Set function 'right_answers' = 1.0
+[12:40:33] [INFO ] KB: Removed predicate 'answered_wrong'
