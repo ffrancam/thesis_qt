@@ -1,0 +1,4 @@
+[14:14:13] TIMER START — greet_warmly
+[14:14:37] REPLAN #1 START — triggered by 'check_emotion' FAILED
+[14:14:40] REPLAN #1 DONE
+  Tempo ripianificazione: 2.84s
