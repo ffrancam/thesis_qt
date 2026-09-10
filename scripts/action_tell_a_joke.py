@@ -196,7 +196,7 @@ class TellAJokeAction:
                 prompt = (
                     f"La risposta corretta alla barzelletta è: '{punchline}'\n"
                     f"Il bambino ha risposto: '{transcript}'\n"
-                    f"Il bambino ha indovinato la risposta, anche solo vagamente o in modo simile?\n"
+                    f"Il bambino ha indovinato la risposta?\n"
                     f"Rispondi SOLO con SI o NO."
                 )
                 raw = self.bot.aimodel.generate(prompt)

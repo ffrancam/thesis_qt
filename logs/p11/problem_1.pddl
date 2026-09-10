@@ -48,21 +48,21 @@
 
     (= (difficulty_limit) 1)
 
-    (= (right_answers) 2)
+    (= (right_answers) 0)
 
-    (= (wrong_answers) 2)
+    (= (wrong_answers) 1)
 
-    (= (n_questions) 4)
+    (= (n_questions) 1)
 
-    (= (n_easy) 2)
+    (= (n_easy) 1)
 
-    (= (n_medium) 2)
+    (= (n_medium) 0)
 
     (= (n_hard) 0)
 
-    (= (ask_uses) 2)
+    (= (ask_uses) 0)
 
-    (= (image_uses) 1)
+    (= (image_uses) 0)
 
     (= (sound_uses) 0)
 
@@ -82,21 +82,21 @@
 
     (= (sound_easy_coeff) 1)
 
-    (= (sound_medium_coeff) 1.1)
+    (= (sound_medium_coeff) 1)
 
-    (= (sound_hard_coeff) 1.2)
+    (= (sound_hard_coeff) 1)
 
     (= (image_easy_coeff) 1)
 
-    (= (image_medium_coeff) 1.1)
+    (= (image_medium_coeff) 1)
 
-    (= (image_hard_coeff) 1.2)
+    (= (image_hard_coeff) 1)
 
     (= (ask_easy_coeff) 1)
 
-    (= (ask_medium_coeff) 1.1)
+    (= (ask_medium_coeff) 1)
 
-    (= (ask_hard_coeff) 1.2)
+    (= (ask_hard_coeff) 1)
 
     (= (mime_easy_coeff) 1)
 

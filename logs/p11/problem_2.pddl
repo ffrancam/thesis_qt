@@ -12,7 +12,6 @@
     (emotion_checked)
 
 
-    (answered_wrong)
 
     (= (robot_e) 3.44)
 
@@ -20,11 +19,11 @@
 
     (= (robot_a) 0.92)
 
-    (= (human_e) 3.44)
+    (= (human_e) -2.37)
 
-    (= (human_p) 2.93)
+    (= (human_p) -1.04)
 
-    (= (human_a) 0.92)
+    (= (human_a) -0.71)
 
     (= (robot_e_sq) 11.8336)
 
@@ -32,11 +31,11 @@
 
     (= (robot_a_sq) 0.8464)
 
-    (= (human_e_sq) 11.8336)
+    (= (human_e_sq) 5.6169)
 
-    (= (human_p_sq) 8.5849)
+    (= (human_p_sq) 1.0816)
 
-    (= (human_a_sq) 0.8464)
+    (= (human_a_sq) 0.5041)
 
     (= (alpha) 1)
 
@@ -48,21 +47,21 @@
 
     (= (difficulty_limit) 1)
 
-    (= (right_answers) 2)
+    (= (right_answers) 0)
 
-    (= (wrong_answers) 2)
+    (= (wrong_answers) 1)
 
-    (= (n_questions) 4)
+    (= (n_questions) 1)
 
-    (= (n_easy) 2)
+    (= (n_easy) 1)
 
-    (= (n_medium) 2)
+    (= (n_medium) 0)
 
     (= (n_hard) 0)
 
-    (= (ask_uses) 2)
+    (= (ask_uses) 0)
 
-    (= (image_uses) 1)
+    (= (image_uses) 0)
 
     (= (sound_uses) 0)
 
