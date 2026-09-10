@@ -1,0 +1,13 @@
+[15:05:23] [INFO ] Riproduzione suono: QT/sound_medium/harp
+[15:05:26] [INFO ] In ascolto (tentativo 1/2)...
+[15:05:26] [INFO ] Mostro immagine: listening_icon
+[15:05:30] [INFO ] Riconosciuto: Lo xilofono.
+[15:05:40] [INFO ] Riproduzione suono: QT/sound_medium/harp
+[15:05:42] [INFO ] In ascolto (tentativo 2/2)...
+[15:05:42] [INFO ] Mostro immagine: listening_icon
+[15:05:47] [INFO ] Riconosciuto: Chitarra.
+[15:05:56] [INFO ] KB: Set function 'n_questions' = 4.0
+[15:05:56] [INFO ] KB: Set function 'n_medium' = 2.0
+[15:05:56] [INFO ] KB: Set function 'sound_uses' = 1.0
+[15:05:56] [INFO ] KB: Set function 'wrong_answers' = 3.0
+[15:05:56] [INFO ] KB: Added predicate 'answered_wrong'

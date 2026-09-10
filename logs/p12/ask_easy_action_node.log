@@ -1,0 +1,9 @@
+[14:58:14] [INFO ] QT talking: 'Qual è l'animale che dorme appeso a testa in giù?'
+[14:58:15] [INFO ] In ascolto (tentativo 1/2)...
+[14:58:15] [INFO ] Mostro immagine: listening_icon
+[14:58:18] [INFO ] Riconosciuto: Il pipistrello.
+[14:58:28] [INFO ] KB: Set function 'n_questions' = 1.0
+[14:58:28] [INFO ] KB: Set function 'n_easy' = 1.0
+[14:58:28] [INFO ] KB: Set function 'ask_uses' = 1.0
+[14:58:28] [INFO ] KB: Set function 'right_answers' = 1.0
+[14:58:28] [INFO ] KB: Removed predicate 'answered_wrong'

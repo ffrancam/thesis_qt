@@ -1,0 +1,14 @@
+[15:07:51] [INFO ] QT talking: 'Da quale pianta si ricava l'olio che usiamo per cucinare?'
+[15:07:51] [INFO ] In ascolto (tentativo 1/2)...
+[15:07:51] [INFO ] Mostro immagine: listening_icon
+[15:07:58] [INFO ] Riconosciuto: Non la so.
+[15:08:11] [INFO ] In ascolto (tentativo 2/2)...
+[15:08:11] [INFO ] Mostro immagine: listening_icon
+[15:08:30] [INFO ] In ascolto (tentativo 2/2)...
+[15:08:30] [INFO ] Mostro immagine: listening_icon
+[15:08:39] [INFO ] Riconosciuto: Non lo so.
+[15:08:48] [INFO ] KB: Set function 'n_questions' = 5.0
+[15:08:48] [INFO ] KB: Set function 'n_hard' = 1.0
+[15:08:48] [INFO ] KB: Set function 'ask_uses' = 2.0
+[15:08:48] [INFO ] KB: Set function 'wrong_answers' = 4.0
+[15:08:48] [INFO ] KB: Added predicate 'answered_wrong'

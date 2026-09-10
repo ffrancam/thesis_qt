@@ -1,0 +1,11 @@
+[15:02:34] [INFO ] Mostro immagine: igloo_icon
+[15:02:34] [INFO ] In ascolto (tentativo 1/2)...
+[15:02:40] [INFO ] Riconosciuto: Blu.
+[15:02:51] [INFO ] Mostro immagine: igloo_icon
+[15:02:51] [INFO ] In ascolto (tentativo 2/2)...
+[15:02:58] [INFO ] Riconosciuto: Blu.
+[15:03:08] [INFO ] KB: Set function 'n_questions' = 3.0
+[15:03:08] [INFO ] KB: Set function 'n_medium' = 1.0
+[15:03:08] [INFO ] KB: Set function 'image_uses' = 1.0
+[15:03:08] [INFO ] KB: Set function 'wrong_answers' = 2.0
+[15:03:08] [INFO ] KB: Added predicate 'answered_wrong'
