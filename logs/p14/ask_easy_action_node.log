@@ -1,0 +1,9 @@
+[15:32:44] [INFO ] QT talking: 'Quante dita ha una mano?'
+[15:32:44] [INFO ] In ascolto (tentativo 1/2)...
+[15:32:44] [INFO ] Mostro immagine: listening_icon
+[15:32:49] [INFO ] Riconosciuto: 5.
+[15:32:57] [INFO ] KB: Set function 'n_questions' = 2.0
+[15:32:57] [INFO ] KB: Set function 'n_easy' = 2.0
+[15:32:57] [INFO ] KB: Set function 'ask_uses' = 1.0
+[15:32:57] [INFO ] KB: Set function 'right_answers' = 2.0
+[15:32:57] [INFO ] KB: Removed predicate 'answered_wrong'

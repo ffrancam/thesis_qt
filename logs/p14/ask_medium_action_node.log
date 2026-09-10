@@ -1,0 +1,9 @@
+[15:33:01] [INFO ] QT talking: 'Quante vocali ci sono nell'alfabeto?'
+[15:33:01] [INFO ] In ascolto (tentativo 1/2)...
+[15:33:01] [INFO ] Mostro immagine: listening_icon
+[15:33:05] [INFO ] Riconosciuto: 5.
+[15:33:15] [INFO ] KB: Set function 'n_questions' = 3.0
+[15:33:15] [INFO ] KB: Set function 'n_medium' = 1.0
+[15:33:15] [INFO ] KB: Set function 'ask_uses' = 2.0
+[15:33:15] [INFO ] KB: Set function 'right_answers' = 3.0
+[15:33:15] [INFO ] KB: Removed predicate 'answered_wrong'

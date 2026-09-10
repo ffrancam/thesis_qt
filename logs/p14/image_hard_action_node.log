@@ -1,0 +1,10 @@
+[15:33:39] [INFO ] Mostro immagine: impronte_cavallo_icon
+[15:33:39] [INFO ] In ascolto (tentativo 1/2)...
+[15:33:58] [INFO ] Mostro immagine: impronte_cavallo_icon
+[15:33:58] [INFO ] In ascolto (tentativo 1/2)...
+[15:34:00] [INFO ] Riconosciuto: Di un cavallo.
+[15:34:08] [INFO ] KB: Set function 'n_questions' = 5.0
+[15:34:08] [INFO ] KB: Set function 'n_hard' = 1.0
+[15:34:08] [INFO ] KB: Set function 'image_uses' = 1.0
+[15:34:08] [INFO ] KB: Set function 'right_answers' = 5.0
+[15:34:08] [INFO ] KB: Removed predicate 'answered_wrong'
