@@ -1,0 +1,27 @@
+[11:30:02] [INFO ] Mostro immagine: owl_icon
+[11:30:02] [INFO ] In ascolto (tentativo 1/2)...
+[11:30:21] [INFO ] Mostro immagine: owl_icon
+[11:30:21] [INFO ] In ascolto (tentativo 1/2)...
+[11:30:24] [INFO ] Riconosciuto: È un gufo.
+[11:30:35] [INFO ] Mostro immagine: owl_icon
+[11:30:35] [INFO ] In ascolto (tentativo 2/2)...
+[11:30:54] [INFO ] Mostro immagine: owl_icon
+[11:30:54] [INFO ] In ascolto (tentativo 2/2)...
+[11:31:02] [INFO ] Riconosciuto: Non ho, non, non, non lo so.
+[11:31:13] [INFO ] KB: Set function 'n_questions' = 5.0
+[11:31:13] [INFO ] KB: Set function 'n_hard' = 1.0
+[11:31:13] [INFO ] KB: Set function 'image_uses' = 1.0
+[11:31:13] [INFO ] KB: Set function 'wrong_answers' = 2.0
+[11:31:14] [INFO ] KB: Added predicate 'answered_wrong'
+[11:31:14] [INFO ] KB: Set function 'robot_e' = 3.44
+[11:31:14] [INFO ] KB: Set function 'robot_p' = 2.93
+[11:31:14] [INFO ] KB: Set function 'robot_a' = 0.92
+[11:31:14] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[11:31:14] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[11:31:14] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[11:31:14] [INFO ] KB: Set function 'human_e' = 3.44
+[11:31:14] [INFO ] KB: Set function 'human_p' = 2.93
+[11:31:14] [INFO ] KB: Set function 'human_a' = 0.92
+[11:31:14] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[11:31:14] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[11:31:14] [INFO ] KB: Set function 'human_a_sq' = 0.8464
