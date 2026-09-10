@@ -1,0 +1,9 @@
+[15:55:35] [INFO ] QT talking: 'Cosa succede all'acqua quando fa molto freddo?'
+[15:55:35] [INFO ] In ascolto (tentativo 1/2)...
+[15:55:35] [INFO ] Mostro immagine: listening_icon
+[15:55:40] [INFO ] Riconosciuto: Si congela e diventa ghiaccio.
+[15:55:51] [INFO ] KB: Set function 'n_questions' = 1.0
+[15:55:51] [INFO ] KB: Set function 'n_easy' = 1.0
+[15:55:51] [INFO ] KB: Set function 'ask_uses' = 1.0
+[15:55:51] [INFO ] KB: Set function 'right_answers' = 1.0
+[15:55:51] [INFO ] KB: Removed predicate 'answered_wrong'

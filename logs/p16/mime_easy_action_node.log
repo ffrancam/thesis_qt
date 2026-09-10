@@ -1,0 +1,14 @@
+[15:55:59] [INFO ] In ascolto (tentativo 1/2)...
+[15:55:59] [INFO ] Mostro immagine: listening_icon
+[15:56:04] [INFO ] Riconosciuto: Stai facendo il segno militare?
+[15:56:13] [INFO ] In ascolto (tentativo 2/2)...
+[15:56:13] [INFO ] Mostro immagine: listening_icon
+[15:56:20] [INFO ] Riconosciuto: Non ho capito che cosa ripeti.
+[15:56:29] [INFO ] In ascolto (tentativo 2/2)...
+[15:56:29] [INFO ] Mostro immagine: listening_icon
+[15:56:32] [INFO ] Riconosciuto: Hai sbagliato?
+[15:56:41] [INFO ] KB: Set function 'n_questions' = 2.0
+[15:56:41] [INFO ] KB: Set function 'n_easy' = 2.0
+[15:56:41] [INFO ] KB: Set function 'mime_uses' = 1.0
+[15:56:41] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[15:56:41] [INFO ] KB: Added predicate 'answered_wrong'

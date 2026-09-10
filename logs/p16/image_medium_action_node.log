@@ -1,0 +1,11 @@
+[15:58:45] [INFO ] Mostro immagine: basso_icon
+[15:58:45] [INFO ] In ascolto (tentativo 1/2)...
+[15:58:53] [INFO ] Riconosciuto: Violino.
+[15:59:04] [INFO ] Mostro immagine: basso_icon
+[15:59:04] [INFO ] In ascolto (tentativo 2/2)...
+[15:59:07] [INFO ] Riconosciuto: Chitarra.
+[15:59:17] [INFO ] KB: Set function 'n_questions' = 3.0
+[15:59:17] [INFO ] KB: Set function 'n_medium' = 1.0
+[15:59:17] [INFO ] KB: Set function 'image_uses' = 1.0
+[15:59:17] [INFO ] KB: Set function 'wrong_answers' = 2.0
+[15:59:17] [INFO ] KB: Added predicate 'answered_wrong'

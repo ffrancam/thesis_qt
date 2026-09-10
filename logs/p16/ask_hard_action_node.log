@@ -1,0 +1,9 @@
+[16:01:45] [INFO ] QT talking: 'In quale continente si trova il Giappone?'
+[16:01:45] [INFO ] In ascolto (tentativo 1/2)...
+[16:01:45] [INFO ] Mostro immagine: listening_icon
+[16:01:49] [INFO ] Riconosciuto: Asia.
+[16:01:58] [INFO ] KB: Set function 'n_questions' = 5.0
+[16:01:58] [INFO ] KB: Set function 'n_hard' = 1.0
+[16:01:58] [INFO ] KB: Set function 'ask_uses' = 2.0
+[16:01:58] [INFO ] KB: Set function 'right_answers' = 3.0
+[16:01:58] [INFO ] KB: Removed predicate 'answered_wrong'
