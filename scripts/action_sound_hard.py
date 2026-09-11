@@ -25,7 +25,7 @@ class SoundHardAction:
         'q7':  ("QT/sound_hard/siren_doppler",    "Ascolta questa sirena della polizia. Il suono cambia tono: la macchina si sta avvicinando o allontanando?",  "si sta allontanando / sta andando via"),
         'q8':  ("QT/sound_hard/pouring_water_in_glass",   "Ascolta l'acqua che viene versata. Il suono diventa sempre più acuto. Cosa succede al bicchiere?", "si sta riempiendo / è pieno fino all'orlo"),
         'q9':  ("QT/sound_hard/church_bells",    "Ascolta questi rintocchi giganti. Cos'è?",        "una campana / il campanile della chiesa / una camapana della chiesa"),
-        'q10': ("QT/sound_hard/metronome ",  "Ascolta questo ticchettio perfetto. Quale strumento aiuta i musicisti ad andare a tempo?",      "il metronomo"),
+        #'q10': ("QT/sound_hard/metronome ",  "Ascolta questo ticchettio perfetto. Quale strumento aiuta i musicisti ad andare a tempo?",      "il metronomo"),
     }
 
     MAX_ATTEMPTS = 2
