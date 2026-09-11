@@ -1,0 +1,12 @@
+[14:38:09] [INFO ] QT talking: 'In quale stagione cadono le foglie dagli alberi?'
+[14:38:09] [INFO ] In ascolto (tentativo 1/2)...
+[14:38:09] [INFO ] Mostro immagine: listening_icon
+[14:38:17] [INFO ] Riconosciuto: Estate.
+[14:38:29] [INFO ] In ascolto (tentativo 2/2)...
+[14:38:29] [INFO ] Mostro immagine: listening_icon
+[14:38:33] [INFO ] Riconosciuto: Inverno.
+[14:38:42] [INFO ] KB: Set function 'n_questions' = 1.0
+[14:38:42] [INFO ] KB: Set function 'n_easy' = 1.0
+[14:38:42] [INFO ] KB: Set function 'ask_uses' = 1.0
+[14:38:42] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[14:38:42] [INFO ] KB: Added predicate 'answered_wrong'

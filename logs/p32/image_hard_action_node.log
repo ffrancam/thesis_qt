@@ -1,0 +1,8 @@
+[14:41:45] [INFO ] Mostro immagine: pala_eolica_icon
+[14:41:45] [INFO ] In ascolto (tentativo 1/2)...
+[14:41:51] [INFO ] Riconosciuto: Elettricità.
+[14:41:58] [INFO ] KB: Set function 'n_questions' = 5.0
+[14:41:58] [INFO ] KB: Set function 'n_hard' = 1.0
+[14:41:58] [INFO ] KB: Set function 'image_uses' = 1.0
+[14:41:58] [INFO ] KB: Set function 'right_answers' = 4.0
+[14:41:58] [INFO ] KB: Removed predicate 'answered_wrong'

@@ -1,0 +1,9 @@
+[14:41:06] [INFO ] QT talking: 'Quale insetto colorato nasce da un bruco?'
+[14:41:06] [INFO ] In ascolto (tentativo 1/2)...
+[14:41:06] [INFO ] Mostro immagine: listening_icon
+[14:41:11] [INFO ] Riconosciuto: Farfalla.
+[14:41:19] [INFO ] KB: Set function 'n_questions' = 3.0
+[14:41:19] [INFO ] KB: Set function 'n_medium' = 1.0
+[14:41:19] [INFO ] KB: Set function 'ask_uses' = 2.0
+[14:41:19] [INFO ] KB: Set function 'right_answers' = 2.0
+[14:41:19] [INFO ] KB: Removed predicate 'answered_wrong'

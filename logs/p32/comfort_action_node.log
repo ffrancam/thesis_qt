@@ -1,0 +1,15 @@
+[14:38:53] [INFO ] Publishing emotion: QT/showing_smile
+[14:38:54] [INFO ] Playing gesture: QT/Show-face
+[14:39:08] [INFO ] Mostro immagine: listening_icon
+[14:39:11] [INFO ] Riconosciuto: Triste.
+[14:39:13] [INFO ] Publishing emotion: QT/sad
+[14:39:15] [INFO ] Playing gesture: QT/emotions/sad
+[14:39:34] [INFO ] Mostro immagine: listening_icon
+[14:39:36] [INFO ] Riconosciuto: Quello che vuoi tu.
+[14:39:38] [INFO ] Publishing emotion: QT/showing_smile
+[14:39:39] [INFO ] Playing gesture: QT/Show-face
+[14:39:55] [INFO ] Mostro immagine: listening_icon
+[14:40:04] [INFO ] Riconosciuto: Indovina animale.
+[14:40:12] [INFO ] Publishing emotion: QT/happy_blinking
+[14:40:13] [INFO ] Playing gesture: QT/monkey
+[14:40:40] [INFO ] KB: Removed predicate 'answered_wrong'

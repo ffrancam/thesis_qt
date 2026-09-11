@@ -1,0 +1,8 @@
+[14:40:52] [INFO ] In ascolto (tentativo 1/2)...
+[14:40:52] [INFO ] Mostro immagine: listening_icon
+[14:40:56] [INFO ] Riconosciuto: Stai volando.
+[14:41:02] [INFO ] KB: Set function 'n_questions' = 2.0
+[14:41:02] [INFO ] KB: Set function 'n_easy' = 2.0
+[14:41:02] [INFO ] KB: Set function 'mime_uses' = 1.0
+[14:41:02] [INFO ] KB: Set function 'right_answers' = 1.0
+[14:41:02] [INFO ] KB: Removed predicate 'answered_wrong'

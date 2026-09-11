@@ -1,0 +1,9 @@
+[14:41:22] [INFO ] Riproduzione suono: QT/sound_medium/typing_keyboard
+[14:41:30] [INFO ] In ascolto (tentativo 1/2)...
+[14:41:30] [INFO ] Mostro immagine: listening_icon
+[14:41:33] [INFO ] Riconosciuto: La tastiera?
+[14:41:41] [INFO ] KB: Set function 'n_questions' = 4.0
+[14:41:41] [INFO ] KB: Set function 'n_medium' = 2.0
+[14:41:41] [INFO ] KB: Set function 'sound_uses' = 1.0
+[14:41:41] [INFO ] KB: Set function 'right_answers' = 3.0
+[14:41:41] [INFO ] KB: Removed predicate 'answered_wrong'
