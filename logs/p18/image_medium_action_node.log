@@ -1,0 +1,13 @@
+[10:11:44] [INFO ] Mostro immagine: igloo_icon
+[10:11:44] [INFO ] In ascolto (tentativo 1/2)...
+[10:11:54] [INFO ] Riconosciuto: Globo.
+[10:12:02] [INFO ] Mostro immagine: igloo_icon
+[10:12:02] [INFO ] In ascolto (tentativo 2/2)...
+[10:12:21] [INFO ] Mostro immagine: igloo_icon
+[10:12:21] [INFO ] In ascolto (tentativo 2/2)...
+[10:12:34] [INFO ] Riconosciuto: Chiudi è per caso un igloo?
+[10:12:41] [INFO ] KB: Set function 'n_questions' = 3.0
+[10:12:41] [INFO ] KB: Set function 'n_medium' = 1.0
+[10:12:41] [INFO ] KB: Set function 'image_uses' = 1.0
+[10:12:41] [INFO ] KB: Set function 'right_answers' = 2.0
+[10:12:41] [INFO ] KB: Removed predicate 'answered_wrong'

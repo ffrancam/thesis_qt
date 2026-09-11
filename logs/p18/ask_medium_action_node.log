@@ -1,0 +1,12 @@
+[10:12:45] [INFO ] QT talking: 'Come si chiama il pianeta su cui viviamo?'
+[10:12:45] [INFO ] In ascolto (tentativo 1/2)...
+[10:12:45] [INFO ] Mostro immagine: listening_icon
+[10:12:55] [INFO ] Riconosciuto: Mi hai sentito?
+[10:12:58] [INFO ] In ascolto (tentativo 1/2)...
+[10:12:58] [INFO ] Mostro immagine: listening_icon
+[10:13:02] [INFO ] Riconosciuto: La terra.
+[10:13:15] [INFO ] KB: Set function 'n_questions' = 4.0
+[10:13:15] [INFO ] KB: Set function 'n_medium' = 2.0
+[10:13:15] [INFO ] KB: Set function 'ask_uses' = 2.0
+[10:13:15] [INFO ] KB: Set function 'right_answers' = 3.0
+[10:13:15] [INFO ] KB: Removed predicate 'answered_wrong'

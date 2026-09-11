@@ -1,0 +1,9 @@
+[10:08:44] [INFO ] QT talking: 'Quanto è lunga una settimana?'
+[10:08:44] [INFO ] In ascolto (tentativo 1/2)...
+[10:08:44] [INFO ] Mostro immagine: listening_icon
+[10:08:51] [INFO ] Riconosciuto: 7 giorni.
+[10:09:02] [INFO ] KB: Set function 'n_questions' = 1.0
+[10:09:02] [INFO ] KB: Set function 'n_easy' = 1.0
+[10:09:02] [INFO ] KB: Set function 'ask_uses' = 1.0
+[10:09:02] [INFO ] KB: Set function 'right_answers' = 1.0
+[10:09:02] [INFO ] KB: Removed predicate 'answered_wrong'
