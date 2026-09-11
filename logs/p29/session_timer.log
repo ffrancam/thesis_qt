@@ -1,0 +1,6 @@
+[14:05:33] TIMER START — greet_warmly
+[14:05:57] REPLAN #1 START — triggered by 'check_emotion' FAILED
+[14:06:00] REPLAN #1 DONE
+  Tempo ripianificazione: 2.85s
+[14:09:06] TIMER STOP  — conclude_game
+  Durata sessione: 0:03:33

@@ -19,7 +19,7 @@ class ImageHardAction:
     QUESTIONS = {
         'q1':  ("africa",      "Guarda questa mappa. Come si chiama il continente evidenziato?",   "Africa", ""),
         'q2':  ("calamita",      "Questo pezzo di metallo riesce ad attirare altri pezzi di metallo senza toccarli. Che oggetto è?",     "una calamita / un magnete", ""),
-        'q3':  ("ombra",    "Guarda attentamente l'ombra dell'albero. Il sole di trova a destra o a sinistra?",             "sinistra", "l'immagine mostra un albero con l'ombra a destra"),
+        'q3':  ("ombra",    "Guarda attentamente l'ombra dell'albero. Il sole di trova a destra o a sinistra?",             "a sinistra / sinistra", "l'immagine mostra un albero con l'ombra a destra"),
         'q4':  ("impronte_cavallo",   "Sai dirmi di chi sono queste impronte?",   "di un cavallo", "l'immagine mostra delle impronte di un cavallo sulla neve"),
         'q5':  ("images",      "Guarda attentamente. C'è qualcosa che non torna: perchè il faro è a testa in giù?",    "perchè è il riflesso nell'acqua", "l'immagine mostra una pozzanghera con un faro riflesso"),
         'q6':  ("orologio",    "Sai dirmi che ore sono?", "11:55 / le 12 meno 5", "l'immagine mostra un orologio con le lancette che segnano le 11:55"),
