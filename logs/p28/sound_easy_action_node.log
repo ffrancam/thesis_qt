@@ -1,0 +1,9 @@
+[13:57:08] [INFO ] Riproduzione suono: QT/sound_easy/doorbell
+[13:57:13] [INFO ] In ascolto (tentativo 1/2)...
+[13:57:13] [INFO ] Mostro immagine: listening_icon
+[13:57:17] [INFO ] Riconosciuto: Qualcuno ha suonato la porta?
+[13:57:25] [INFO ] KB: Set function 'n_questions' = 2.0
+[13:57:25] [INFO ] KB: Set function 'n_easy' = 2.0
+[13:57:25] [INFO ] KB: Set function 'sound_uses' = 1.0
+[13:57:25] [INFO ] KB: Set function 'right_answers' = 2.0
+[13:57:25] [INFO ] KB: Removed predicate 'answered_wrong'

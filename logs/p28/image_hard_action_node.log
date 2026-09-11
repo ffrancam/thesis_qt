@@ -1,0 +1,15 @@
+[13:58:38] [INFO ] Mostro immagine: owl_icon
+[13:58:38] [INFO ] In ascolto (tentativo 1/2)...
+[13:58:56] [INFO ] Mostro immagine: owl_icon
+[13:58:56] [INFO ] In ascolto (tentativo 1/2)...
+[13:59:02] [INFO ] Riconosciuto: Ha il potere di nascondersi e non farsi vedere.
+[13:59:12] [INFO ] Mostro immagine: owl_icon
+[13:59:12] [INFO ] In ascolto (tentativo 2/2)...
+[13:59:31] [INFO ] Mostro immagine: owl_icon
+[13:59:31] [INFO ] In ascolto (tentativo 2/2)...
+[13:59:41] [INFO ] Riconosciuto: Pure.
+[13:59:55] [INFO ] KB: Set function 'n_questions' = 5.0
+[13:59:55] [INFO ] KB: Set function 'n_hard' = 1.0
+[13:59:55] [INFO ] KB: Set function 'image_uses' = 1.0
+[13:59:55] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[13:59:55] [INFO ] KB: Added predicate 'answered_wrong'

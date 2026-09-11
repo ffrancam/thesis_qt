@@ -16,9 +16,9 @@
 
     (= (difficulty_limit) 1)
 
-    (= (right_answers) 4)
+    (= (right_answers) 3)
 
-    (= (wrong_answers) 1)
+    (= (wrong_answers) 2)
 
     (= (n_questions) 5)
 
@@ -40,13 +40,13 @@
 
     (= (category_limit_bonus) 2)
 
-    (= (ask_coeff) 60)
+    (= (ask_coeff) 20)
 
-    (= (mime_coeff) 40)
+    (= (mime_coeff) 60)
 
     (= (sound_coeff) 1)
 
-    (= (image_coeff) 20)
+    (= (image_coeff) 40)
 
     (= (sound_easy_coeff) 1)
 

@@ -1,0 +1,9 @@
+[13:50:47] [INFO ] QT talking: 'Qual è la lingua più parlata al mondo?'
+[13:50:47] [INFO ] In ascolto (tentativo 1/2)...
+[13:50:47] [INFO ] Mostro immagine: listening_icon
+[13:50:50] [INFO ] Riconosciuto: Il cinese?
+[13:51:04] [INFO ] KB: Set function 'n_questions' = 3.0
+[13:51:04] [INFO ] KB: Set function 'n_medium' = 1.0
+[13:51:04] [INFO ] KB: Set function 'ask_uses' = 2.0
+[13:51:04] [INFO ] KB: Set function 'right_answers' = 2.0
+[13:51:04] [INFO ] KB: Removed predicate 'answered_wrong'

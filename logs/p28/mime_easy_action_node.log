@@ -1,0 +1,8 @@
+[13:56:56] [INFO ] In ascolto (tentativo 1/2)...
+[13:56:56] [INFO ] Mostro immagine: listening_icon
+[13:57:00] [INFO ] Riconosciuto: Non so correndo, no?
+[13:57:06] [INFO ] KB: Set function 'n_questions' = 1.0
+[13:57:06] [INFO ] KB: Set function 'n_easy' = 1.0
+[13:57:06] [INFO ] KB: Set function 'mime_uses' = 1.0
+[13:57:06] [INFO ] KB: Set function 'right_answers' = 1.0
+[13:57:06] [INFO ] KB: Removed predicate 'answered_wrong'

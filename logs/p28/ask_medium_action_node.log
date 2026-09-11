@@ -1,0 +1,24 @@
+[13:57:28] [INFO ] QT talking: 'Quale senso usiamo per ascoltare la musica?'
+[13:57:28] [INFO ] In ascolto (tentativo 1/2)...
+[13:57:28] [INFO ] Mostro immagine: listening_icon
+[13:57:33] [INFO ] Riconosciuto: Ridi.
+[13:57:44] [INFO ] In ascolto (tentativo 2/2)...
+[13:57:44] [INFO ] Mostro immagine: listening_icon
+[13:57:47] [INFO ] Riconosciuto: Le orecchie?
+[13:57:55] [INFO ] KB: Set function 'n_questions' = 3.0
+[13:57:55] [INFO ] KB: Set function 'n_medium' = 1.0
+[13:57:55] [INFO ] KB: Set function 'ask_uses' = 1.0
+[13:57:55] [INFO ] KB: Set function 'right_answers' = 3.0
+[13:57:55] [INFO ] KB: Removed predicate 'answered_wrong'
+[13:57:58] [INFO ] QT talking: 'Come si chiama il cucciolo della mucca?'
+[13:57:58] [INFO ] In ascolto (tentativo 1/2)...
+[13:57:58] [INFO ] Mostro immagine: listening_icon
+[13:58:01] [INFO ] Riconosciuto: Nutella.
+[13:58:13] [INFO ] In ascolto (tentativo 2/2)...
+[13:58:13] [INFO ] Mostro immagine: listening_icon
+[13:58:22] [INFO ] Riconosciuto: Vitello.
+[13:58:31] [INFO ] KB: Set function 'n_questions' = 4.0
+[13:58:31] [INFO ] KB: Set function 'n_medium' = 2.0
+[13:58:31] [INFO ] KB: Set function 'ask_uses' = 2.0
+[13:58:31] [INFO ] KB: Set function 'right_answers' = 4.0
+[13:58:31] [INFO ] KB: Removed predicate 'answered_wrong'

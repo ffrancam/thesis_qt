@@ -1,0 +1,12 @@
+[13:47:54] [INFO ] QT talking: 'Qual è l'animale con il collo più lungo?'
+[13:47:54] [INFO ] In ascolto (tentativo 1/2)...
+[13:47:54] [INFO ] Mostro immagine: listening_icon
+[13:47:57] [INFO ] Riconosciuto: Il sale?
+[13:48:08] [INFO ] In ascolto (tentativo 2/2)...
+[13:48:08] [INFO ] Mostro immagine: listening_icon
+[13:48:12] [INFO ] Riconosciuto: L'ermellino.
+[13:48:22] [INFO ] KB: Set function 'n_questions' = 1.0
+[13:48:22] [INFO ] KB: Set function 'n_easy' = 1.0
+[13:48:22] [INFO ] KB: Set function 'ask_uses' = 1.0
+[13:48:22] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[13:48:22] [INFO ] KB: Added predicate 'answered_wrong'

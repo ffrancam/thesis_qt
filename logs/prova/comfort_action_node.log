@@ -1,0 +1,15 @@
+[13:48:32] [INFO ] Publishing emotion: QT/showing_smile
+[13:48:33] [INFO ] Playing gesture: QT/Show-face
+[13:48:47] [INFO ] Mostro immagine: listening_icon
+[13:48:58] [INFO ] Riconosciuto: Bene.
+[13:49:00] [INFO ] Publishing emotion: QT/happy_blinking
+[13:49:01] [INFO ] Playing gesture: QT/emotions/happy
+[13:49:16] [INFO ] Mostro immagine: listening_icon
+[13:49:23] [INFO ] Riconosciuto: Questo momento direi di no.
+[13:49:25] [INFO ] Publishing emotion: QT/showing_smile
+[13:49:26] [INFO ] Playing gesture: QT/hand-front-hold
+[13:49:43] [INFO ] Mostro immagine: listening_icon
+[13:49:47] [INFO ] Riconosciuto: Riposare.
+[13:49:55] [INFO ] Publishing emotion: QT/happy_blinking
+[13:49:56] [INFO ] Playing gesture: QT/emotions/happy
+[13:50:16] [INFO ] KB: Removed predicate 'answered_wrong'
