@@ -19,11 +19,11 @@
 
     (= (robot_a) 0.92)
 
-    (= (human_e) -2.27)
+    (= (human_e) -1.85)
 
-    (= (human_p) 0.22)
+    (= (human_p) -0.86)
 
-    (= (human_a) 0.43)
+    (= (human_a) -2.01)
 
     (= (robot_e_sq) 11.8336)
 
@@ -31,11 +31,11 @@
 
     (= (robot_a_sq) 0.8464)
 
-    (= (human_e_sq) 5.1529)
+    (= (human_e_sq) 3.4225)
 
-    (= (human_p_sq) 0.0484)
+    (= (human_p_sq) 0.7396)
 
-    (= (human_a_sq) 0.1849)
+    (= (human_a_sq) 4.0401)
 
     (= (alpha) 1)
 
@@ -47,15 +47,15 @@
 
     (= (difficulty_limit) 1)
 
-    (= (right_answers) 1)
+    (= (right_answers) 2)
 
-    (= (wrong_answers) 2)
+    (= (wrong_answers) 0)
 
-    (= (n_questions) 3)
+    (= (n_questions) 2)
 
     (= (n_easy) 2)
 
-    (= (n_medium) 1)
+    (= (n_medium) 0)
 
     (= (n_hard) 0)
 
@@ -63,7 +63,7 @@
 
     (= (image_uses) 0)
 
-    (= (sound_uses) 1)
+    (= (sound_uses) 0)
 
     (= (mime_uses) 1)
 
@@ -71,13 +71,13 @@
 
     (= (category_limit_bonus) 2)
 
-    (= (ask_coeff) 60)
+    (= (ask_coeff) 40)
 
-    (= (mime_coeff) 1)
+    (= (mime_coeff) 20)
 
-    (= (sound_coeff) 40)
+    (= (sound_coeff) 1)
 
-    (= (image_coeff) 20)
+    (= (image_coeff) 60)
 
     (= (sound_easy_coeff) 1)
 

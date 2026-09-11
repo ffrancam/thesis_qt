@@ -1,0 +1,25 @@
+[15:37:18] [INFO ] Riproduzione suono: QT/sound_easy/monkey
+[15:37:22] [INFO ] In ascolto (tentativo 1/2)...
+[15:37:22] [INFO ] Mostro immagine: listening_icon
+[15:37:25] [INFO ] Riconosciuto: La mucca.
+[15:37:38] [INFO ] Riproduzione suono: QT/sound_easy/monkey
+[15:37:42] [INFO ] In ascolto (tentativo 2/2)...
+[15:37:42] [INFO ] Mostro immagine: listening_icon
+[15:37:46] [INFO ] Riconosciuto: Il cane?
+[15:37:55] [INFO ] KB: Set function 'n_questions' = 1.0
+[15:37:55] [INFO ] KB: Set function 'n_easy' = 1.0
+[15:37:55] [INFO ] KB: Set function 'sound_uses' = 1.0
+[15:37:55] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[15:37:55] [INFO ] KB: Added predicate 'answered_wrong'
+[15:37:55] [INFO ] KB: Set function 'robot_e' = 3.44
+[15:37:55] [INFO ] KB: Set function 'robot_p' = 2.93
+[15:37:55] [INFO ] KB: Set function 'robot_a' = 0.92
+[15:37:55] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[15:37:55] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[15:37:55] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[15:37:55] [INFO ] KB: Set function 'human_e' = 3.44
+[15:37:55] [INFO ] KB: Set function 'human_p' = 2.93
+[15:37:55] [INFO ] KB: Set function 'human_a' = 0.92
+[15:37:55] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[15:37:55] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[15:37:55] [INFO ] KB: Set function 'human_a_sq' = 0.8464
