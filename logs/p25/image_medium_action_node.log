@@ -1,0 +1,27 @@
+[12:36:20] [INFO ] Mostro immagine: rugiada_icon
+[12:36:20] [INFO ] In ascolto (tentativo 1/2)...
+[12:36:38] [INFO ] Mostro immagine: rugiada_icon
+[12:36:38] [INFO ] In ascolto (tentativo 1/2)...
+[12:36:40] [INFO ] Riconosciuto: Non lo so.
+[12:36:53] [INFO ] Mostro immagine: rugiada_icon
+[12:36:53] [INFO ] In ascolto (tentativo 2/2)...
+[12:37:11] [INFO ] Mostro immagine: rugiada_icon
+[12:37:11] [INFO ] In ascolto (tentativo 2/2)...
+[12:37:21] [INFO ] Riconosciuto: Non lo so.
+[12:37:32] [INFO ] KB: Set function 'n_questions' = 4.0
+[12:37:32] [INFO ] KB: Set function 'n_medium' = 2.0
+[12:37:33] [INFO ] KB: Set function 'image_uses' = 1.0
+[12:37:33] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[12:37:33] [INFO ] KB: Added predicate 'answered_wrong'
+[12:37:33] [INFO ] KB: Set function 'robot_e' = 3.44
+[12:37:33] [INFO ] KB: Set function 'robot_p' = 2.93
+[12:37:33] [INFO ] KB: Set function 'robot_a' = 0.92
+[12:37:33] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[12:37:33] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[12:37:33] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[12:37:33] [INFO ] KB: Set function 'human_e' = 3.44
+[12:37:33] [INFO ] KB: Set function 'human_p' = 2.93
+[12:37:33] [INFO ] KB: Set function 'human_a' = 0.92
+[12:37:33] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[12:37:33] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[12:37:33] [INFO ] KB: Set function 'human_a_sq' = 0.8464
