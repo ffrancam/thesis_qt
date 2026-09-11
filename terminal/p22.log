@@ -1,0 +1,562 @@
+Script started on 2026-09-11 11:49:21+02:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="62" LINES="20"]
+]0;qtrobot@QTPC: ~[01;32mqtrobot@QTPC[00m:[01;34m~[00m$ exitroslaunch thesis_qt qt_test_actions.launch session_name:=p21[K2
+... logging to /home/qtrobot/.ros/log/d057ad2e-ac93-11f1-b13d-cfd4f90960fc/roslaunch-QTPC-69509.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/qtrobot/catkin_ws/src/thesis_qt/launch/qt_test_actions.launch
+[1mstarted roslaunch server http://192.168.100.2:39831/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /azure/key: BKVtbDT7matA6cc5Y...
+ * /azure/region: italynorth
+ * /check_emotion_action/manual_emotion: False
+ * /morphcast/license_key: sk47883e278895186...
+ * /offline_conversation/asr: vosk
+ * /offline_conversation/engine: openai
+ * /offline_conversation/groq/api_key: gsk_l6DWfd1Ay28Me...
+ * /offline_conversation/groq/max_sentence: 2
+ * /offline_conversation/groq/max_token_length: 4096
+ * /offline_conversation/groq/memory_size: 10
+ * /offline_conversation/groq/model: llama-3.3-70b-ver...
+ * /offline_conversation/groq/prompt: Rispondi sempre i...
+ * /offline_conversation/groq/temperature: 0.7
+ * /offline_conversation/ollama/api_base: http://localhost:...
+ * /offline_conversation/ollama/frequency_penalty: 0.6
+ * /offline_conversation/ollama/max_sentence: 2
+ * /offline_conversation/ollama/max_token_length: 4096
+ * /offline_conversation/ollama/memory_size: 0
+ * /offline_conversation/ollama/model: phi3
+ * /offline_conversation/ollama/presence_penalty: 0.6
+ * /offline_conversation/ollama/prompt: Rispondi sempre i...
+ * /offline_conversation/ollama/temperature: 0.8
+ * /offline_conversation/openai/api_base: https://api.opena...
+ * /offline_conversation/openai/api_key: sk-proj-zKdkMayFQ...
+ * /offline_conversation/openai/frequency_penalty: 0.6
+ * /offline_conversation/openai/max_sentence: 2
+ * /offline_conversation/openai/max_token_length: 300
+ * /offline_conversation/openai/memory_size: 3
+ * /offline_conversation/openai/model: gpt-4o-mini
+ * /offline_conversation/openai/presence_penalty: 0.6
+ * /offline_conversation/openai/prompt: Sei QT, un piccol...
+ * /offline_conversation/openai/temperature: 0.5
+ * /offline_conversation/sentiment: True
+ * /offline_conversation/show_sentiment: False
+ * /offline_conversation/tts_voice: it_IT
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+ * /session_logger_node/session_name: p22
+
+NODES
+  /
+    ask_easy_action_node (thesis_qt/action_ask_easy.py)
+    ask_for_help_action_node (thesis_qt/action_ask_for_help.py)
+    ask_hard_action_node (thesis_qt/action_ask_hard.py)
+    ask_medium_action_node (thesis_qt/action_ask_medium.py)
+    calm_down_action_node (thesis_qt/action_calm_down.py)
+    check_emotion_action (thesis_qt/action_check_emotion.py)
+    comfort_action_node (thesis_qt/action_comfort.py)
+    conclude_game_action_node (thesis_qt/action_conclude_game.py)
+    conversate_action_node (thesis_qt/action_conversate.py)
+    emotion_converter_srv_node (thesis_qt/emotion_converter.py)
+    emotion_selector_node (thesis_qt/service_emotion_selector.py)
+    gesture_selector_node (thesis_qt/service_gesture_selector.py)
+    goodbye_action_node (thesis_qt/action_goodbye.py)
+    greet_warmly_action_node (thesis_qt/action_greet_warmly.py)
+    image_easy_action_node (thesis_qt/action_image_easy.py)
+    image_hard_action_node (thesis_qt/action_image_hard.py)
+    image_medium_action_node (thesis_qt/action_image_medium.py)
+    introduce_action (thesis_qt/action_introduce.py)
+    mime_easy_action_node (thesis_qt/action_mime_easy.py)
+    qt_test_node (thesis_qt/qt_test.py)
+    raise_stakes_action_node (thesis_qt/action_raise_stakes.py)
+    reset_to_neutral_action_node (thesis_qt/action_reset_to_neutral.py)
+    response_evaluator_node (thesis_qt/response_evaluator.py)
+    sentiment_analyzer_node (thesis_qt/sentiment_analyzer.py)
+    session_logger_node (thesis_qt/session_logger.py)
+    show_vulnerability_action_node (thesis_qt/action_show_vulnerability.py)
+    sound_easy_action_node (thesis_qt/action_sound_easy.py)
+    sound_hard_action_node (thesis_qt/action_sound_hard.py)
+    sound_medium_action_node (thesis_qt/action_sound_medium.py)
+    spark_curiosity_action_node (thesis_qt/action_spark_curiosity.py)
+    take_a_break_action_node (thesis_qt/action_take_a_break.py)
+    tell_a_joke_action_node (thesis_qt/action_tell_a_joke.py)
+
+[1mROS_MASTER_URI=http://192.168.100.1:11311[0m
+]2;/home/qtrobot/catkin_ws/src/thesis_qt/launch/qt_test_actions.launch http://192.168.100.1:11311
+[1mprocess[qt_test_node-1]: started with pid [69526][0m
+[1mprocess[session_logger_node-2]: started with pid [69527][0m
+[1mprocess[response_evaluator_node-3]: started with pid [69528][0m
+[1mprocess[emotion_selector_node-4]: started with pid [69529][0m
+[1mprocess[gesture_selector_node-5]: started with pid [69530][0m
+[1mprocess[emotion_converter_srv_node-6]: started with pid [69538][0m
+[1mprocess[sentiment_analyzer_node-7]: started with pid [69553][0m
+[1mprocess[check_emotion_action-8]: started with pid [69570][0m
+[1mprocess[introduce_action-9]: started with pid [69586][0m
+[1mprocess[greet_warmly_action_node-10]: started with pid [69591][0m
+[1mprocess[conversate_action_node-11]: started with pid [69607][0m
+[1mprocess[ask_easy_action_node-12]: started with pid [69615][0m
+[1mprocess[ask_medium_action_node-13]: started with pid [69619][0m
+[1mprocess[ask_hard_action_node-14]: started with pid [69630][0m
+[1mprocess[sound_easy_action_node-15]: started with pid [69640][0m
+✓ Domain backup saved to: /home/qtrobot/catkin_ws/src/thesis_qt/pddl/domain_try_backup.pddl
+Waiting for ROSPlan services...
+ROSPlan services ready!
+
+=== Clearing Knowledge Base ===
+[1mprocess[sound_medium_action_node-16]: started with pid [69653][0m
+✓ Knowledge Base cleared.
+
+=== Adding robot functions ===
+
+=== Adding weights ===
+  ✓ Function: alpha = 1.0
+  ✓ Function: beta = 1.0
+[1mprocess[sound_hard_action_node-17]: started with pid [69662][0m
+  ✓ Function: gamma = 1.0
+  ✓ Function: total-cost = 0.0
+
+=== Adding quiz state ===
+  ✓ Function: difficulty_limit = 1.0
+[1mprocess[image_easy_action_node-18]: started with pid [69669][0m
+  ✓ Function: category_limit = 1.0
+  ✓ Function: category_limit_bonus = 2.0
+  ✓ Function: right_answers = 0.0
+  ✓ Function: wrong_answers = 0.0
+  ✓ Function: n_questions = 0.0
+[1mprocess[image_medium_action_node-19]: started with pid [69678][0m
+  ✓ Function: n_easy = 0.0
+  ✓ Function: n_medium = 0.0
+[1mprocess[image_hard_action_node-20]: started with pid [69704][0m
+  ✓ Function: n_hard = 0.0
+[INFO] [1789120174.841391]: [SessionLogger] Session directory: /home/qtrobot/catkin_ws/src/thesis_qt/logs/p22
+  ✓ Function: ask_uses = 0.0
+  ✓ Function: mime_uses = 0.0
+  ✓ Function: sound_uses = 0.0
+[1mprocess[mime_easy_action_node-21]: started with pid [69715][0m
+  ✓ Function: image_uses = 0.0
+
+=== Adding modality coefficients ===
+  ✓ Function: mime_coeff = 1.0
+  ✓ Function: sound_coeff = 20.0
+  ✓ Function: image_coeff = 40.0
+  ✓ Function: ask_coeff = 60.0
+
+=== Adding difficulty-level coefficients ===
+[1mprocess[conclude_game_action_node-22]: started with pid [69722][0m
+  ✓ Function: sound_easy_coeff = 1.0
+  ✓ Function: sound_medium_coeff = 1.0
+  ✓ Function: sound_hard_coeff = 1.0
+  ✓ Function: image_easy_coeff = 1.0
+[1mprocess[goodbye_action_node-23]: started with pid [69726][0m
+  ✓ Function: image_medium_coeff = 1.0
+  ✓ Function: image_hard_coeff = 1.0
+  ✓ Function: ask_easy_coeff = 1.0
+[1mprocess[comfort_action_node-24]: started with pid [69745][0m
+  ✓ Function: ask_medium_coeff = 1.0
+  ✓ Function: ask_hard_coeff = 1.0
+  ✓ Function: mime_easy_coeff = 1.0
+
+=== Adding goal ===
+[1mprocess[tell_a_joke_action_node-25]: started with pid [69755][0m
+  ✓ Goal: interaction_finished
+
+=== Generating problem ===
+[INFO] [1789120175.102305]: Emotion converter service initialized succesfully.
+[1mprocess[take_a_break_action_node-26]: started with pid [69756][0m
+[1mprocess[spark_curiosity_action_node-27]: started with pid [69766][0m
+[1mprocess[raise_stakes_action_node-28]: started with pid [69777][0m
+Greet Warmly Action Node started!
+[INFO] [1789120175.245165]: ✓ /emotion_selector service ready.
+✓ Response Evaluator Service ready!
+[1mprocess[calm_down_action_node-29]: started with pid [69796][0m
+[1mprocess[reset_to_neutral_action_node-30]: started with pid [69823][0m
+[1mprocess[ask_for_help_action_node-31]: started with pid [69832][0m
+[INFO] [1789120175.433049]: ✓ /gesture_selector service ready.
+[1mprocess[show_vulnerability_action_node-32]: started with pid [69862][0m
+✓ Sentiment Analyzer Service ready!
+Image Easy Action Node started!
+
+=== Restoring domain ===
+✓ Domain restored from backup.
+
+=== Patching problem metric ===
+✓ Metric added to problem file.
+
+=== Planning (ENHSP) ===
+Greet Warmly Action Interface ready!
+Ask Medium Action Node started!
+Waiting for ROSPlan services...
+Image Easy Action Interface ready!
+Ask Easy Action Node started!
+Sound Medium Action Node started!
+Ask Hard Action Node started!
+✓ Check Emotion Action Interface ready!
+Sound Easy Action Node started!
+Ask Medium Action Interface ready!
+Sound Hard Action Node started!
+Ask Easy Action Interface ready!
+Reset To Neutral Action Node started!
+Mime Easy Action Node started!
+Conclude Game Action Node started!
+Goodbye Action Node started!
+Ask Hard Action Interface ready!
+Calm Down Action Node started!
+Sound Medium Action Interface ready!
+Image Hard Action Node started!
+Image Medium Action Node started!
+Reset To Neutral Action Interface ready!
+Introduce Action Node started!
+Sound Easy Action Interface ready!
+Sound Hard Action Interface ready!
+Mime Easy Action Interface ready!
+Spark Curiosity Action Node started!
+Conversate Action Node started!
+Conclude Game Action Interface ready!
+Goodbye Action Interface ready!
+
+=== Parsing plan ===
+[33m[WARN] [1789120177.417822]: Inbound TCP/IP connection failed: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+[0m
+=== Plan ready! ===
+
+✓ Planning pipeline executed!
+To dispatch: rosservice call /rosplan_plan_dispatcher/dispatch_plan
+[INFO] [1789120177.551434]: Waiting for /sentiment_analyzer service...
+Calm Down Action Interface ready!
+[INFO] [1789120177.558255]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1789120177.561667]: Waiting for /emotion_selector service...
+Image Hard Action Interface ready!
+Take A Break Action Node started!
+Comfort Action Node started!
+[INFO] [1789120177.590382]: ✓ Connected to /emotion_selector service.
+[INFO] [1789120177.608341]: Waiting for /gesture_selector service...
+Image Medium Action Interface ready!
+[INFO] [1789120177.669125]: ✓ Connected to /gesture_selector service.
+Raise Stakes Action Node started!
+Show Vulnerability Action Node started!
+[INFO] [1789120177.757007]: Waiting for /sentiment_analyzer service...
+[INFO] [1789120177.777136]: Waiting for /sentiment_analyzer service...
+Tell A Joke Action Node started!
+[INFO] [1789120177.844139]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1789120177.860760]: Waiting for /emotion_selector service...
+Ask For Help Action Node started!
+[INFO] [1789120177.912172]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1789120177.925196]: Waiting for /emotion_selector service...
+Introduce Action Interface ready!
+[INFO] [1789120177.965257]: ✓ Connected to /emotion_selector service.
+[INFO] [1789120177.969864]: Waiting for /gesture_selector service...
+[INFO] [1789120178.018315]: ✓ Connected to /emotion_selector service.
+[INFO] [1789120178.021168]: Waiting for /gesture_selector service...
+[INFO] [1789120178.042229]: ✓ Connected to /gesture_selector service.
+[INFO] [1789120178.073726]: ✓ Connected to /gesture_selector service.
+[1m[qt_test_node-1] process has finished cleanly
+log file: /home/qtrobot/.ros/log/d057ad2e-ac93-11f1-b13d-cfd4f90960fc/qt_test_node-1*.log[0m
+Spark Curiosity Action Interface ready!
+Conversate Action Interface ready!
+[INFO] [1789120178.169408]: Waiting for /sentiment_analyzer service...
+[INFO] [1789120178.184425]: Waiting for /sentiment_analyzer service...
+[INFO] [1789120178.190789]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1789120178.192571]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1789120178.196712]: Waiting for /emotion_selector service...
+[INFO] [1789120178.197324]: Waiting for /emotion_selector service...
+[INFO] [1789120178.203296]: ✓ Connected to /emotion_selector service.
+[INFO] [1789120178.207179]: ✓ Connected to /emotion_selector service.
+[INFO] [1789120178.214212]: Waiting for /gesture_selector service...
+[INFO] [1789120178.221792]: Waiting for /gesture_selector service...
+[INFO] [1789120178.230868]: Waiting for /sentiment_analyzer service...
+[INFO] [1789120178.241822]: ✓ Connected to /gesture_selector service.
+[INFO] [1789120178.251509]: ✓ Connected to /gesture_selector service.
+[INFO] [1789120178.254909]: Waiting for /sentiment_analyzer service...
+[INFO] [1789120178.287736]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1789120178.292876]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1789120178.293972]: Waiting for /emotion_selector service...
+Take A Break Action Interface ready!
+[INFO] [1789120178.308218]: Waiting for /emotion_selector service...
+[INFO] [1789120178.321080]: ✓ Connected to /emotion_selector service.
+Comfort Action Interface ready!
+[INFO] [1789120178.327834]: Waiting for /gesture_selector service...
+[INFO] [1789120178.331008]: ✓ Connected to /emotion_selector service.
+[INFO] [1789120178.338870]: Waiting for /sentiment_analyzer service...
+[INFO] [1789120178.342092]: Waiting for /gesture_selector service...
+[INFO] [1789120178.346390]: ✓ Connected to /gesture_selector service.
+[INFO] [1789120178.352661]: Waiting for /sentiment_analyzer service...
+[INFO] [1789120178.355413]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1789120178.361148]: ✓ Connected to /gesture_selector service.
+[INFO] [1789120178.364093]: Waiting for /emotion_selector service...
+[INFO] [1789120178.372405]: ✓ Connected to /sentiment_analyzer service.
+[INFO] [1789120178.395129]: Waiting for /emotion_selector service...
+[INFO] [1789120178.397560]: ✓ Connected to /emotion_selector service.
+[INFO] [1789120178.405767]: Waiting for /gesture_selector service...
+[INFO] [1789120178.406982]: ✓ Connected to /emotion_selector service.
+[INFO] [1789120178.410950]: Waiting for /gesture_selector service...
+Raise Stakes Action Interface ready!
+[INFO] [1789120178.418395]: ✓ Connected to /gesture_selector service.
+Show Vulnerability Action Interface ready!
+[INFO] [1789120178.426777]: ✓ Connected to /gesture_selector service.
+Tell A Joke Action Interface ready!
+Ask For Help Action Interface ready!
+[33m[WARN] [1789120180.151969]: [SessionLogger] KB not ready yet, will retry at first snapshot.
+[0m[INFO] [1789120180.184866]: [SessionLogger] Ready.
+[INFO] [1789120180.198238]: [SessionLogger] Saved initial plan → plan_0.txt
+
+=== Executing Action 0 ===
+[INFO] [1789120559.824963]: KB: Added predicate 'interaction_started'
+[INFO] [1789120559.844983]: KB: Added predicate 'emotion_checked'
+✓ Action 0 completed!
+
+✓ Last completed action updated: greet_warmly
+
+=== Executing Action 1 ===
+[INFO] [1789120563.257370]: Mostro immagine: listening_icon
+[INFO] [1789120566.053004]: Riconosciuto: Sì.
+[INFO] [1789120572.534648]: KB: Added predicate 'quiz_introduced'
+[INFO] [1789120572.544652]: KB: Removed predicate 'emotion_checked'
+✓ Action 1 completed!
+✓ Last completed action updated: introduce_game
+
+
+=== Executing Action 2 (image_easy → q1) ===
+[INFO] [1789120576.033564]: Mostro immagine: treno_icon
+[INFO] [1789120576.036675]: In ascolto (tentativo 1/2)...
+[INFO] [1789120581.191676]: Riconosciuto: Treno.
+Umano ha detto: 'Treno.'
+[CheckEmotion] User response saved: 'Treno.'
+
+=== EvaluateResponse ===
+  question      : Sai dirmi che mezzo di trasporto è questo?
+  correct_answer: un treno
+  description   : 
+  user_res      : Treno.
+  is_last_attempt: False
+  [AI check] → 'SI'
+  → is_correct  : True
+  → feedback    : 'Bravo!Hai indovinato, è proprio un treno!'
+[INFO] [1789120588.754777]: KB: Set function 'n_questions' = 1.0
+[INFO] [1789120588.774691]: KB: Set function 'n_easy' = 1.0
+[INFO] [1789120588.794856]: KB: Set function 'image_uses' = 1.0
+[INFO] [1789120588.824806]: KB: Set function 'right_answers' = 1.0
+[INFO] [1789120588.834840]: KB: Removed predicate 'answered_wrong'
+✓ Action 2 completed!
+
+✓ Last completed action updated: image_easy
+
+=== Executing Action 3 (mime_easy → q6) ===
+[INFO] [1789120600.622176]: In ascolto (tentativo 1/2)...
+[INFO] [1789120600.626345]: Mostro immagine: listening_icon
+[INFO] [1789120603.664078]: Riconosciuto: Ginnastica.
+Umano ha detto: 'Ginnastica.'
+[CheckEmotion] User response saved: 'Ginnastica.'
+
+=== EvaluateResponse ===
+  question      : Indovina, che cosa sto facendo?
+  correct_answer: volare
+  description   : il robot sta imitando il volo con le braccia
+  user_res      : Ginnastica.
+  is_last_attempt: False
+  [AI check] → 'NO'
+  → is_correct  : False
+  → feedback    : 'Ottimo tentativo!Pensa a qualcosa che si fa per muoversi nell'aria, come un uccello.'
+[INFO] [1789120613.503816]: In ascolto (tentativo 2/2)...
+[INFO] [1789120613.506967]: Mostro immagine: listening_icon
+[INFO] [1789120616.259926]: Riconosciuto: Volare.
+Umano ha detto: 'Volare.'
+[CheckEmotion] User response saved: 'Volare.'
+
+=== EvaluateResponse ===
+  question      : Indovina, che cosa sto facendo?
+  correct_answer: volare
+  description   : il robot sta imitando il volo con le braccia
+  user_res      : Volare.
+  is_last_attempt: True
+  [AI check] → 'SI'
+  → is_correct  : True
+  → feedback    : 'Bravissimo!Hai indovinato, stai volando come un uccello!'
+[INFO] [1789120624.374769]: KB: Set function 'n_questions' = 2.0
+[INFO] [1789120624.394543]: KB: Set function 'n_easy' = 2.0
+[INFO] [1789120624.414898]: KB: Set function 'mime_uses' = 1.0
+[INFO] [1789120624.434863]: KB: Set function 'right_answers' = 2.0
+[INFO] [1789120624.444660]: KB: Removed predicate 'answered_wrong'
+✓ Action 3 completed!
+
+✓ Last completed action updated: mime_easy
+
+=== Executing Action 4 (ask_medium → q2) ===
+[INFO] [1789120627.253479]: QT talking: 'Quanti secondi ci sono in un minuto?'
+[INFO] [1789120627.257767]: In ascolto (tentativo 1/2)...
+[INFO] [1789120627.260450]: Mostro immagine: listening_icon
+[INFO] [1789120630.463288]: Riconosciuto: 60.
+Umano ha detto: '60.'
+[CheckEmotion] User response saved: '60.'
+
+=== EvaluateResponse ===
+  question      : Quanti secondi ci sono in un minuto?
+  correct_answer: 
+  description   : 
+  user_res      : 60.
+  is_last_attempt: False
+  [AI combined] → '{"correct":"SI","answer":"60"}'
+  → is_correct  : True
+  → feedback    : 'Fantastico!Hai risposto correttamente, ci sono 60 secondi in un minuto!'
+[INFO] [1789120639.384924]: KB: Set function 'n_questions' = 3.0
+[INFO] [1789120639.404842]: KB: Set function 'n_medium' = 1.0
+[INFO] [1789120639.424933]: KB: Set function 'ask_uses' = 1.0
+[INFO] [1789120639.444773]: KB: Set function 'right_answers' = 3.0
+[INFO] [1789120639.454720]: KB: Removed predicate 'answered_wrong'
+✓ Action 4 completed!
+
+✓ Last completed action updated: ask_medium
+
+=== Executing Action 5 (ask_medium → q12) ===
+[INFO] [1789120643.033508]: QT talking: 'Quale senso usiamo per ascoltare la musica?'
+[INFO] [1789120643.037260]: In ascolto (tentativo 1/2)...
+[INFO] [1789120643.040654]: Mostro immagine: listening_icon
+[INFO] [1789120645.779344]: Riconosciuto: Udito.
+Umano ha detto: 'Udito.'
+[CheckEmotion] User response saved: 'Udito.'
+
+=== EvaluateResponse ===
+  question      : Quale senso usiamo per ascoltare la musica?
+  correct_answer: 
+  description   : 
+  user_res      : Udito.
+  is_last_attempt: False
+  [AI combined] → '{"correct":"SI","answer":"udito"}'
+  → is_correct  : True
+  → feedback    : 'Ottimo lavoro!Hai risposto correttamente, usiamo l'udito per ascoltare la musica!'
+[INFO] [1789120655.224937]: KB: Set function 'n_questions' = 4.0
+[INFO] [1789120655.244629]: KB: Set function 'n_medium' = 2.0
+[INFO] [1789120655.264610]: KB: Set function 'ask_uses' = 2.0
+[INFO] [1789120655.284743]: KB: Set function 'right_answers' = 4.0
+[INFO] [1789120655.294515]: KB: Removed predicate 'answered_wrong'
+✓ Action 5 completed!
+
+✓ Last completed action updated: ask_medium
+
+=== Executing Action 6 (sound_hard → q10) ===
+[INFO] [1789120662.803194]: Riproduzione suono: QT/sound_hard/metronome 
+[INFO] [1789120662.814035]: In ascolto (tentativo 1/2)...
+[INFO] [1789120662.817274]: Mostro immagine: listening_icon
+[INFO] [1789120681.253100]: Riproduzione suono: QT/sound_hard/metronome 
+[INFO] [1789120681.261929]: In ascolto (tentativo 1/2)...
+[INFO] [1789120681.264651]: Mostro immagine: listening_icon
+[INFO] [1789120689.975991]: Riconosciuto: No, no, ho capito. Ah, OK, sì.
+Umano ha detto: 'No, no, ho capito. Ah, OK, sì.'
+[CheckEmotion] User response saved: 'No, no, ho capito. Ah, OK, sì.'
+[INFO] [1789120697.313083]: Riproduzione suono: QT/sound_hard/metronome 
+[INFO] [1789120697.325911]: In ascolto (tentativo 1/2)...
+[INFO] [1789120697.328335]: Mostro immagine: listening_icon
+[INFO] [1789120715.693591]: Riproduzione suono: QT/sound_hard/metronome 
+[INFO] [1789120715.704052]: In ascolto (tentativo 1/2)...
+[INFO] [1789120715.707298]: Mostro immagine: listening_icon
+[INFO] [1789120720.101497]: Riconosciuto: Batteria.
+Umano ha detto: 'Batteria.'
+[CheckEmotion] User response saved: 'Batteria.'
+
+=== EvaluateResponse ===
+  question      : Ascolta questo ticchettio perfetto. Quale strumento aiuta i musicisti ad andare a tempo?
+  correct_answer: il metronomo
+  description   : 
+  user_res      : Batteria.
+  is_last_attempt: False
+  [AI check] → 'NO'
+  → is_correct  : False
+  → feedback    : 'Buon tentativo!Pensa a uno strumento che segna il tempo con dei ticchettii, è molto utile per i musicisti.'
+[INFO] [1789120731.123157]: Riproduzione suono: QT/sound_hard/metronome 
+[INFO] [1789120731.136598]: In ascolto (tentativo 2/2)...
+[INFO] [1789120731.140270]: Mostro immagine: listening_icon
+[INFO] [1789120749.536555]: Riproduzione suono: QT/sound_hard/metronome 
+[INFO] [1789120749.546440]: In ascolto (tentativo 2/2)...
+[INFO] [1789120749.548753]: Mostro immagine: listening_icon
+[INFO] [1789120767.982613]: Riproduzione suono: QT/sound_hard/metronome 
+[INFO] [1789120767.991257]: In ascolto (tentativo 2/2)...
+[INFO] [1789120767.994650]: Mostro immagine: listening_icon
+[INFO] [1789120786.372766]: Riproduzione suono: QT/sound_hard/metronome 
+[INFO] [1789120786.384530]: In ascolto (tentativo 2/2)...
+[INFO] [1789120786.387976]: Mostro immagine: listening_icon
+[INFO] [1789120791.701883]: Riconosciuto: Non lo so.
+Umano ha detto: 'Non lo so.'
+[CheckEmotion] User response saved: 'Non lo so.'
+
+=== EvaluateResponse ===
+  question      : Ascolta questo ticchettio perfetto. Quale strumento aiuta i musicisti ad andare a tempo?
+  correct_answer: il metronomo
+  description   : 
+  user_res      : Non lo so.
+  is_last_attempt: True
+  [AI check] → 'NO'
+  → is_correct  : False
+  → feedback    : 'Non importa, tutti possono imparare!La risposta corretta è "il metronomo".'
+[INFO] [1789120800.964932]: KB: Set function 'n_questions' = 5.0
+[INFO] [1789120800.984977]: KB: Set function 'n_hard' = 1.0
+[INFO] [1789120801.004572]: KB: Set function 'sound_uses' = 1.0
+[INFO] [1789120801.024888]: KB: Set function 'wrong_answers' = 1.0
+[INFO] [1789120801.034711]: KB: Added predicate 'answered_wrong'
+~ Action 6 completed (wrong answer).
+
+✓ Restored 1 goal(s)
+
+=== STARTING REPLAN (wrong answer) ===
+✓ Metric already present.
+[INFO] [1789120803.338346]: [SessionLogger] Saved replan #1 → plan_1.txt
+[INFO] [1789120803.341995]: [SessionLogger] Saved problem → problem_1.pddl
+
+=== Executing Action 0 ===
+[INFO] [1789120804.384858]: KB: Removed predicate 'not_busy'
+[INFO] [1789120807.014986]: KB: Added predicate 'quiz_finished'
+[INFO] [1789120807.024842]: KB: Removed predicate 'quiz_introduced'
+[INFO] [1789120807.544662]: KB: Added predicate 'not_busy'
+✓ Action 0 completed!
+✓ Last completed action updated: conclude_game
+
+
+=== Executing Action 1 ===
+[INFO] [1789120808.184728]: KB: Removed predicate 'not_busy'
+[INFO] [1789120817.294800]: KB: Added predicate 'interaction_finished'
+[INFO] [1789120817.304827]: KB: Removed predicate 'interaction_started'
+[INFO] [1789120817.824880]: KB: Added predicate 'not_busy'
+✓ Action 1 completed!
+
+✓ Last completed action updated: say_goodbye
+✓ Replanning completed!
+^C[show_vulnerability_action_node-32] killing on exit
+[ask_for_help_action_node-31] killing on exit
+[reset_to_neutral_action_node-30] killing on exit
+[calm_down_action_node-29] killing on exit
+[raise_stakes_action_node-28] killing on exit
+[spark_curiosity_action_node-27] killing on exit
+[take_a_break_action_node-26] killing on exit
+[tell_a_joke_action_node-25] killing on exit
+[comfort_action_node-24] killing on exit
+[goodbye_action_node-23] killing on exit
+[conclude_game_action_node-22] killing on exit
+[mime_easy_action_node-21] killing on exit
+[image_hard_action_node-20] killing on exit
+[image_medium_action_node-19] killing on exit
+[image_easy_action_node-18] killing on exit
+[sound_medium_action_node-16] killing on exit
+[sound_hard_action_node-17] killing on exit
+[sound_easy_action_node-15] killing on exit
+[ask_hard_action_node-14] killing on exit
+[ask_medium_action_node-13] killing on exit
+[ask_easy_action_node-12] killing on exit
+[conversate_action_node-11] killing on exit
+[greet_warmly_action_node-10] killing on exit
+[introduce_action-9] killing on exit
+[check_emotion_action-8] killing on exit
+[sentiment_analyzer_node-7] killing on exit
+[emotion_converter_srv_node-6] killing on exit
+[gesture_selector_node-5] killing on exit
+[emotion_selector_node-4] killing on exit
+[response_evaluator_node-3] killing on exit
+[session_logger_node-2] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m
+]0;qtrobot@QTPC: ~[01;32mqtrobot@QTPC[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2026-09-11 12:00:25+02:00 [COMMAND_EXIT_CODE="0"]

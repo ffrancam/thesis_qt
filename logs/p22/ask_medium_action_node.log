@@ -1,0 +1,18 @@
+[11:57:07] [INFO ] QT talking: 'Quanti secondi ci sono in un minuto?'
+[11:57:07] [INFO ] In ascolto (tentativo 1/2)...
+[11:57:07] [INFO ] Mostro immagine: listening_icon
+[11:57:10] [INFO ] Riconosciuto: 60.
+[11:57:19] [INFO ] KB: Set function 'n_questions' = 3.0
+[11:57:19] [INFO ] KB: Set function 'n_medium' = 1.0
+[11:57:19] [INFO ] KB: Set function 'ask_uses' = 1.0
+[11:57:19] [INFO ] KB: Set function 'right_answers' = 3.0
+[11:57:19] [INFO ] KB: Removed predicate 'answered_wrong'
+[11:57:23] [INFO ] QT talking: 'Quale senso usiamo per ascoltare la musica?'
+[11:57:23] [INFO ] In ascolto (tentativo 1/2)...
+[11:57:23] [INFO ] Mostro immagine: listening_icon
+[11:57:25] [INFO ] Riconosciuto: Udito.
+[11:57:35] [INFO ] KB: Set function 'n_questions' = 4.0
+[11:57:35] [INFO ] KB: Set function 'n_medium' = 2.0
+[11:57:35] [INFO ] KB: Set function 'ask_uses' = 2.0
+[11:57:35] [INFO ] KB: Set function 'right_answers' = 4.0
+[11:57:35] [INFO ] KB: Removed predicate 'answered_wrong'

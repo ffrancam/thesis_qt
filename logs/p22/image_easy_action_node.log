@@ -1,0 +1,8 @@
+[11:56:16] [INFO ] Mostro immagine: treno_icon
+[11:56:16] [INFO ] In ascolto (tentativo 1/2)...
+[11:56:21] [INFO ] Riconosciuto: Treno.
+[11:56:28] [INFO ] KB: Set function 'n_questions' = 1.0
+[11:56:28] [INFO ] KB: Set function 'n_easy' = 1.0
+[11:56:28] [INFO ] KB: Set function 'image_uses' = 1.0
+[11:56:28] [INFO ] KB: Set function 'right_answers' = 1.0
+[11:56:28] [INFO ] KB: Removed predicate 'answered_wrong'

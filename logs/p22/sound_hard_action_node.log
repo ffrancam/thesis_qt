@@ -1,0 +1,32 @@
+[11:57:42] [INFO ] Riproduzione suono: QT/sound_hard/metronome 
+[11:57:42] [INFO ] In ascolto (tentativo 1/2)...
+[11:57:42] [INFO ] Mostro immagine: listening_icon
+[11:58:01] [INFO ] Riproduzione suono: QT/sound_hard/metronome 
+[11:58:01] [INFO ] In ascolto (tentativo 1/2)...
+[11:58:01] [INFO ] Mostro immagine: listening_icon
+[11:58:09] [INFO ] Riconosciuto: No, no, ho capito. Ah, OK, sì.
+[11:58:17] [INFO ] Riproduzione suono: QT/sound_hard/metronome 
+[11:58:17] [INFO ] In ascolto (tentativo 1/2)...
+[11:58:17] [INFO ] Mostro immagine: listening_icon
+[11:58:35] [INFO ] Riproduzione suono: QT/sound_hard/metronome 
+[11:58:35] [INFO ] In ascolto (tentativo 1/2)...
+[11:58:35] [INFO ] Mostro immagine: listening_icon
+[11:58:40] [INFO ] Riconosciuto: Batteria.
+[11:58:51] [INFO ] Riproduzione suono: QT/sound_hard/metronome 
+[11:58:51] [INFO ] In ascolto (tentativo 2/2)...
+[11:58:51] [INFO ] Mostro immagine: listening_icon
+[11:59:09] [INFO ] Riproduzione suono: QT/sound_hard/metronome 
+[11:59:09] [INFO ] In ascolto (tentativo 2/2)...
+[11:59:09] [INFO ] Mostro immagine: listening_icon
+[11:59:27] [INFO ] Riproduzione suono: QT/sound_hard/metronome 
+[11:59:27] [INFO ] In ascolto (tentativo 2/2)...
+[11:59:27] [INFO ] Mostro immagine: listening_icon
+[11:59:46] [INFO ] Riproduzione suono: QT/sound_hard/metronome 
+[11:59:46] [INFO ] In ascolto (tentativo 2/2)...
+[11:59:46] [INFO ] Mostro immagine: listening_icon
+[11:59:51] [INFO ] Riconosciuto: Non lo so.
+[12:00:00] [INFO ] KB: Set function 'n_questions' = 5.0
+[12:00:00] [INFO ] KB: Set function 'n_hard' = 1.0
+[12:00:01] [INFO ] KB: Set function 'sound_uses' = 1.0
+[12:00:01] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[12:00:01] [INFO ] KB: Added predicate 'answered_wrong'
