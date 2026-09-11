@@ -1,0 +1,9 @@
+[10:44:31] [INFO ] Riproduzione suono: QT/sound_medium/sawing_wood
+[10:44:40] [INFO ] In ascolto (tentativo 1/2)...
+[10:44:40] [INFO ] Mostro immagine: listening_icon
+[10:44:44] [INFO ] Riconosciuto: Legno.
+[10:44:52] [INFO ] KB: Set function 'n_questions' = 4.0
+[10:44:52] [INFO ] KB: Set function 'n_medium' = 2.0
+[10:44:52] [INFO ] KB: Set function 'sound_uses' = 1.0
+[10:44:52] [INFO ] KB: Set function 'right_answers' = 2.0
+[10:44:52] [INFO ] KB: Removed predicate 'answered_wrong'

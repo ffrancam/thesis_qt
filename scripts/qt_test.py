@@ -179,6 +179,11 @@ class QTRobotROSPlanTest:
         self.add_function('ask_hard_coeff',     [], 1.0)
         self.add_function('mime_easy_coeff',    [], 1.0)
 
+        # self.add_fact('interaction_started', [])
+        # self.add_fact('quiz_introduced', [])
+        # self.add_fact('quiz_finished', [])
+        
+
         # Goal
         print("\n=== Adding goal ===")
         self.add_goal('interaction_finished', [])

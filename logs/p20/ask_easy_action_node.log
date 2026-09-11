@@ -1,0 +1,9 @@
+[10:38:17] [INFO ] QT talking: 'Qual è la stagione più fredda dell'anno?'
+[10:38:17] [INFO ] In ascolto (tentativo 1/2)...
+[10:38:17] [INFO ] Mostro immagine: listening_icon
+[10:38:20] [INFO ] Riconosciuto: Inverno.
+[10:38:30] [INFO ] KB: Set function 'n_questions' = 1.0
+[10:38:30] [INFO ] KB: Set function 'n_easy' = 1.0
+[10:38:30] [INFO ] KB: Set function 'ask_uses' = 1.0
+[10:38:30] [INFO ] KB: Set function 'right_answers' = 1.0
+[10:38:30] [INFO ] KB: Removed predicate 'answered_wrong'

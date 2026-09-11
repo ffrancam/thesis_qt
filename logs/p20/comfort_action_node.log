@@ -1,0 +1,30 @@
+[10:39:47] [INFO ] Publishing emotion: QT/showing_smile
+[10:39:50] [INFO ] Playing gesture: QT/Show-face
+[10:40:04] [INFO ] Mostro immagine: listening_icon
+[10:40:09] [INFO ] Riconosciuto: Pene.
+[10:40:11] [INFO ] Publishing emotion: QT/neutral_state_blinking
+[10:40:12] [INFO ] Playing gesture: QT/hand-front-hold
+[10:40:28] [INFO ] Mostro immagine: listening_icon
+[10:40:32] [INFO ] Riconosciuto: È uguale.
+[10:40:33] [INFO ] Publishing emotion: QT/showing_smile
+[10:40:35] [INFO ] Playing gesture: QT/Show-face
+[10:40:54] [INFO ] Mostro immagine: listening_icon
+[10:41:01] [INFO ] Riconosciuto: Giocare a uno?
+[10:41:08] [INFO ] Publishing emotion: QT/happy_blinking
+[10:41:13] [INFO ] Playing gesture: QT/emotions/happy
+[10:41:35] [INFO ] KB: Removed predicate 'answered_wrong'
+[10:42:45] [INFO ] Publishing emotion: QT/showing_smile
+[10:42:46] [INFO ] Playing gesture: QT/Show-face
+[10:42:59] [INFO ] Mostro immagine: listening_icon
+[10:43:02] [INFO ] Riconosciuto: Bene.
+[10:43:04] [INFO ] Publishing emotion: QT/showing_smile
+[10:43:06] [INFO ] Playing gesture: QT/hi
+[10:43:23] [INFO ] Mostro immagine: listening_icon
+[10:43:30] [INFO ] Riconosciuto: No.
+[10:43:32] [INFO ] Publishing emotion: QT/showing_smile
+[10:43:33] [INFO ] Playing gesture: QT/Show-face
+[10:43:49] [INFO ] Mostro immagine: listening_icon
+[10:43:59] [INFO ] Riconosciuto: No, sto bene così.
+[10:44:05] [INFO ] Publishing emotion: QT/happy
+[10:44:07] [INFO ] Playing gesture: QT/emotions/hoora
+[10:44:24] [INFO ] KB: Removed predicate 'answered_wrong'
