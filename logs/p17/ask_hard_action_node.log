@@ -1,0 +1,22 @@
+[10:01:36] [INFO ] QT talking: 'In quale continente si trova il Giappone?'
+[10:01:36] [INFO ] In ascolto (tentativo 1/2)...
+[10:01:36] [INFO ] Mostro immagine: listening_icon
+[10:01:40] [INFO ] Riconosciuto: In Asia.
+[10:01:48] [INFO ] KB: Set function 'n_questions' = 5.0
+[10:01:48] [INFO ] KB: Set function 'n_hard' = 1.0
+[10:01:48] [INFO ] KB: Set function 'ask_uses' = 2.0
+[10:01:48] [INFO ] KB: Set function 'right_answers' = 5.0
+[10:01:48] [INFO ] KB: Removed predicate 'answered_wrong'
+[10:01:49] [INFO ] KB: Removed predicate 'emotion_checked'
+[10:01:49] [INFO ] KB: Set function 'robot_e' = 3.44
+[10:01:49] [INFO ] KB: Set function 'robot_p' = 2.93
+[10:01:49] [INFO ] KB: Set function 'robot_a' = 0.92
+[10:01:49] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[10:01:49] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[10:01:49] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[10:01:49] [INFO ] KB: Set function 'human_e' = 3.44
+[10:01:49] [INFO ] KB: Set function 'human_p' = 2.93
+[10:01:49] [INFO ] KB: Set function 'human_a' = 0.92
+[10:01:49] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[10:01:49] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[10:01:49] [INFO ] KB: Set function 'human_a_sq' = 0.8464

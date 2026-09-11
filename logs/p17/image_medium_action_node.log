@@ -1,0 +1,24 @@
+[10:01:05] [INFO ] Mostro immagine: basso_icon
+[10:01:05] [INFO ] In ascolto (tentativo 1/2)...
+[10:01:09] [INFO ] Riconosciuto: Chitarra.
+[10:01:21] [INFO ] Mostro immagine: basso_icon
+[10:01:21] [INFO ] In ascolto (tentativo 2/2)...
+[10:01:24] [INFO ] Riconosciuto: Il basso.
+[10:01:31] [INFO ] KB: Set function 'n_questions' = 4.0
+[10:01:31] [INFO ] KB: Set function 'n_medium' = 2.0
+[10:01:31] [INFO ] KB: Set function 'image_uses' = 1.0
+[10:01:31] [INFO ] KB: Set function 'right_answers' = 4.0
+[10:01:32] [INFO ] KB: Removed predicate 'answered_wrong'
+[10:01:32] [INFO ] KB: Removed predicate 'emotion_checked'
+[10:01:32] [INFO ] KB: Set function 'robot_e' = 3.44
+[10:01:32] [INFO ] KB: Set function 'robot_p' = 2.93
+[10:01:32] [INFO ] KB: Set function 'robot_a' = 0.92
+[10:01:32] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[10:01:32] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[10:01:32] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[10:01:32] [INFO ] KB: Set function 'human_e' = 3.44
+[10:01:32] [INFO ] KB: Set function 'human_p' = 2.93
+[10:01:32] [INFO ] KB: Set function 'human_a' = 0.92
+[10:01:32] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[10:01:32] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[10:01:32] [INFO ] KB: Set function 'human_a_sq' = 0.8464

@@ -1,0 +1,16 @@
+[09:48:01] [INFO ] Mostro immagine: listening_icon
+[09:48:04] [INFO ] Riconosciuto: No, non mi va.
+[09:48:12] [INFO ] Mostro immagine: listening_icon
+[09:48:18] [INFO ] Riconosciuto: Niente, sono qui con te.
+[09:48:21] [INFO ] Publishing emotion: QT/showing_smile
+[09:48:23] [INFO ] Playing gesture: QT/Show-face
+[09:48:38] [INFO ] Mostro immagine: listening_icon
+[09:48:40] [INFO ] Riconosciuto: No, perché mi fai arrabbiare?
+[09:48:43] [INFO ] Publishing emotion: QT/calming_down
+[09:48:44] [INFO ] Playing gesture: QT/emotions/calm
+[09:49:01] [INFO ] Mostro immagine: listening_icon
+[09:49:05] [INFO ] Riconosciuto: Niente, sono estremamente sorpresa.
+[09:49:08] [INFO ] Publishing emotion: QT/happy_blinking
+[09:49:09] [INFO ] Playing gesture: QT/peekaboo
+[09:49:29] [INFO ] KB: Added predicate 'quiz_introduced'
+[09:49:29] [INFO ] KB: Removed predicate 'emotion_checked'
