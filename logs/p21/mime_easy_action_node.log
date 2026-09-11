@@ -1,0 +1,23 @@
+[11:44:04] [INFO ] In ascolto (tentativo 1/2)...
+[11:44:04] [INFO ] Mostro immagine: listening_icon
+[11:44:07] [INFO ] Riconosciuto: Ti stai muovendo?
+[11:44:17] [INFO ] In ascolto (tentativo 2/2)...
+[11:44:17] [INFO ] Mostro immagine: listening_icon
+[11:44:23] [INFO ] Riconosciuto: Respirando.
+[11:44:32] [INFO ] KB: Set function 'n_questions' = 2.0
+[11:44:32] [INFO ] KB: Set function 'n_easy' = 2.0
+[11:44:32] [INFO ] KB: Set function 'mime_uses' = 1.0
+[11:44:32] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[11:44:32] [INFO ] KB: Added predicate 'answered_wrong'
+[11:44:32] [INFO ] KB: Set function 'robot_e' = 3.44
+[11:44:32] [INFO ] KB: Set function 'robot_p' = 2.93
+[11:44:32] [INFO ] KB: Set function 'robot_a' = 0.92
+[11:44:32] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[11:44:32] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[11:44:32] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[11:44:32] [INFO ] KB: Set function 'human_e' = 3.44
+[11:44:32] [INFO ] KB: Set function 'human_p' = 2.93
+[11:44:32] [INFO ] KB: Set function 'human_a' = 0.92
+[11:44:32] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[11:44:32] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[11:44:32] [INFO ] KB: Set function 'human_a_sq' = 0.8464

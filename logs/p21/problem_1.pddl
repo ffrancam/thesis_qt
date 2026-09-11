@@ -48,23 +48,23 @@
 
     (= (difficulty_limit) 1)
 
-    (= (right_answers) 3)
+    (= (right_answers) 1)
 
     (= (wrong_answers) 1)
 
-    (= (n_questions) 4)
+    (= (n_questions) 2)
 
     (= (n_easy) 2)
 
-    (= (n_medium) 2)
+    (= (n_medium) 0)
 
     (= (n_hard) 0)
 
     (= (ask_uses) 1)
 
-    (= (image_uses) 1)
+    (= (image_uses) 0)
 
-    (= (sound_uses) 1)
+    (= (sound_uses) 0)
 
     (= (mime_uses) 1)
 
@@ -72,11 +72,11 @@
 
     (= (category_limit_bonus) 2)
 
-    (= (ask_coeff) 40)
+    (= (ask_coeff) 20)
 
-    (= (mime_coeff) 1)
+    (= (mime_coeff) 40)
 
-    (= (sound_coeff) 20)
+    (= (sound_coeff) 1)
 
     (= (image_coeff) 60)
 

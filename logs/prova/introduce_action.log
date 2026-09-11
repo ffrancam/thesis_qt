@@ -1,4 +1,16 @@
-[14:14:25] [INFO ] Mostro immagine: listening_icon
-[14:14:27] [INFO ] Riconosciuto: Certo che mi va.
-[14:14:34] [INFO ] KB: Added predicate 'quiz_introduced'
-[14:14:34] [INFO ] KB: Removed predicate 'emotion_checked'
+[11:32:12] [INFO ] Mostro immagine: listening_icon
+[11:32:16] [INFO ] Riconosciuto: No, perché non mi hai consolato prima?
+[11:32:24] [INFO ] Mostro immagine: listening_icon
+[11:32:29] [INFO ] Riconosciuto: Niente 6 1 brutto robot.
+[11:32:32] [INFO ] Publishing emotion: QT/neutral_state_blinking
+[11:32:33] [INFO ] Playing gesture: QT/Show-face
+[11:32:50] [INFO ] Mostro immagine: listening_icon
+[11:32:54] [INFO ] Riconosciuto: No, non voglio parlare con te, non è che non voglio giocare.
+[11:32:56] [INFO ] Publishing emotion: QT/showing_smile
+[11:32:57] [INFO ] Playing gesture: QT/hand-front-hold
+[11:33:15] [INFO ] Mostro immagine: listening_icon
+[11:33:23] [INFO ] Riconosciuto: Mi fai la scimmia?
+[11:33:25] [INFO ] Publishing emotion: QT/one_eye_wink
+[11:33:26] [INFO ] Playing gesture: QT/monkey
+[11:33:57] [INFO ] KB: Added predicate 'quiz_introduced'
+[11:33:57] [INFO ] KB: Removed predicate 'emotion_checked'
