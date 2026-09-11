@@ -1,0 +1,6 @@
+[12:53:01] [INFO ] Mostro immagine: listening_icon
+[12:53:14] [ERROR] Errore nel riconoscimento vocale: service [/qt_robot/speech/recognize] responded with an error: b"error processing request: type object 'CancellationDetails' has no attribute 'from_result'"
+[12:53:18] [INFO ] Mostro immagine: listening_icon
+[12:53:21] [INFO ] Riconosciuto: Buongiorno in connessione Laura.
+[12:53:28] [INFO ] KB: Added predicate 'quiz_introduced'
+[12:53:28] [INFO ] KB: Removed predicate 'emotion_checked'
