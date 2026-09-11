@@ -1,0 +1,21 @@
+[10:29:15] [INFO ] Mostro immagine: terra_icon
+[10:29:15] [INFO ] In ascolto (tentativo 1/2)...
+[10:29:21] [INFO ] Riconosciuto: La terra.
+[10:29:28] [INFO ] KB: Set function 'n_questions' = 4.0
+[10:29:28] [INFO ] KB: Set function 'n_medium' = 2.0
+[10:29:28] [INFO ] KB: Set function 'image_uses' = 1.0
+[10:29:28] [INFO ] KB: Set function 'right_answers' = 2.0
+[10:29:29] [INFO ] KB: Removed predicate 'answered_wrong'
+[10:29:29] [INFO ] KB: Removed predicate 'emotion_checked'
+[10:29:29] [INFO ] KB: Set function 'robot_e' = 3.44
+[10:29:29] [INFO ] KB: Set function 'robot_p' = 2.93
+[10:29:29] [INFO ] KB: Set function 'robot_a' = 0.92
+[10:29:29] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[10:29:29] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[10:29:29] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[10:29:29] [INFO ] KB: Set function 'human_e' = 3.44
+[10:29:29] [INFO ] KB: Set function 'human_p' = 2.93
+[10:29:29] [INFO ] KB: Set function 'human_a' = 0.92
+[10:29:29] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[10:29:29] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[10:29:29] [INFO ] KB: Set function 'human_a_sq' = 0.8464

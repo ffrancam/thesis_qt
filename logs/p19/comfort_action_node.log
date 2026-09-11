@@ -1,0 +1,56 @@
+[10:23:31] [INFO ] Publishing emotion: QT/showing_smile
+[10:23:32] [INFO ] Playing gesture: QT/Show-face
+[10:23:46] [INFO ] Mostro immagine: listening_icon
+[10:23:52] [INFO ] Riconosciuto: Bene, però un po' male perché non ho indovinato.
+[10:23:55] [INFO ] Publishing emotion: QT/showing_smile
+[10:23:57] [INFO ] Playing gesture: QT/emotions/calm
+[10:24:20] [INFO ] Mostro immagine: listening_icon
+[10:24:23] [INFO ] Riconosciuto: Decidi te.
+[10:24:26] [INFO ] Publishing emotion: QT/showing_smile
+[10:24:27] [INFO ] Playing gesture: QT/Show-face
+[10:24:46] [INFO ] Mostro immagine: listening_icon
+[10:24:49] [INFO ] Riconosciuto: La storia?
+[10:24:58] [INFO ] Publishing emotion: QT/happy_blinking
+[10:24:59] [INFO ] Playing gesture: QT/emotions/hoora
+[10:25:32] [INFO ] KB: Removed predicate 'answered_wrong'
+[10:25:32] [INFO ] KB: Removed predicate 'emotion_checked'
+[10:25:32] [INFO ] KB: Set function 'robot_e' = 3.44
+[10:25:32] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[10:25:32] [INFO ] KB: Set function 'robot_p' = 2.93
+[10:25:32] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[10:25:32] [INFO ] KB: Set function 'robot_a' = 0.92
+[10:25:32] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[10:25:32] [INFO ] KB: Set function 'human_e' = 3.44
+[10:25:32] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[10:25:32] [INFO ] KB: Set function 'human_p' = 2.93
+[10:25:32] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[10:25:32] [INFO ] KB: Set function 'human_a' = 0.92
+[10:25:32] [INFO ] KB: Set function 'human_a_sq' = 0.8464
+[10:27:31] [INFO ] Publishing emotion: QT/showing_smile
+[10:27:32] [INFO ] Playing gesture: QT/emotions/calm
+[10:27:49] [INFO ] Mostro immagine: listening_icon
+[10:27:56] [INFO ] Riconosciuto: Mi sento di avere imparato cose che non mi ricordo.
+[10:27:59] [INFO ] Publishing emotion: QT/showing_smile
+[10:28:00] [INFO ] Playing gesture: QT/Show-face
+[10:28:16] [INFO ] Mostro immagine: listening_icon
+[10:28:22] [INFO ] Riconosciuto: Delle.
+[10:28:25] [INFO ] Publishing emotion: QT/showing_smile
+[10:28:27] [INFO ] Playing gesture: QT/show_QT
+[10:28:42] [INFO ] Mostro immagine: listening_icon
+[10:28:51] [INFO ] Riconosciuto: A me piace il tuo.
+[10:28:58] [INFO ] Publishing emotion: QT/happy
+[10:28:59] [INFO ] Playing gesture: QT/emotions/hoora
+[10:29:11] [INFO ] KB: Removed predicate 'answered_wrong'
+[10:29:11] [INFO ] KB: Removed predicate 'emotion_checked'
+[10:29:11] [INFO ] KB: Set function 'robot_e' = 3.44
+[10:29:11] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[10:29:11] [INFO ] KB: Set function 'robot_p' = 2.93
+[10:29:11] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[10:29:11] [INFO ] KB: Set function 'robot_a' = 0.92
+[10:29:11] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[10:29:11] [INFO ] KB: Set function 'human_e' = 3.44
+[10:29:11] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[10:29:11] [INFO ] KB: Set function 'human_p' = 2.93
+[10:29:11] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[10:29:11] [INFO ] KB: Set function 'human_a' = 0.92
+[10:29:11] [INFO ] KB: Set function 'human_a_sq' = 0.8464
