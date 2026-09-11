@@ -1,0 +1,18 @@
+[12:45:25] [INFO ] QT talking: 'Quante ore ha un giorno?'
+[12:45:25] [INFO ] In ascolto (tentativo 1/2)...
+[12:45:25] [INFO ] Mostro immagine: listening_icon
+[12:45:29] [INFO ] Riconosciuto: 24.
+[12:45:38] [INFO ] KB: Set function 'n_questions' = 3.0
+[12:45:38] [INFO ] KB: Set function 'n_medium' = 1.0
+[12:45:38] [INFO ] KB: Set function 'ask_uses' = 1.0
+[12:45:38] [INFO ] KB: Set function 'right_answers' = 3.0
+[12:45:38] [INFO ] KB: Removed predicate 'answered_wrong'
+[12:45:42] [INFO ] QT talking: 'Qual è l'animale che porta la sua casa sulla schiena?'
+[12:45:42] [INFO ] In ascolto (tentativo 1/2)...
+[12:45:42] [INFO ] Mostro immagine: listening_icon
+[12:45:45] [INFO ] Riconosciuto: La tartaruga.
+[12:45:54] [INFO ] KB: Set function 'n_questions' = 4.0
+[12:45:54] [INFO ] KB: Set function 'n_medium' = 2.0
+[12:45:54] [INFO ] KB: Set function 'ask_uses' = 2.0
+[12:45:54] [INFO ] KB: Set function 'right_answers' = 4.0
+[12:45:54] [INFO ] KB: Removed predicate 'answered_wrong'

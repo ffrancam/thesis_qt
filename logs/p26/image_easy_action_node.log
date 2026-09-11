@@ -1,0 +1,11 @@
+[12:44:53] [INFO ] Mostro immagine: dinosauro_icon
+[12:44:53] [INFO ] In ascolto (tentativo 1/2)...
+[12:44:58] [INFO ] Riconosciuto: Tirando solo Rex.
+[12:45:09] [INFO ] Mostro immagine: dinosauro_icon
+[12:45:09] [INFO ] In ascolto (tentativo 2/2)...
+[12:45:15] [INFO ] Riconosciuto: Tirannosauro Rex.
+[12:45:23] [INFO ] KB: Set function 'n_questions' = 2.0
+[12:45:23] [INFO ] KB: Set function 'n_easy' = 2.0
+[12:45:23] [INFO ] KB: Set function 'image_uses' = 1.0
+[12:45:23] [INFO ] KB: Set function 'right_answers' = 2.0
+[12:45:23] [INFO ] KB: Removed predicate 'answered_wrong'

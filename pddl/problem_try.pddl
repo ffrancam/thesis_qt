@@ -3,50 +3,47 @@
 (:objects
 )
 (:init
-    (interaction_started)
-
-
-    (quiz_introduced)
 
 
 
-    (answered_wrong)
+
+
 
     (= (total-cost) 0)
 
     (= (difficulty_limit) 1)
 
-    (= (right_answers) 2)
+    (= (right_answers) 0)
 
-    (= (wrong_answers) 3)
+    (= (wrong_answers) 0)
 
-    (= (n_questions) 5)
+    (= (n_questions) 0)
 
-    (= (n_easy) 2)
+    (= (n_easy) 0)
 
-    (= (n_medium) 2)
+    (= (n_medium) 0)
 
-    (= (n_hard) 1)
+    (= (n_hard) 0)
 
-    (= (ask_uses) 2)
+    (= (ask_uses) 0)
 
-    (= (image_uses) 1)
+    (= (image_uses) 0)
 
-    (= (sound_uses) 1)
+    (= (sound_uses) 0)
 
-    (= (mime_uses) 1)
+    (= (mime_uses) 0)
 
     (= (category_limit) 1)
 
     (= (category_limit_bonus) 2)
 
-    (= (ask_coeff) 1)
+    (= (ask_coeff) 60)
 
-    (= (mime_coeff) 20)
+    (= (mime_coeff) 40)
 
-    (= (sound_coeff) 60)
+    (= (sound_coeff) 20)
 
-    (= (image_coeff) 40)
+    (= (image_coeff) 1)
 
     (= (sound_easy_coeff) 1)
 
@@ -72,4 +69,6 @@
 (:goal (and
     (interaction_finished)
 ))
+
+(:metric minimize (total-cost))
 )
