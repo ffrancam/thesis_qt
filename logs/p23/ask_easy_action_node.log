@@ -1,0 +1,22 @@
+[12:06:09] [INFO ] QT talking: 'Cosa produce un'ape?'
+[12:06:09] [INFO ] In ascolto (tentativo 1/2)...
+[12:06:09] [INFO ] Mostro immagine: listening_icon
+[12:06:12] [INFO ] Riconosciuto: Miele.
+[12:06:22] [INFO ] KB: Set function 'n_questions' = 1.0
+[12:06:22] [INFO ] KB: Set function 'n_easy' = 1.0
+[12:06:22] [INFO ] KB: Set function 'ask_uses' = 1.0
+[12:06:22] [INFO ] KB: Set function 'right_answers' = 1.0
+[12:06:22] [INFO ] KB: Removed predicate 'answered_wrong'
+[12:06:22] [INFO ] KB: Removed predicate 'emotion_checked'
+[12:06:22] [INFO ] KB: Set function 'robot_e' = 3.44
+[12:06:22] [INFO ] KB: Set function 'robot_p' = 2.93
+[12:06:22] [INFO ] KB: Set function 'robot_a' = 0.92
+[12:06:22] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[12:06:22] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[12:06:22] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[12:06:22] [INFO ] KB: Set function 'human_e' = 3.44
+[12:06:22] [INFO ] KB: Set function 'human_p' = 2.93
+[12:06:22] [INFO ] KB: Set function 'human_a' = 0.92
+[12:06:22] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[12:06:22] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[12:06:22] [INFO ] KB: Set function 'human_a_sq' = 0.8464
