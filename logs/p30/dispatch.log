@@ -1,0 +1,17 @@
+=== Session: p30  started at 2026-09-11 14:16:20.135102 ===
+[14:16:28] FEEDBACK  id=  0  ENABLED
+[14:16:28] DISPATCH  id=  0  greet_warmly()
+[14:16:28] FEEDBACK  id=  0  ENABLED
+[14:16:37] FEEDBACK  id=  0  SUCCEEDED ✓
+[14:16:37] DISPATCH  id=  1  introduce_game()
+[14:16:37] FEEDBACK  id=  1  ENABLED
+[14:16:37] FEEDBACK  id=  1  ENABLED
+[14:16:50] FEEDBACK  id=  1  SUCCEEDED ✓
+[14:16:50] FEEDBACK  id=  2  ENABLED
+[14:16:50] DISPATCH  id=  2  ask_easy()
+[14:16:50] FEEDBACK  id=  2  ENABLED
+[14:17:04] FEEDBACK  id=  2  SUCCEEDED ✓
+[14:17:05] DISPATCH  id=  3  mime_easy()
+[14:17:05] FEEDBACK  id=  3  ENABLED
+[14:17:05] FEEDBACK  id=  3  ENABLED
+[14:17:50] FEEDBACK  id=  3  FAILED ✗

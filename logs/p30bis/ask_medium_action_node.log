@@ -1,0 +1,15 @@
+[14:21:37] [INFO ] QT talking: 'Quale insetto colorato nasce da un bruco?'
+[14:21:37] [INFO ] In ascolto (tentativo 1/2)...
+[14:21:37] [INFO ] Mostro immagine: listening_icon
+[14:21:41] [INFO ] Riconosciuto: Non ho capito.
+[14:21:44] [INFO ] In ascolto (tentativo 1/2)...
+[14:21:44] [INFO ] Mostro immagine: listening_icon
+[14:21:48] [INFO ] Riconosciuto: Non lo so.
+[14:22:00] [INFO ] In ascolto (tentativo 2/2)...
+[14:22:00] [INFO ] Mostro immagine: listening_icon
+[14:22:03] [INFO ] Riconosciuto: La farfalla.
+[14:22:17] [INFO ] KB: Set function 'n_questions' = 5.0
+[14:22:17] [INFO ] KB: Set function 'n_medium' = 1.0
+[14:22:17] [INFO ] KB: Set function 'ask_uses' = 2.0
+[14:22:17] [INFO ] KB: Set function 'right_answers' = 3.0
+[14:22:17] [INFO ] KB: Removed predicate 'answered_wrong'

@@ -1,0 +1,9 @@
+[14:21:18] [INFO ] Riproduzione suono: QT/sound_easy/school_bell
+[14:21:22] [INFO ] In ascolto (tentativo 1/2)...
+[14:21:22] [INFO ] Mostro immagine: listening_icon
+[14:21:25] [INFO ] Riconosciuto: A scuola?
+[14:21:34] [INFO ] KB: Set function 'n_questions' = 4.0
+[14:21:34] [INFO ] KB: Set function 'n_easy' = 2.0
+[14:21:34] [INFO ] KB: Set function 'sound_uses' = 1.0
+[14:21:34] [INFO ] KB: Set function 'right_answers' = 2.0
+[14:21:34] [INFO ] KB: Removed predicate 'answered_wrong'
