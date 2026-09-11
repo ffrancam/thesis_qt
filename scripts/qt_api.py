@@ -112,7 +112,7 @@ class QTRobot:
 
   def configure_voice(self):
     self.speechConfig(language=self.tts_voice, pitch=115, speed=102)
-    self.setVolume(90)
+    self.setVolume(80)
 
 
   def hide_image(self):
