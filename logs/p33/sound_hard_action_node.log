@@ -1,0 +1,26 @@
+[15:17:45] [INFO ] Riproduzione suono: QT/sound_hard/siren_doppler
+[15:17:56] [INFO ] In ascolto (tentativo 1/2)...
+[15:17:56] [INFO ] Mostro immagine: listening_icon
+[15:18:00] [INFO ] Riconosciuto: Avvicinando.
+[15:18:10] [INFO ] Riproduzione suono: QT/sound_hard/siren_doppler
+[15:18:21] [INFO ] In ascolto (tentativo 2/2)...
+[15:18:21] [INFO ] Mostro immagine: listening_icon
+[15:18:25] [INFO ] Riconosciuto: Allontana.
+[15:18:34] [INFO ] KB: Set function 'n_questions' = 5.0
+[15:18:34] [INFO ] KB: Set function 'n_hard' = 1.0
+[15:18:34] [INFO ] KB: Set function 'sound_uses' = 1.0
+[15:18:34] [INFO ] KB: Set function 'right_answers' = 4.0
+[15:18:34] [INFO ] KB: Removed predicate 'answered_wrong'
+[15:18:34] [INFO ] KB: Removed predicate 'emotion_checked'
+[15:18:34] [INFO ] KB: Set function 'robot_e' = 3.44
+[15:18:34] [INFO ] KB: Set function 'robot_p' = 2.93
+[15:18:34] [INFO ] KB: Set function 'robot_a' = 0.92
+[15:18:34] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[15:18:34] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[15:18:34] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[15:18:35] [INFO ] KB: Set function 'human_e' = 3.44
+[15:18:35] [INFO ] KB: Set function 'human_p' = 2.93
+[15:18:35] [INFO ] KB: Set function 'human_a' = 0.92
+[15:18:35] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[15:18:35] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[15:18:35] [INFO ] KB: Set function 'human_a_sq' = 0.8464

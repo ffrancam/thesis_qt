@@ -1,0 +1,24 @@
+[15:16:06] [INFO ] QT talking: 'Qual è l'animale che porta la sua casa sulla schiena?'
+[15:16:06] [INFO ] In ascolto (tentativo 1/2)...
+[15:16:06] [INFO ] Mostro immagine: listening_icon
+[15:16:11] [INFO ] Riconosciuto: Non lo so.
+[15:16:22] [INFO ] In ascolto (tentativo 2/2)...
+[15:16:22] [INFO ] Mostro immagine: listening_icon
+[15:16:31] [INFO ] Riconosciuto: Vladipo.
+[15:16:41] [INFO ] KB: Set function 'n_questions' = 4.0
+[15:16:41] [INFO ] KB: Set function 'n_medium' = 2.0
+[15:16:41] [INFO ] KB: Set function 'ask_uses' = 2.0
+[15:16:41] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[15:16:41] [INFO ] KB: Added predicate 'answered_wrong'
+[15:16:41] [INFO ] KB: Set function 'robot_e' = 3.44
+[15:16:41] [INFO ] KB: Set function 'robot_p' = 2.93
+[15:16:41] [INFO ] KB: Set function 'robot_a' = 0.92
+[15:16:41] [INFO ] KB: Set function 'robot_e_sq' = 11.8336
+[15:16:41] [INFO ] KB: Set function 'robot_p_sq' = 8.5849
+[15:16:41] [INFO ] KB: Set function 'robot_a_sq' = 0.8464
+[15:16:41] [INFO ] KB: Set function 'human_e' = 3.44
+[15:16:41] [INFO ] KB: Set function 'human_p' = 2.93
+[15:16:41] [INFO ] KB: Set function 'human_a' = 0.92
+[15:16:41] [INFO ] KB: Set function 'human_e_sq' = 11.8336
+[15:16:41] [INFO ] KB: Set function 'human_p_sq' = 8.5849
+[15:16:41] [INFO ] KB: Set function 'human_a_sq' = 0.8464
