@@ -1,0 +1,13 @@
+[12:23:54] [INFO ] Riproduzione suono: QT/sound_medium/heartbeat
+[12:24:02] [INFO ] In ascolto (tentativo 1/2)...
+[12:24:02] [INFO ] Mostro immagine: listening_icon
+[12:24:09] [INFO ] Riconosciuto: Le mani?
+[12:24:18] [INFO ] Riproduzione suono: QT/sound_medium/heartbeat
+[12:24:26] [INFO ] In ascolto (tentativo 2/2)...
+[12:24:26] [INFO ] Mostro immagine: listening_icon
+[12:24:30] [INFO ] Riconosciuto: Il cervello.
+[12:24:39] [INFO ] KB: Set function 'n_questions' = 4.0
+[12:24:39] [INFO ] KB: Set function 'n_medium' = 2.0
+[12:24:39] [INFO ] KB: Set function 'sound_uses' = 1.0
+[12:24:39] [INFO ] KB: Set function 'wrong_answers' = 2.0
+[12:24:39] [INFO ] KB: Added predicate 'answered_wrong'

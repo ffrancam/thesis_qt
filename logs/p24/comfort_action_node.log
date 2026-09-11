@@ -1,0 +1,32 @@
+[12:22:11] [INFO ] Publishing emotion: QT/showing_smile
+[12:22:13] [INFO ] Playing gesture: QT/emotions/calm
+[12:22:30] [INFO ] Mostro immagine: listening_icon
+[12:22:34] [INFO ] Riconosciuto: Bene, dai.
+[12:22:36] [INFO ] Publishing emotion: QT/happy_blinking
+[12:22:38] [INFO ] Playing gesture: QT/emotions/happy
+[12:22:56] [INFO ] Mostro immagine: listening_icon
+[12:23:00] [INFO ] Riconosciuto: Sì, dai.
+[12:23:03] [INFO ] Publishing emotion: QT/showing_smile
+[12:23:04] [INFO ] Playing gesture: QT/Show-face
+[12:23:16] [INFO ] Mostro immagine: listening_icon
+[12:23:19] [INFO ] Riconosciuto: Forse tu?
+[12:23:26] [INFO ] Publishing emotion: QT/happy
+[12:23:27] [INFO ] Playing gesture: QT/emotions/hoora
+[12:23:47] [INFO ] KB: Removed predicate 'answered_wrong'
+[12:24:45] [INFO ] Publishing emotion: QT/showing_smile
+[12:24:47] [INFO ] Playing gesture: QT/Show-face
+[12:25:02] [INFO ] Mostro immagine: listening_icon
+[12:25:05] [INFO ] Riconosciuto: Bene.
+[12:25:08] [INFO ] Publishing emotion: QT/happy_blinking
+[12:25:09] [INFO ] Playing gesture: QT/emotions/happy
+[12:25:28] [INFO ] Mostro immagine: listening_icon
+[12:25:50] [INFO ] Mostro immagine: listening_icon
+[12:26:14] [INFO ] Mostro immagine: listening_icon
+[12:26:18] [INFO ] Riconosciuto: Sì.
+[12:26:20] [INFO ] Publishing emotion: QT/showing_smile
+[12:26:21] [INFO ] Playing gesture: QT/Show-face
+[12:26:32] [INFO ] Mostro immagine: listening_icon
+[12:26:43] [INFO ] Riconosciuto: Posso dire di no?
+[12:26:50] [INFO ] Publishing emotion: QT/happy_blinking
+[12:26:51] [INFO ] Playing gesture: QT/emotions/happy
+[12:27:10] [INFO ] KB: Removed predicate 'answered_wrong'

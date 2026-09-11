@@ -1,0 +1,10 @@
+# Plan #0  –  2026-09-11 12:19:48.515528
+0.000: (greet_warmly)  [0.001]
+1.000: (introduce_game)  [0.001]
+2.000: (ask_easy)  [0.001]
+3.000: (mime_easy)  [0.001]
+4.000: (image_medium)  [0.001]
+5.000: (ask_medium)  [0.001]
+6.000: (sound_hard)  [0.001]
+7.000: (conclude_game)  [0.001]
+8.000: (say_goodbye)  [0.001]

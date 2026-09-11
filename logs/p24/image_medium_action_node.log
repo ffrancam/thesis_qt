@@ -1,0 +1,11 @@
+[12:21:25] [INFO ] Mostro immagine: rugiada_icon
+[12:21:25] [INFO ] In ascolto (tentativo 1/2)...
+[12:21:36] [INFO ] Riconosciuto: Non lo so.
+[12:21:48] [INFO ] Mostro immagine: rugiada_icon
+[12:21:48] [INFO ] In ascolto (tentativo 2/2)...
+[12:21:52] [INFO ] Riconosciuto: Umido.
+[12:22:01] [INFO ] KB: Set function 'n_questions' = 3.0
+[12:22:01] [INFO ] KB: Set function 'n_medium' = 1.0
+[12:22:01] [INFO ] KB: Set function 'image_uses' = 1.0
+[12:22:01] [INFO ] KB: Set function 'wrong_answers' = 1.0
+[12:22:01] [INFO ] KB: Added predicate 'answered_wrong'

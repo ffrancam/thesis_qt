@@ -1,0 +1,12 @@
+[12:27:13] [INFO ] QT talking: 'Quanti giorni formano un anno?'
+[12:27:13] [INFO ] In ascolto (tentativo 1/2)...
+[12:27:13] [INFO ] Mostro immagine: listening_icon
+[12:27:22] [INFO ] Riconosciuto: Non lo so.
+[12:27:33] [INFO ] In ascolto (tentativo 2/2)...
+[12:27:33] [INFO ] Mostro immagine: listening_icon
+[12:27:41] [INFO ] Riconosciuto: Tutto l'anno.
+[12:27:51] [INFO ] KB: Set function 'n_questions' = 5.0
+[12:27:51] [INFO ] KB: Set function 'n_hard' = 1.0
+[12:27:51] [INFO ] KB: Set function 'ask_uses' = 2.0
+[12:27:51] [INFO ] KB: Set function 'wrong_answers' = 3.0
+[12:27:51] [INFO ] KB: Added predicate 'answered_wrong'
